@@ -35,13 +35,12 @@ function Footer() {
           <h3 className='footer-head'> connect with us</h3>
           <span><a href='' className='footer-links'> <img src={Insta} alt='instagram' style={{height:"32px" , borderRadius:"20px"}} /> </a></span>
           <span> <a href='' className='footer-links'> <img src={FB} alt='facebook' style={{height:"32px" , borderRadius:"20px"}} /> </a></span>
-          <span> <a href='' className='footer-links'><img src={Twitter} alt='facebook' style={{height:"32px" , borderRadius:"20px"}} /> </a></span>
-          <span> <a href='' className='footer-links'><img src={YT} alt='facebook' style={{height:"32px" , borderRadius:"20px"}} /> </a></span>
+          <span> <a href='https://www.youtube.com/channel/UCZsozXCEvusHs4UX5wcSA_g' className='footer-links'><img src={YT} alt='youtube' style={{height:"32px" , borderRadius:"20px"}} /> </a></span>
         </div>
         </div>
         <hr></hr>
         <div className='footer-sub-container'>
-
+           @2024 All rights reserved
         </div>
     </div>
   )

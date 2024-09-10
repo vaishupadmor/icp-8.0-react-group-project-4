@@ -6,7 +6,7 @@
     margin-top: 10px;
     bottom: 0px;
     width:100% ;
-    height: 300px;
+    height: 320px;
 }
 .footer-main-container{
     display: flex;
@@ -14,15 +14,15 @@
     margin: 10px;
 }
 .footer-main{
-    width: 400px;
+    width: 650px;
     margin-right: 350px;
     border: 1px solid tomato;
 }
 .footer-main-1{
    border: 1px solid tomato;
    height: 250px;
-   margin: 10px;
-   width: 250px;
+   width: 400px;
+   justify-items: center;
 }
 .footer-head-para{
    font-size: 30px;
@@ -45,6 +45,10 @@
     font-size: 25px;
     margin-bottom: 20px;
 
+}
+.footer-sub-container{
+   height: 30px;
+    margin: 10px;
 }
 
 
