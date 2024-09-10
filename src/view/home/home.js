@@ -2,6 +2,7 @@ import React from 'react'
 import "./home.css"
 import Homecard from '../../component/homecards/homecard'
 import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2 } from '../../component/config/data'
+import Footer from "./../..//component/footer/footer"
 
 function Home() {
   return (<>
@@ -32,7 +33,7 @@ function Home() {
 </div>
 
 <div> 
-<iframe ></iframe>
+<Footer/>
   </div></>
 )}
 
