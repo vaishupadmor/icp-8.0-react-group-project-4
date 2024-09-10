@@ -1,12 +1,12 @@
 .card-container{
-    
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .home-card{
     height: 400px;
     width: 100px !important;
-    display: flex;
-    border: 5px solid blueviolet;
-    justify-content: space-between;
-    flex-direction: row;
+    
+    border: 5px solid black;
+    
 }
