@@ -1,16 +1,20 @@
 import React from 'react'
 import "./home.css"
-import Homeimg from "./main-image.jpg"
+import Homecard from '../../component/homecards/homecard'
 
 function home() {
   return (
     <div>
+    <div>
         <h1 className='home-heading'> Esports</h1>
-        
-        <div>
-            <img src={Homeimg} alt='Home' className='home-image'/>
-            <p className='home-paragraph'> </p>
-        </div>
+        <p className='home-paragraph'> Experience the Adrenaline Rush of Esports.</p>
+    </div>
+
+    <div>
+    <Homecard/>
+    <Homecard/>
+
+    </div>
     </div>
   )
 }
