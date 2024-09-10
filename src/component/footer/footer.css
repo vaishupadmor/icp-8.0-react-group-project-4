@@ -6,7 +6,27 @@
     margin-top: 10px;
     bottom: 0px;
     width:100% ;
-    height: 150px;
+    height: 300px;
+}
+.footer-main-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.footer-main-1{
+   border: 1px solid tomato;
+   height: 150px;
+}
+
+.footer-links{
+  margin: 15px;
+  display: block;
+  color: white;
+
+}
+.footer-head{
+    font-size: 25px;
+
 }
 
 
