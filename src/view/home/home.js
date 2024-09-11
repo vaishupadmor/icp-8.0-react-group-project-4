@@ -5,6 +5,8 @@ import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../compon
 import Footer from "./../..//component/footer/footer"
 import TopTournament from '../../component/top-tournament/toptournament'
 import { TOURNAMENTS } from '../../component/config/data1'
+import { YOUTUBE_VIDEO } from '../../component/config/data3'
+import YouTube from '../../component/youtubevideo/youtube'
 import Logo from "./logo.png"
 
 function Home() {
@@ -50,7 +52,22 @@ function Home() {
 })
 }
 </div>
+<h1 className='tournament-main-title2'> Teams</h1>
+<div className='esport-card-container' >
+    { YOUTUBE_VIDEO.map((video,i)=>{
+
+ return (<YouTube
+   key={i}
+    imgUrl={video.videolink}
+     title={video.title}
+   
+    
+ />)
+})
+}
 </div>
+</div>
+
 
 
 <div> 

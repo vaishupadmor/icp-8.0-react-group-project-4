@@ -1,5 +1,5 @@
 .footer{
-    background-color: #531374;
+   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);;
     color: white;
     text-align: center;
     padding: 6px;
@@ -27,6 +27,8 @@
 .footer-head-para{
    font-size: 30px;
    margin-bottom: 10px;
+   color: #FFE77D;
+   font-style: italic;
    
 }
 .footer-para{
