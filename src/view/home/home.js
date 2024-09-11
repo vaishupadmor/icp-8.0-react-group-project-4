@@ -11,11 +11,14 @@ import ImageSlider from '../../component/imgslider/imgslider'
 import Logo from "./logo.png"
 
 const images = [
+  'https://staticg.sportskeeda.com/editor/2022/03/c939e-16468047022474-1920.jpg',
+  'https://i.ytimg.com/vi/NP0-REV1-20/maxresdefault_live.jpg',
+  'https://gamesadda.in/wp-content/uploads/2022/09/Best-Esports-Teams-India.jpg',
   'https://www.gamespace.com/wp-content/uploads/2021/01/eSports-Games.jpg',
   'https://us.v-cdn.net/6036147/uploads/GOQOTHGYG807/l-18-1-1200x675.jpg',
   'https://www.gizcomputer.com/wp-content/uploads/2020/02/esports-cabecera.jpg',
   'https://www.betopin.com/wp-content/uploads/2020/03/33B15247-2337-404C-8A81-07723705E343.jpeg',
-  
+  ''
 ];
 
 
