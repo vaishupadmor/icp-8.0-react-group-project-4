@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import "./home.css"
 import Homecard from '../../component/homecards/homecard'
 import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../component/config/data'
@@ -7,11 +7,28 @@ import TopTournament from '../../component/top-tournament/toptournament'
 import { TOURNAMENTS } from '../../component/config/data1'
 import { YOUTUBE_VIDEO } from '../../component/config/data3'
 import YouTube from '../../component/youtubevideo/youtube'
+import ImageSlider from '../../component/imgslider/imgslider'
 import Logo from "./logo.png"
 
+const images = [
+  'https://www.gamespace.com/wp-content/uploads/2021/01/eSports-Games.jpg',
+  'https://us.v-cdn.net/6036147/uploads/GOQOTHGYG807/l-18-1-1200x675.jpg',
+  'https://www.gizcomputer.com/wp-content/uploads/2020/02/esports-cabecera.jpg',
+  'https://www.betopin.com/wp-content/uploads/2020/03/33B15247-2337-404C-8A81-07723705E343.jpeg',
+  
+];
+
+
 function Home() {
-  return (<>
+  
+return (<>
+
+<div className="App">
+      
+      <ImageSlider images={images} />
+    </div>
 <div className='main-background'>
+
 
 <img src={Logo} style={{height:50, width:50 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 
