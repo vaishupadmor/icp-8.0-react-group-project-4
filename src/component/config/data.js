@@ -1,3 +1,5 @@
+
+
 const MAIN_TITLE = "ESports"
 
 const TAG_LINE ="Experience the Adrenaline Rush of Esports."
@@ -36,7 +38,7 @@ const ESPORTS_TEAM =[
              
     }]
     
-    export {ESPORTS_TEAM,MAIN_TITLE , TAG_LINE ,THEME ,TAG_LINE2}
+    export {ESPORTS_TEAM,MAIN_TITLE , TAG_LINE ,THEME ,TAG_LINE2 }
 
 
 

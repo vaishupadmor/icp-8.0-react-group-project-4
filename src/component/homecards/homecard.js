@@ -4,13 +4,11 @@ import "./homecard.css"
 function Homecard({imgUrl,title,description}) {
   return (
     
-    <div className="esport-card">
+       <div className="esport-card">
         <img
         src={imgUrl}
         className='esport-card-img'
         alt='teams'/>
-       
-        
        
         <div className='esport-card-description'>
         <h1 className='esport-card-name'> {title}</h1>
