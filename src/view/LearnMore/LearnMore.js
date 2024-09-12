@@ -1,7 +1,8 @@
 import React from 'react';
 import "./LearnMore.css";
 import ImgGame from './free_fire.jpg';
-import ImgBadlandersGame from './badlanders.jpg'
+import ImgBadlandersGame from './badlanders.jpg';
+import ImgPubgGame from './pubg.jpg';
 
 function LearnMore() {
   return (
@@ -40,12 +41,18 @@ function LearnMore() {
 
       <div className='card'>
         <div className='card-img-container'>
-          <img src={ImgBadlandersGame}
+          <img src={ImgPubgGame}
             alt="free_fire game"
             className='card-img'
           />
         </div>
+
+        <div className='card-description-container'>
         </div>
+        <p className='card-description'>
+          Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover.
+        </p>
+      </div>
     </div>
   )
 }
