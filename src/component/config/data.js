@@ -28,7 +28,7 @@ const ESPORTS_TEAM =[
     {
       imgUrl:"https://www.cityam.com/wp-content/uploads/2021/03/Team-Vitality-India-960x540.png",
       title:"Team Vitality"  ,
-       description:"they were crowned champions of COD Mobile India Challenge Season 2 when they vanquished tournament favourites GodLike Esports 4-2. ",
+       description:"they were crowned champions of COD Mobile India Challenge S2 when they vanquished tournament favourites GodLike Esports 4-2. ",
        
     },
     {

@@ -5,8 +5,7 @@ import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../compon
 import Footer from "./../..//component/footer/footer"
 import TopTournament from '../../component/top-tournament/toptournament'
 import { TOURNAMENTS } from '../../component/config/data1'
-import { YOUTUBE_VIDEO } from '../../component/config/data3'
-import YouTube from '../../component/youtubevideo/VideoPlayer'
+
 import ImageSlider from '../../component/imgslider/imgslider'
 import VideoPlayer from '../../component/youtubevideo/VideoPlayer'
 import Logo from "./logo.png"
@@ -26,7 +25,7 @@ const images = [
 
 
 function Home() {
-  const videoIds = ['sonnlWyY9hM', '3JZ_D3ELwOQ', 'M7lc1UVf-VE'];
+  const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
   
 return (<>
 
@@ -34,7 +33,7 @@ return (<>
 <div className='main-background'>
 
 
-<img src={Logo} style={{height:50, width:50 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
+<img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 
 <div className='paragraph-container'>
   <p className='home-paragraph'> {TAG_LINE}</p>
