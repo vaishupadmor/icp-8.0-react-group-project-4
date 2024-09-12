@@ -9,6 +9,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    margin-top: 0px !important;
+
 }
 
 .esport-card{
@@ -41,7 +43,7 @@
 }
 .esport-card-name{
 font-size: 20px;
-color: aliceblue;
+color: rgb(243, 243, 98);
 text-align: center;
 margin: 10px;
 }

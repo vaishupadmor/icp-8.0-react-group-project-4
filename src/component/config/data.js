@@ -14,27 +14,27 @@ const THEME = {
 }
 const ESPORTS_TEAM =[
     {
-      imgUrl:"https://www.sportzcraazy.com/wp-content/uploads/2022/07/Adobe_Post_20211210_2014550.jpg",
-             title:"Godlike Esports"  ,
-             description:"GodLike Esports looking to resume PUBG Mobile operations outside of India",
+      imgUrl:"https://gamingonphone.com/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-18-at-11.03.31-PM.jpeg",
+             title:"Total gaming"  ,
+             description:" Esports events in Free Fire has ended with team Total Gaming Esports being crowned as the Free Fire Pro League Summer (FFPL) 2021 champions.",
              
     },
     {
-      imgUrl:"https://th.bing.com/th/id/OIP.hu_ZZTE8o-ts3CZrDJwaAgHaEK?rs=1&pid=ImgDetMain",
+      imgUrl:"https://th.bing.com/th/id/OIP.DbxlwY9_acAefwvs58pL8gHaD4?rs=1&pid=ImgDetMain",
              title:" BL4ZE Esports"  ,
              description:"Blaze Esports PUBG'de Emin Adımlarla İlerliyor",
              
     },
     {
-      imgUrl:"https://spogonews.com/wp-content/uploads/2023/02/Team-Revenant-Esports-819x1024.jpg",
-      title:"Revenant Esports"  ,
-       description:"Revenant Esports to represent India at the Pokémon UNITE Asia Champions ",
+      imgUrl:"https://www.cityam.com/wp-content/uploads/2021/03/Team-Vitality-India-960x540.png",
+      title:"Team Vitality"  ,
+       description:"they were crowned champions of COD Mobile India Challenge Season 2 when they vanquished tournament favourites GodLike Esports 4-2. ",
        
     },
     {
-      imgUrl:"https://th.bing.com/th/id/OIP.TW--t5fdQIWnIUxy-wWKeAHaEK?rs=1&pid=ImgDetMain",
-             title:"Nigma Galaxy"  ,
-             description:"CSGO - Team Nigma Galaxy Claims the title at ESL Impact League S1 Finals",
+      imgUrl:"https://th.bing.com/th/id/OIP.iiGZ7Qx8rWvtXwOgZynJ3AHaFj?rs=1&pid=ImgDetMain",
+             title:"Team brutality"  ,
+             description:"Team Brutality is an Indian Counter-Strike: Global Offensive team. Over the course of their history, Team Brutality has featured numerous players, occasionally using stand-ins due many of their players being part-time.",
              
     }]
     

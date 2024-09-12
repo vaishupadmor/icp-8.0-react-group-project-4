@@ -11,14 +11,16 @@ import ImageSlider from '../../component/imgslider/imgslider'
 import Logo from "./logo.png"
 
 const images = [
+  'https://firstsportz.com/wp-content/uploads/2021/07/8-1024x576.jpg',
   'https://staticg.sportskeeda.com/editor/2022/03/c939e-16468047022474-1920.jpg',
+  
+  'https://c4.wallpaperflare.com/wallpaper/557/189/265/call-of-duty-warzone-xbox-one-call-of-duty-black-ops-hd-wallpaper-preview.jpg',
+  'https://images.hindustantimes.com/tech/img/2021/11/27/960x540/PUBG-team3-1399x768_1623925660311_1638007175700.jpg',
+  'https://i.pinimg.com/originals/07/56/30/0756304ee12cfbcd68ca5462766ad3c5.jpg',
   'https://i.ytimg.com/vi/NP0-REV1-20/maxresdefault_live.jpg',
-  'https://gamesadda.in/wp-content/uploads/2022/09/Best-Esports-Teams-India.jpg',
-  'https://www.gamespace.com/wp-content/uploads/2021/01/eSports-Games.jpg',
-  'https://us.v-cdn.net/6036147/uploads/GOQOTHGYG807/l-18-1-1200x675.jpg',
-  'https://www.gizcomputer.com/wp-content/uploads/2020/02/esports-cabecera.jpg',
-  'https://www.betopin.com/wp-content/uploads/2020/03/33B15247-2337-404C-8A81-07723705E343.jpeg',
-  ''
+  'https://images2.alphacoders.com/990/990967.jpg',
+  'https://images2.alphacoders.com/990/990967.jpg',
+  
 ];
 
 
@@ -26,10 +28,7 @@ function Home() {
   
 return (<>
 
-<div className="App">
-      
-      <ImageSlider images={images} />
-    </div>
+
 <div className='main-background'>
 
 
@@ -40,9 +39,13 @@ return (<>
   <p className='home-paragraph2'> {TAG_LINE2}</p>
   <button  type='button'  className='homepage-btn'> Learn more</button>
  </div>
-    
-</div>
+ </div>
+
 <div className='tournament-maincard-container'>
+  <div className='space'></div>
+<div className="App">
+      <ImageSlider images={images} />
+</div>
 <h1 className='tournament-main-title'> Tournaments</h1>
 <div className='esport-card-container'>
  
@@ -72,7 +75,7 @@ return (<>
 })
 }
 </div>
-<h1 className='tournament-main-title2'> Teams</h1>
+<h1 className='tournament-main-title2'> youtube videos</h1>
 <div className='esport-card-container' >
     { YOUTUBE_VIDEO.map((video,i)=>{
 
