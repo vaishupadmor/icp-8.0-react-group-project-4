@@ -6,8 +6,9 @@ import Footer from "./../..//component/footer/footer"
 import TopTournament from '../../component/top-tournament/toptournament'
 import { TOURNAMENTS } from '../../component/config/data1'
 import { YOUTUBE_VIDEO } from '../../component/config/data3'
-import YouTube from '../../component/youtubevideo/youtube'
+import YouTube from '../../component/youtubevideo/VideoPlayer'
 import ImageSlider from '../../component/imgslider/imgslider'
+import VideoPlayer from '../../component/youtubevideo/VideoPlayer'
 import Logo from "./logo.png"
 
 const images = [
@@ -25,6 +26,7 @@ const images = [
 
 
 function Home() {
+  const videoIds = ['sonnlWyY9hM', '3JZ_D3ELwOQ', 'M7lc1UVf-VE'];
   
 return (<>
 
@@ -76,19 +78,11 @@ return (<>
 }
 </div>
 <h1 className='tournament-main-title2'> youtube videos</h1>
-<div className='esport-card-container' >
-    { YOUTUBE_VIDEO.map((video,i)=>{
-
- return (<YouTube
-   key={i}
-    imgUrl={video.videolink}
-     title={video.title}
-   
-    
- />)
-})
-}
-</div>
+<div className='esport-card-container'>
+      {videoIds.map((id) => (
+        <VideoPlayer key={id} videoId={id} />
+      ))}
+    </div>
 </div>
 
 
