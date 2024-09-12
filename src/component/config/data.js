@@ -20,19 +20,19 @@ const ESPORTS_TEAM =[
              
     },
     {
-      imgUrl:"https://th.bing.com/th/id/OIP.DbxlwY9_acAefwvs58pL8gHaD4?rs=1&pid=ImgDetMain",
+      imgUrl:"https://playerbros.com/wp-content/uploads/2020/03/EShGJKrWsAA5jyT.jpg",
              title:" BL4ZE Esports"  ,
              description:"Blaze Esports PUBG'de Emin Adımlarla İlerliyor",
              
     },
     {
-      imgUrl:"https://www.cityam.com/wp-content/uploads/2021/03/Team-Vitality-India-960x540.png",
+      imgUrl:"https://th.bing.com/th/id/OIP.-escVL_9k8c5kbsBQGDRLwHaEK?rs=1&pid=ImgDetMain",
       title:"Team Vitality"  ,
        description:"they were crowned champions of COD Mobile India Challenge S2 when they vanquished tournament favourites GodLike Esports 4-2. ",
        
     },
     {
-      imgUrl:"https://th.bing.com/th/id/OIP.iiGZ7Qx8rWvtXwOgZynJ3AHaFj?rs=1&pid=ImgDetMain",
+      imgUrl:"https://th.bing.com/th/id/OIP.gf3TIICHn_WjIe8h_6UotAHaE8?rs=1&pid=ImgDetMain",
              title:"Team brutality"  ,
              description:"Team Brutality is an Indian Counter-Strike: Global Offensive team. Over the course of their history, Team Brutality has featured numerous players, occasionally using stand-ins due many of their players being part-time.",
              
