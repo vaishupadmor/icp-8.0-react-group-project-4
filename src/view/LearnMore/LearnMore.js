@@ -31,6 +31,8 @@ function LearnMore() {
         </div>
 
         <div className='card-description-container'>
+
+        <h2 className='card-title'>Badlanders</h2>
           <p className='card-description'>
 
             Simple! However, in contrast to games like PUBG Mobile or Free Fire, the objective in Badlanders is not necessarily to kill everyone as there are other ways to win a match. Instead of fighting, you can choose to play stealthily, and simply escape from the map via the extraction points that open up during the match.
