@@ -5,6 +5,7 @@ import ImgGame from './free_fire.jpg';
 function LearnMore() {
   return (
     <div>
+      <div className='card'>
       <div className='card-img-container'>
         <img src={ImgGame}
         alt="free_fire game"
@@ -18,6 +19,7 @@ function LearnMore() {
         </p>
 
 
+      </div>
       </div>
     </div>
   )
