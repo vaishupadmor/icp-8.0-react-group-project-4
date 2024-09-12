@@ -21,3 +21,10 @@
     display: block;
     margin-top: 8px;
 }
+
+.card-description-container{
+    text-align: justify;
+    padding:5px 10px;
+    margin:200px 10px;
+}
+  
