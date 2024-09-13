@@ -21,7 +21,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   {
     path:"*",
     element:<h1> 404 Not found</h1>
-  }
+  },
+ 
  ])
 root.render( 
 <div>
