@@ -5,7 +5,7 @@ import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../compon
 import Footer from "./../..//component/footer/footer"
 import TopTournament from '../../component/top-tournament/toptournament'
 import { TOURNAMENTS } from '../../component/config/data1'
-
+import { Link } from 'react-router-dom'
 import ImageSlider from '../../component/imgslider/imgslider'
 import VideoPlayer from '../../component/youtubevideo/VideoPlayer'
 import Logo from "./logo.png"
@@ -38,7 +38,7 @@ return (<>
 <div className='paragraph-container'>
   <p className='home-paragraph'> {TAG_LINE}</p>
   <p className='home-paragraph2'> {TAG_LINE2}</p>
-  <button  type='button'  className='homepage-btn'> Learn more</button>
+  <Link to={learnmore}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
  </div>
  </div>
 
