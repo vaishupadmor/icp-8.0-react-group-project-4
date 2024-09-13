@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 import Tournament from './component/tournaments/tournament';
 import Upcoming from './component/tournaments/upcoming/upcoming';
 import Past from './component/tournaments/past/past';
-
+import Ongoing from './component/tournaments/ongoing/ongoing'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,6 +32,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   {
     path:"past",
     element:<Past/>
+  },
+  {
+    path:"ongoing",
+    element:<Ongoing/>
   },
   
   {
