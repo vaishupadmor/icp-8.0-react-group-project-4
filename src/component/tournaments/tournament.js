@@ -4,11 +4,13 @@ import trophy from '../../img/trophy.png';
 import group from '../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../config/ongoing';
+import Navbar from '../tournaments/navbar/navbar'
 
 
 function Tournament() {
   return (
     <div className='cart-container'>
+      <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart' key={index}>
         <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
