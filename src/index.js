@@ -4,7 +4,6 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./view/home/home";
 import LearnMore from './view/LearnMore/LearnMore';
-import Tournament from './component/tournaments/tournament';
 import { Toaster } from 'react-hot-toast';
 
 
