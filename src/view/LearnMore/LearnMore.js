@@ -1,5 +1,6 @@
 import React from 'react';
 import "./LearnMore.css";
+import Footer from "./../..//component/footer/footer"; 
 import ImgGame from './free_fire.jpg';
 import ImgBadlandersGame from './badlanders.jpg';
 import ImgPubgGame from './pubg.jpg';
@@ -54,6 +55,9 @@ function LearnMore() {
         </p>
         </div>
       </div>
+
+      <Footer/>
+      
     </div>
   )
 }
