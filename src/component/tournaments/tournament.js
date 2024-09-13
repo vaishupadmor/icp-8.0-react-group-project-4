@@ -3,13 +3,12 @@ import './Tournament.css';
 import trophy from '../../img/trophy.png'; 
 import group from '../../img/group.png';
 import { Link } from 'react-router-dom';
-import { products } from './config/dataa';
-import Navbar from './navbar/navbar'
+import { products } from '../config/ongoing';
+
 
 function Tournament() {
   return (
     <div className='cart-container'>
-    <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart' key={index}>
         <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
@@ -26,10 +25,10 @@ function Tournament() {
 
         <p className='cart-mode'>
           <span className='cart-text1'>
-            <img src={myImg} alt='trophy' className='cart-icon' /> {productItem.prize}
+            <img src={trophy} alt='trophy' className='cart-icon' /> {productItem.prize}
           </span>
           <span className='cart-text2'>
-            <img src={myImg1} alt='participants' className='cart-icon' /> {productItem.participants}
+            <img src={group} alt='participants' className='cart-icon' /> {productItem.participants}
           </span>
         </p>
         
@@ -45,4 +44,6 @@ function Tournament() {
 }
 
 export default Tournament
+
+
 

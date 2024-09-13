@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./view/home/home";
 import LearnMore from './view/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
+import Tournament from './component/tournaments/tournament';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,9 +20,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
    element:<LearnMore/>
   },
   {
-   path:"/tournament",
-   element:<Tournament/>
-  },
+    path:"/tournament",
+    element:<Tournament/>
+   },
+  
   {
     path:"*",
     element:<h1> 404 Not found</h1>

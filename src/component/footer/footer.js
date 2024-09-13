@@ -23,7 +23,7 @@ function Footer() {
 
          <span ><a href='https://esportsfederation.in/' className='footer-links'>Esports</a></span>
          <span><a href='https://www.pcmag.com/picks/best-esports-games' className='footer-links'>Try playing </a></span>
-         <span><a href=''  className='footer-links'>Tournaments</a> </span>
+         <span><a href='tournament'  className='footer-links'>Tournaments</a> </span>
         
         </div>
         <div className='footer-main-1'>
