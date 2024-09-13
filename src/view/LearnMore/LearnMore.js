@@ -48,10 +48,11 @@ function LearnMore() {
         </div>
 
         <div className='card-description-container'>
-        </div>
+        <h2 className='card-title'>Pubg</h2>
         <p className='card-description'>
           Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover.
         </p>
+        </div>
       </div>
     </div>
   )
