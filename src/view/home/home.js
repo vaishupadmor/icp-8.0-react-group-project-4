@@ -38,7 +38,7 @@ return (<>
 <div className='paragraph-container'>
   <p className='home-paragraph'> {TAG_LINE}</p>
   <p className='home-paragraph2'> {TAG_LINE2}</p>
-  <Link to={learnmore}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
+  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
  </div>
  </div>
 
