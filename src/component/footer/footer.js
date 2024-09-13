@@ -2,8 +2,8 @@ import React from 'react'
 import "./footer.css"
 import Insta from "./insta-logo.jpg"
 import FB from "./facebook-logo.jpg"
-import Twitter from "./twitter.png"
 import YT from "./youtube.png"
+import LG from  "./logo.png"
 
 function Footer() {
   return (
@@ -11,7 +11,8 @@ function Footer() {
         <div className='footer-main-container'>
 
         <div className='footer-main'>
-         <h3 className='footer-head-para'> Esports</h3>
+          <img src={LG} style={{height:35,width:40}}/>
+         <h3 className='footer-head-para'>Esports</h3>
          <p className='footer-para'> Esports is competitive level gaming. It's teams of 
             people playing games against 
             each other at a professional level, regularly winning 

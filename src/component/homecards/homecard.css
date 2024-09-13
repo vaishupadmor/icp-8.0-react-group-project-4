@@ -8,15 +8,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 0px !important;
+
 }
 
 .esport-card{
     background-color: red;
     border: 1px solid black;
-    width: 300px;
+    width: 260px;
     position: relative;
     overflow: hidden;
-    height: 420px;
+    height: 320px;
      border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -33,14 +36,14 @@
 }
 .esport-card-img{
     width: 100%;
-    height: 420px;
+    height: 400px;
     display: block;
     object-fit:fill;
     border-radius:10px;
 }
 .esport-card-name{
 font-size: 20px;
-color: aliceblue;
+color: rgb(243, 243, 98);
 text-align: center;
 margin: 10px;
 }
@@ -60,10 +63,10 @@ margin: 10px;
 	flex-direction: column;
 	padding: 0 40px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
     font-style: italic;
 	transition:  0.5s ease-in-out;
-    background: linear-gradient(transparent, #ba7979 80%);
+    background: linear-gradient(transparent, #ca4f4f 80%);
     
         
 }
@@ -75,8 +78,8 @@ margin: 10px;
  padding: 5px;
  border-radius: 10px;
  position: absolute;
- top:380px;
- left: 110px;
+ top:280px;
+ left: 80px;
  width: 90px;
 
 }
