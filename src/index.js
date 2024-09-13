@@ -37,7 +37,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"ongoing",
     element:<Ongoing/>
   },
-  
+ 
   {
     path:"*",
     element:<h1> 404 Not found</h1>
