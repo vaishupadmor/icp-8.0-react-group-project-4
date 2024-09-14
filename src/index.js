@@ -10,6 +10,8 @@ import Upcoming from './component/tournaments/upcoming/upcoming';
 import Past from './component/tournaments/past/past';
 import Ongoing from './component/tournaments/ongoing/ongoing'
 import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
+import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
+import Past1 from './component/tournaments/tournamentsinfo/past/past1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -39,8 +41,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Ongoing/>
   },
   {
-    path:"/xyz-tro-123",
+    path:"/ongoing/:neha",
     element:<Ongoing1/>
+  },
+  {
+    path:"/upcoming/:neha",
+    element:<Upcoming1/>
+  },
+  {
+    path:"/past/:neha",
+    element:<Past1/>
   },
  
   {
