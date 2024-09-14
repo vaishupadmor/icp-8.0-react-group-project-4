@@ -13,6 +13,7 @@ import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
 import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
 import Past1 from './component/tournaments/tournamentsinfo/past/past1';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
  const router=createBrowserRouter([
@@ -24,6 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
    path:"/learnmore",
    element:<LearnMore/>
   },
+
   {
     path:"/tournament",
     element:<Tournament/>
@@ -32,6 +34,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"upcoming",
     element:<Upcoming/>
   },
+
   {
     path:"past",
     element:<Past/>
