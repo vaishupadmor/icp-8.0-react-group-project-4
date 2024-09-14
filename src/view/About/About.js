@@ -7,7 +7,7 @@ import Abcard from '../../component/Aboutcards/Abcard'
 const cards=[
     {
         title: "our vision",
-        discription: "ladfosadf"
+        discription: " Our goal is to create a vibrant community where both casual and pro gamers can come together and thrive. We aim to foster a competitive but friendly environment that nurtures talent, encourages teamwork, and celebrates gaming culture."
     }
 ]
 
