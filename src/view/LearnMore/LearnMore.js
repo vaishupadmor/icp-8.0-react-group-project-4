@@ -9,6 +9,7 @@ import ImageKabaddi from './cricket.jpg';
 function LearnMore() {
   return (
     <div>
+      <h2 className='card-heading'>More information about games....</h2>
       <div className='card'>
         <div className='card-img-container'>
           <img src={ImgGame}
