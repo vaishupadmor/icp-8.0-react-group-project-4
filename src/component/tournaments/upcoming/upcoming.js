@@ -35,7 +35,7 @@ function upcoming() {
         </p>
         
         <p className='cart-detail'>
-          <Link to={productItem.link}>{productItem.status}</Link>
+          <Link to={"/upcoming/" + productItem.id}>{productItem.status}</Link>
         </p>
         <hr />
         <p><b>{productItem.date}</b></p>
