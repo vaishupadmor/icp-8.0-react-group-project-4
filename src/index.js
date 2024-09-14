@@ -13,6 +13,8 @@ import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
 import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
 import Past1 from './component/tournaments/tournamentsinfo/past/past1';
 import Shop from "./view/shop/shop";
+import About from "./view/About/About";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -49,6 +51,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Ongoing1/>
   },
   {
+    path:"/about",
+    element:<About/>
+  },
+  {
     path:"/upcoming/:neha",
     element:<Upcoming1/>
   },
@@ -73,5 +79,3 @@ root.render(
   <Toaster/>
   </div>
 );
- 
-
