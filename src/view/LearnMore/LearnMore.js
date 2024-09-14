@@ -1,10 +1,10 @@
 import React from 'react';
 import "./LearnMore.css";
-import Footer from "./../..//component/footer/footer"; 
+import Footer from "./../..//component/footer/footer";
 import ImgGame from './free_fire.jpg';
 import ImgBadlandersGame from './badlanders.jpg';
 import ImgPubgGame from './pubg.jpg';
-import ImageKabaddi from './kadaddi.jpg';
+import ImageKabaddi from './cricket.jpg';
 
 function LearnMore() {
   return (
@@ -50,24 +50,31 @@ function LearnMore() {
         </div>
 
         <div className='card-description-container'>
-        <h2 className='card-title'>Pubg</h2>
-        <p className='card-description'>
-          Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover.
-        </p>
+          <h2 className='card-title'>Pubg</h2>
+          <p className='card-description'>
+            Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover.
+          </p>
         </div>
       </div>
 
       <div className='card'>
-      <div className='card-img-container'>
+        <div className='card-img-container'>
           <img src={ImageKabaddi}
             alt="free_fire game"
             className='card-img'
           />
         </div>
+
+        <div className='card-description-container'>
+          <h2 className='card-title'>Cricket</h2>
+          <p className='card-description'>
+          Recognize the goal of the game. As in most field games, the goal of cricket is to score points, called runs, against the opposing team by running from one point to another before the play can be ended or you're run out by the defenders, who are called the “fielding team.” The team at bat is called the “batting team
+          </p>
+        </div>
       </div>
 
-      <Footer/>
-      
+      <Footer />
+
     </div>
   )
 }
