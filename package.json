@@ -5,11 +5,17 @@
     "start": "react-scripts start"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "bootstrap": "^5.3.3",
+=======
+    "@react-spring/web": "^9.7.4",
+>>>>>>> d71f35b3883751c527f715213f56f6fa8ae26d0d
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1",
+    "react-spring": "^9.7.4",
     "react-youtube": "^10.1.0"
   },
   "browserslist": {

@@ -8,7 +8,13 @@ import { TOURNAMENTS } from '../../component/config/data1'
 import { Link } from 'react-router-dom'
 import ImageSlider from '../../component/imgslider/imgslider'
 import VideoPlayer from '../../component/youtubevideo/VideoPlayer'
+import style from './style.module.css'
+import { useSpring, a } from '@react-spring/web'
+
 import Logo from "./logo.png"
+
+
+
 
 const images = [
   'https://firstsportz.com/wp-content/uploads/2021/07/8-1024x576.jpg',
@@ -24,14 +30,36 @@ const images = [
 ];
 
 
+
+
 function Home() {
-  const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
   
+  const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
+  const [flipped, set] = useState(false)
+  const { transform, opacity } = useSpring({
+    opacity: flipped ? 1 : 0,
+    transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
+    config: { mass: 5, tension: 500, friction: 80 },
+  })
 return (<>
 
 
 <div className='main-background'>
-
+<div className={style.container} onClick={() => set(state => !state)}>
+      <a.div
+        className={`${style.c} ${style.back}`}
+        style={{ opacity: opacity.to(o => 1 - o), transform }}
+      />
+      <a.div
+        className={`${style.c} ${style.front}`}
+        style={{
+          opacity,
+          transform,
+          rotateX: '180deg',
+        }}
+      />
+    </div>
+    
 
 <img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 

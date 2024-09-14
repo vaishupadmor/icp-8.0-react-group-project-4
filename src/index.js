@@ -10,7 +10,11 @@ import Upcoming from './component/tournaments/upcoming/upcoming';
 import Past from './component/tournaments/past/past';
 import Ongoing from './component/tournaments/ongoing/ongoing'
 import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
-import About from './view/About/About';
+import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
+import Past1 from './component/tournaments/tournamentsinfo/past/past1';
+import Shop from "./view/shop/shop";
+import About from "./view/About/About"
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -43,14 +47,26 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Ongoing/>
   },
   {
-    path:"/xyz-tro-123",
+    path:"/ongoing/:neha",
     element:<Ongoing1/>
   },
   {
     path:"/about",
     element:<About/>
   },
- 
+  {
+    path:"/upcoming/:neha",
+    element:<Upcoming1/>
+  },
+  {
+    path:"/past/:neha",
+    element:<Past1/>
+  },
+  {
+    path:"/shop",
+    element:<Shop/>
+  },
+  
   {
     path:"*",
     element:<h1> 404 Not found</h1>
@@ -63,4 +79,3 @@ root.render(
   <Toaster/>
   </div>
 );
-
