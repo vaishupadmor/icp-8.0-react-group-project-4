@@ -1,16 +1,25 @@
 import React from 'react'
 import "./homecard.css"
 
-function Homecard() {
+function Homecard({imgUrl,title,description}) {
   return (
-    <div className='card-container'>
-      <div className='home-card'>
-      <h1> Team 1</h1>
-      <p> hello</p>
-
-      </div>
+    
+       <div className="esport-card">
+        <img
+        src={imgUrl}
+        className='esport-card-img'
+        alt='teams'/>
+       
+        <div className='esport-card-description'>
+        <h1 className='esport-card-name'> {title}</h1>
+        <p > {description}</p>
+        <button className='esport-card-button'> follow us</button>
+        </div>
+        
     </div>
+    
   )
 }
+
 
 export default Homecard
