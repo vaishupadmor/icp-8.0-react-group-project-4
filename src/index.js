@@ -11,6 +11,7 @@ import Past from './component/tournaments/past/past';
 import Ongoing from './component/tournaments/ongoing/ongoing'
 import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
  const router=createBrowserRouter([
