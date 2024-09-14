@@ -1,3 +1,10 @@
+
+.card-heading{
+    text-align: center;
+    font-size: 30px;
+    margin:10px;
+    color:deeppink;
+}
 .card {
     display: flex;
 }
@@ -5,7 +12,7 @@
 .card-img-container {
     width: 350px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px 20px;
     box-shadow: 0 0 10px rgba(0, 00, 0.1);
     display: block;
@@ -19,7 +26,8 @@
     width: 300px;
     height: 500px;
     display: block;
-    margin-top: 8px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .card-description-container {
@@ -31,8 +39,12 @@
 .card-title {
     font-size: 25px;
     font-weight: bold;
+   text-align: center;
+   margin-bottom: 10px;
+   font-style: italic;
+
 }
 
 .card-description {
-    font-size: 15px;
+    font-size: 18px;
 }

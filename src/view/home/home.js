@@ -13,6 +13,9 @@ import { useSpring, a } from '@react-spring/web'
 
 import Logo from "./logo.png"
 
+
+
+
 const images = [
   'https://firstsportz.com/wp-content/uploads/2021/07/8-1024x576.jpg',
   'https://staticg.sportskeeda.com/editor/2022/03/c939e-16468047022474-1920.jpg',
@@ -27,7 +30,10 @@ const images = [
 ];
 
 
+
+
 function Home() {
+  
   const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
   const [flipped, set] = useState(false)
   const { transform, opacity } = useSpring({
@@ -53,6 +59,7 @@ return (<>
         }}
       />
     </div>
+    
 
 <img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 
