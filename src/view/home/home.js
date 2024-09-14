@@ -5,44 +5,48 @@ import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../compon
 import Footer from "./../..//component/footer/footer"
 import TopTournament from '../../component/top-tournament/toptournament'
 import { TOURNAMENTS } from '../../component/config/data1'
-import { YOUTUBE_VIDEO } from '../../component/config/data3'
-import YouTube from '../../component/youtubevideo/youtube'
+import { Link } from 'react-router-dom'
 import ImageSlider from '../../component/imgslider/imgslider'
+import VideoPlayer from '../../component/youtubevideo/VideoPlayer'
 import Logo from "./logo.png"
 
 const images = [
+  'https://firstsportz.com/wp-content/uploads/2021/07/8-1024x576.jpg',
   'https://staticg.sportskeeda.com/editor/2022/03/c939e-16468047022474-1920.jpg',
+  
+  'https://c4.wallpaperflare.com/wallpaper/557/189/265/call-of-duty-warzone-xbox-one-call-of-duty-black-ops-hd-wallpaper-preview.jpg',
+  'https://images.hindustantimes.com/tech/img/2021/11/27/960x540/PUBG-team3-1399x768_1623925660311_1638007175700.jpg',
+  'https://i.pinimg.com/originals/07/56/30/0756304ee12cfbcd68ca5462766ad3c5.jpg',
   'https://i.ytimg.com/vi/NP0-REV1-20/maxresdefault_live.jpg',
-  'https://gamesadda.in/wp-content/uploads/2022/09/Best-Esports-Teams-India.jpg',
-  'https://www.gamespace.com/wp-content/uploads/2021/01/eSports-Games.jpg',
-  'https://us.v-cdn.net/6036147/uploads/GOQOTHGYG807/l-18-1-1200x675.jpg',
-  'https://www.gizcomputer.com/wp-content/uploads/2020/02/esports-cabecera.jpg',
-  'https://www.betopin.com/wp-content/uploads/2020/03/33B15247-2337-404C-8A81-07723705E343.jpeg',
-  ''
+  'https://images2.alphacoders.com/990/990967.jpg',
+  'https://images2.alphacoders.com/990/990967.jpg',
+  
 ];
 
 
 function Home() {
+  const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
   
 return (<>
 
-<div className="App">
-      
-      <ImageSlider images={images} />
-    </div>
+
 <div className='main-background'>
 
 
-<img src={Logo} style={{height:50, width:50 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
+<img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 
 <div className='paragraph-container'>
   <p className='home-paragraph'> {TAG_LINE}</p>
   <p className='home-paragraph2'> {TAG_LINE2}</p>
-  <button  type='button'  className='homepage-btn'> Learn more</button>
+  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
  </div>
-    
-</div>
+ </div>
+
 <div className='tournament-maincard-container'>
+  <div className='space'></div>
+<div className="App">
+      <ImageSlider images={images} />
+</div>
 <h1 className='tournament-main-title'> Tournaments</h1>
 <div className='esport-card-container'>
  
@@ -72,20 +76,12 @@ return (<>
 })
 }
 </div>
-<h1 className='tournament-main-title2'> Teams</h1>
-<div className='esport-card-container' >
-    { YOUTUBE_VIDEO.map((video,i)=>{
-
- return (<YouTube
-   key={i}
-    imgUrl={video.videolink}
-     title={video.title}
-   
-    
- />)
-})
-}
-</div>
+<h1 className='tournament-main-title2'> youtube videos</h1>
+<div className='esport-card-container'>
+      {videoIds.map((id) => (
+        <VideoPlayer key={id} videoId={id} />
+      ))}
+    </div>
 </div>
 
 
