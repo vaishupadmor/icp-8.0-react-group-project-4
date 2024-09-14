@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: #000;
+}
+.card-titleshop{
+    font-family:cursive;
+    text-align: center;
+    color: #ffe77d;
+}
+.intro-container{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./shopimgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.card-detailsshop{
+    font-size: 19px;
+    width: 60%;
+    color: #FFF;
+    font-family: cursive;
+}
+.card-shop {
+    height: 420px;
+    width: 80%; 
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin: 0 auto; 
+    
+}
+.title-shop{
+    color: #FFF;
+    font-family: cursive;
+    border-bottom: #9c1bd3 dotted 0.3rem;
+}
+.card-imgshop {
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit:fill;
+    border-radius: 10px;
+}
+.overlay {
+	width: 100%;
+	height: 0;
+	/* background: linear-gradient(transparent, rgb(139,32,201) 80%); */
+    /* background: rgb(transparent, 139,32,201 80% ); */
+    background: rgb(139,32,201);
+    background: radial-gradient(transparent, rgba(139,32,201,0.8184523809523809) 65%, rgba(189,45,207,0.5971638655462185) 86%);
+    color: aliceblue;
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    gap: 2rem;
+	padding: 0 40px;
+	text-align: center;
+	font-size: 14px;
+	transition:  0.5s ease-in-out;
+}
+.card-shop:hover .card-img{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+}
+.card-shop:hover .overlay{
+    height: 100%;
+}
+.cart-btnshop{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: #9c1bd3;
+    color: #ffe77d;
+    padding: 5px 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cart-btnshop:hover{
+    background-color: #531374;
+color: #FFF;
+}
+
+.define-product{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    position: relative;
+}
+.imgs-sm{
+    aspect-ratio: 3/2;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 15px;
+}
+.define-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #9c1bd344;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: 1s ease-in-out;
+}
+.define-product:hover .define-body{
+    right: 0;
+   
+
+}
+.define-name{
+    color: #ffe77d;
+    text-transform: uppercase;
+}
+.define-info{
+    width: 280px;
+    margin: 1px auto;
+    font-size: 19px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.define-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
