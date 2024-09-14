@@ -62,7 +62,7 @@ body{
 .tournament-maincard-container{
     height: 2100px;
     margin-bottom: 0px !important;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color: rgb(8, 2, 53);
 }
 .App{
  width: 1400px;
