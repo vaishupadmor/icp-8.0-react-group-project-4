@@ -4,16 +4,15 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./view/home/home";
 import LearnMore from './view/LearnMore/LearnMore';
-<<<<<<< HEAD
-
-=======
->>>>>>> 5e4d9587b50c9f518398f24f42010ec28541bdff
 import { Toaster } from 'react-hot-toast';
 import Tournament from './component/tournaments/tournament';
 import Upcoming from './component/tournaments/upcoming/upcoming';
 import Past from './component/tournaments/past/past';
 import Ongoing from './component/tournaments/ongoing/ongoing'
 import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
+import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
+import Past1 from './component/tournaments/tournamentsinfo/past/past1';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,9 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
    path:"/learnmore",
    element:<LearnMore/>
   },
-<<<<<<< HEAD
-  
-=======
+
   {
     path:"/tournament",
     element:<Tournament/>
@@ -37,7 +34,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"upcoming",
     element:<Upcoming/>
   },
->>>>>>> 5e4d9587b50c9f518398f24f42010ec28541bdff
+
   {
     path:"past",
     element:<Past/>
@@ -47,8 +44,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Ongoing/>
   },
   {
-    path:"/xyz-tro-123",
+    path:"/ongoing/:neha",
     element:<Ongoing1/>
+  },
+  {
+    path:"/upcoming/:neha",
+    element:<Upcoming1/>
+  },
+  {
+    path:"/past/:neha",
+    element:<Past1/>
   },
  
   {
