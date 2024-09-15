@@ -1,5 +1,5 @@
 import React from 'react'
-import "./teams.css"
+import "../pages.css"
 function teamsHome({imgUrl,name,desc}) {
   return (
   

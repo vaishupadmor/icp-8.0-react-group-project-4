@@ -1,5 +1,5 @@
 import React from 'react'
-import "./teams.js"
+import "../pages.css"
 import Teams from "./teamsHome"
 import { TEAMS } from '../data.js'
 
