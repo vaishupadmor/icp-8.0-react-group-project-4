@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import {products} from "./../../../config/past"
-import './past1.css'
-function past1() {
+import {products} from "../../../../config/ongoing"
+import './ongoing1.css'
+function ongoing1() {
 
 
     let { neha } = useParams();
@@ -15,7 +15,7 @@ function past1() {
       <p>
       {linkObject.title}
       </p>
-        <h1 className='past-heading'>   roll number{linkObject.id} </h1>
+        <h1 className='ondoing1-heading'>   roll number{linkObject.id} </h1>
         <img src={linkObject.imgUrl}  />
                 
 
@@ -24,4 +24,4 @@ function past1() {
   )
 }
 
-export default past1
+export default ongoing1

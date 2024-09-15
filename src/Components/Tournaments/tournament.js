@@ -1,13 +1,13 @@
 import React from 'react';
-import '../Tournament.css'
-import trophy from '../../../img/trophy.png'; 
-import group from '../../../img/group.png';
+import './Tournament.css';
+import trophy from "./../../img/group.png"; 
+import group from '../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../../config/ongoing';
-import Navbar from '../navbar/navbar'
+import Navbar from './navbar/navbar'
 
 
-function ongoing() {
+function Tournament() {
   return (
     <div className='cart-container'>
       <Navbar/>
@@ -35,7 +35,7 @@ function ongoing() {
         </p>
         
         <p className='cart-detail'>
-          <Link to={"/ongoing/" + productItem.id}>{productItem.status}</Link>
+          <Link to={productItem.link}>{productItem.status}</Link>
         </p>
         <hr />
         <p><b>{productItem.date}</b></p>
@@ -45,7 +45,7 @@ function ongoing() {
   )
 }
 
-export default ongoing
+export default Tournament
 
 
 

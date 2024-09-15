@@ -11,6 +11,7 @@
     display: block;
     border-radius: 20px;
     height: 550px;
+    transition: 0.5s;
   }
   
   .slider-buttons {
