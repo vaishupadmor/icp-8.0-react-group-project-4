@@ -40,12 +40,12 @@ const products = [
     tourhost:'Hosted by ',
     game:' Valorant',
     teamsize:'5-1',
-    prize:'1,00,000 INR',
+    prize:'20,00,000 INR',
     format:'Single Elimination',
     registerstart:'August 31st, 2024, 12:00 PM',
-    registerend:'September 4th, 2024, 4:00 PM',
-    tournamentstart:'September 9th, 2024',
-    tournamentend:'September 15th, 2024'
+    registerend:'September 6th, 2024, 4:00 PM',
+    tournamentstart:'September 6th, 2024 ,1:00 PM',
+    tournamentend:'September 6th, 2024, 6:00 PM'
     ,id:"2"
   },
   {
@@ -86,14 +86,14 @@ const products = [
       bannerUrl:'https://theesports.club/_next/image?url=https%3A%2F%2Fcdn.theesports.club%2FMain%2520Banner%2520%25282%2529-7bdf88d6-c2d1-4f6b-a2ae-8ba510187945.png&w=1920&q=75',
       tourend:'Tournament ends in 1 day',
       tourhost:'Hosted by ',
-      game:' Valorant',
-      teamsize:'5-1',
+      game:' League of Legends',
+      teamsize:'5+2',
       prize:'1,00,000 INR',
-      format:'Single Elimination',
+      format:'Double Elimination',
       registerstart:'August 31st, 2024, 12:00 PM',
-      registerend:'September 4th, 2024, 4:00 PM',
-      tournamentstart:'September 9th, 2024',
-      tournamentend:'September 15th, 2024'
+      registerend:'September 18th, 2024, 4:00 PM',
+      tournamentstart:'September 18th, 2024,1:00 AM',
+      tournamentend:'September 18th, 2024,11:00 PM'
       ,id:"4"
 
     },
@@ -111,9 +111,9 @@ const products = [
       bannerUrl:'https://theesports.club/_next/image?url=https%3A%2F%2Fcdn.theesports.club%2FMain%2520Banner%2520%25281%2529-71fc88b7-f8f2-46c0-861c-79f577e82438.png&w=1920&q=75',
       tourend:'Tournament ends in 1 day',
       tourhost:'Hosted by ',
-      game:' Valorant',
-      teamsize:'5-1',
-      prize:'1,00,000 INR',
+      game:'  EAFC24(1v1)',
+      teamsize:'NA',
+      prize:'24,000 INR',
       format:'Single Elimination',
       registerstart:'August 31st, 2024, 12:00 PM',
       registerend:'September 4th, 2024, 4:00 PM',
@@ -135,8 +135,8 @@ const products = [
       bannerUrl:'https://theesports.club/_next/image?url=https%3A%2F%2Fcdn.theesports.club%2FMain%2520Banner-f630e498-9b1b-4577-ad90-987db9e25ac1.png&w=1920&q=75',
       tourend:'Tournament ends in 1 day',
       tourhost:'Hosted by ',
-      game:' Valorant',
-      teamsize:'5-1',
+      game:' MK1 ',
+      teamsize:'NA',
       prize:'1,00,000 INR',
       format:'Single Elimination',
       registerstart:'August 31st, 2024, 12:00 PM',
