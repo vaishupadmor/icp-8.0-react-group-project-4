@@ -4,7 +4,7 @@ import Homecard from '../../Components/HomeCards/homecard'
 import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/data'
 import Footer from "./../..//Components/Footer/footer"
 import TopTournament from '../../Components/Top-Tournament/toptournament'
-import { TOURNAMENTS } from '../../Components/Tournaments/tournament'
+import  TOURNAMENTS from '../../Components/Tournaments/tournament'
 import { Link } from 'react-router-dom'
 import ImageSlider from '../../Components/ImgSlider/imgslider'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'

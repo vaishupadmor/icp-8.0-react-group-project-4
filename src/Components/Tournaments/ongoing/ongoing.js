@@ -3,13 +3,8 @@ import '../Tournament.css'
 import trophy from '../../../img/trophy.png'; 
 import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD:src/Components/Tournaments/ongoing/ongoing.js
-import { products } from '../../../config/ongoing';
+import { products } from '../../../Config/ongoing';
 import Navbar from '../navbar/navbar'
-=======
-import { products } from '../../config/ongoing';
-import Navbar from '../Navbar/Navbar'
->>>>>>> 83c8314f0fb331b3993b47f0638837dc6c3fa273:src/component/tournaments/ongoing/ongoing.js
 
 
 function ongoing() {
