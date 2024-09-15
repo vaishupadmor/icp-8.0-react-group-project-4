@@ -76,3 +76,13 @@ body{
 .space{
     height: 20px;
 }
+
+@media screen and (max-width:500px) {
+    .main-background{
+    
+        width: 200px;
+        height: 200px;
+        position: relative;
+        
+    }
+}
