@@ -1,7 +1,7 @@
 import React from 'react'
 import "./teams.js"
 import Teams from "./teamsHome"
-import { TEAMS } from '../../config/data.js'
+import { TEAMS } from '../data.js'
 
 
 function teams() {
