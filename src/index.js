@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./Views/home/home.js";
 import LearnMore from './Views/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
+
 import Tournament from './Components/Tournaments/tournament';
 import Upcoming from './Config/upcoming.js';
 import Past from './Config/past.js';
@@ -14,6 +15,16 @@ import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcomin
 import Past1 from './Components/Tournaments/tournamentsinfo/past/past1';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
+import Tournament from './component/tournaments/Tournament';
+import Upcoming from './component/tournaments/Upcoming/Upcoming';
+import Past from './component/tournaments/Past/Past';
+import Ongoing from './component/tournaments/Ongoing/Ongoing'
+import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
+import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
+import Past1 from './component/tournaments/tournamentsinfo/past/past1';
+import Shop from "./view/shop/shop";
+import About from "./view/About/About";
+>>>>>>> 83c8314f0fb331b3993b47f0638837dc6c3fa273
 
 
 
