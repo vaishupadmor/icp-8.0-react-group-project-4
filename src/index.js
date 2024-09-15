@@ -5,10 +5,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./view/home/home";
 import LearnMore from './view/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
-import Tournament from './component/tournaments/tournament';
-import Upcoming from './component/tournaments/upcoming/upcoming';
-import Past from './component/tournaments/past/past';
-import Ongoing from './component/tournaments/ongoing/ongoing'
+import Tournament from './component/tournaments/Tournament';
+import Upcoming from './component/tournaments/Upcoming/Upcoming';
+import Past from './component/tournaments/Past/Past';
+import Ongoing from './component/tournaments/Ongoing/Ongoing'
 import Ongoing1 from './component/tournaments/tournamentsinfo/ongoing/ongoing1';
 import Upcoming1 from './component/tournaments/tournamentsinfo/upcoming/upcoming1';
 import Past1 from './component/tournaments/tournamentsinfo/past/past1';
