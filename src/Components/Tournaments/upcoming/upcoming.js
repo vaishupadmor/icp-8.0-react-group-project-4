@@ -1,16 +1,21 @@
+
 import React from 'react';
-import '../Tournament.css'
+import '../Tournament.css';
 import trophy from '../../../img/trophy.png'; 
 import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
-import { products } from '../../config/ongoing';
+<<<<<<< HEAD:src/Components/Tournaments/upcoming/upcoming.js
+import { products } from '../../../config/upcoming';
+import Navbar from '../navbar/navbar'
+=======
+import { products } from '../../config/upcoming';
 import Navbar from '../Navbar/Navbar'
+>>>>>>> 83c8314f0fb331b3993b47f0638837dc6c3fa273:src/component/tournaments/upcoming/upcoming.js
 
-
-function ongoing() {
+function upcoming() {
   return (
     <div className='cart-container'>
-      <Navbar/>
+    <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart' key={index}>
         <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
@@ -35,17 +40,16 @@ function ongoing() {
         </p>
         
         <p className='cart-detail'>
-          <Link to={"/ongoing/" + productItem.id}>{productItem.status}</Link>
+          <Link to={"/upcoming/" + productItem.id}>{productItem.status}</Link>
         </p>
         <hr />
         <p><b>{productItem.date}</b></p>
       </div>
     ))}
   </div>
-  )
+);
 }
 
-export default ongoing
 
 
-
+export default upcoming

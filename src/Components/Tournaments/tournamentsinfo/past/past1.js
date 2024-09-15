@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import {products} from "./../../../config/past"
+import {products} from "../../../../config/past"
 import './past1.css'
 function past1() {
 
