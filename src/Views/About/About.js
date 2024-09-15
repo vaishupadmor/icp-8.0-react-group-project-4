@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Abcard from '../../component/Aboutcards/Abcard'
+import Abcard from '../../Components/AboutCards/Abcard'
 
 
 
