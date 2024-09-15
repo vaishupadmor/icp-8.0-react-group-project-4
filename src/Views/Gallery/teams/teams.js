@@ -1,12 +1,25 @@
-import React from 'react';
-import TournamentPage from './data';
+import React from 'react'
+import "./teams.js"
+import Teams from "./teamsHome"
+import { TEAMS } from '../../config/data.js'
 
-function App() {
+
+function teams() {
   return (
-    <div className="App">
-      <TournamentPage />
-    </div>
-  );
-}
+    <div>
+        <h1 className='team-heading'>Teams Tournaments</h1>
+        <div className='teams-container'>
+   
+   {TEAMS.map((teamdetails)=>{
+        return   <Teams
+        imgUrl={teamdetails.imgUrl}
+        name={teamdetails.name}
+        
+        />
 
-export default App;
+   })}
+ </div> 
+ </div>
+)
+}     
+export default teams
