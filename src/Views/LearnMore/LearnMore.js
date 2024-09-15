@@ -1,6 +1,6 @@
 import React from 'react';
 import "./LearnMore.css";
-import Footer from "./../..//component/footer/footer";
+import Footer from "./../../Components/Footer/footer";
 import ImgGame from './free_fire.jpg';
 import ImgBadlandersGame from './badlanders.jpg';
 import ImgPubgGame from './pubg.jpg';

@@ -4,15 +4,10 @@ import '../Tournament.css';
 import trophy from '../../../img/trophy.png'; 
 import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD:src/Components/Tournaments/past/past.js
-import { products } from '../../../config/past';
-import Navbar from '../navbar/navbar'
-=======
-import { products } from '../../config/past';
-import Navbar from '../Navbar/Navbar'
->>>>>>> 83c8314f0fb331b3993b47f0638837dc6c3fa273:src/component/tournaments/past/past.js
+import { products } from '../../../Config/past';
+import Navbar from '../navbar/navbar';
 
-function past() {
+function Past() {
   return (
     <div className='cart-container'>
       <Navbar/>
@@ -51,4 +46,4 @@ function past() {
 }
 
 
-export default past
+export default Past
