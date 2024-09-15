@@ -4,7 +4,7 @@ import trophy from "./../../img/group.png";
 import group from '../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../config/ongoing';
-import Navbar from '../tournaments/navbar/navbar'
+import Navbar from './Navbar/Navbar'
 
 
 function Tournament() {
