@@ -1,0 +1,43 @@
+.player-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #e4d6d6;
+  }
+  .heading{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .player-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    
+  }
+  .player-card:hover{
+    box-shadow: 10px 10px 10px  #000;
+    position: relative;
+    bottom: 10px;
+    transition: 0.4s;
+
+  }
+  
+
+  .player-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .player-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
