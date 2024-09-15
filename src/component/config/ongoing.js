@@ -10,7 +10,10 @@ const products = [
     status: "ONGOING",
     date: "20 Sept 2024",
     link: "/xyz-tro-123" , 
-    country:"india"
+    country:"Countries",
+    bannerUrl:'https://theesports.club/_next/image?url=https%3A%2F%2Fcdn.theesports.club%2FBIG%2520banner%2520%25286%2529-d778697e-1115-410a-8f0c-1b2da8d55972.png&w=1920&q=75',
+    tourend:'Tournament ends in 1 day',
+    tourhost:'Hosted by '
     ,id:"1"
   },
   {
