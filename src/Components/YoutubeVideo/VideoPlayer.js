@@ -1,7 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import "./youtube.css"
-
+import './VideoPlayer.css'; // Import the CSS file
 
 const VideoPlayer = ({ videoId }) => {
   
@@ -13,8 +12,11 @@ const VideoPlayer = ({ videoId }) => {
     },
   };
   
-  return <YouTube videoId={videoId} opts={opts} />;
+  return (
+    <div className="video-player-container">
+      <YouTube videoId={videoId} opts={opts} />
+    </div>
+  );
 };
-
 
 export default VideoPlayer;
