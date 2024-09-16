@@ -79,7 +79,6 @@ body{
 
 @media screen and (max-width:500px) {
     .main-background{
-    
         width: 200px;
         height: 200px;
         position: relative;
@@ -113,6 +112,24 @@ body{
         width: 70px;
         font-size: 9px;
         margin: 10px;
+    }
+    .tournament-main-title{
+        padding: 5px;
+        text-align: center;
+        margin-top: 150px;
+        color: #FFE77D;
+        
+    }
+    .tournament-main-title2{
+        padding: 40px;
+        text-align: center;
+        color: #FFE77D;
+    
+    }
+    .tournament-maincard-container{
+        height: 1200px;
+        margin-bottom: 0px !important;
+        background-color: rgb(8, 2, 53);
     }
     
 }
