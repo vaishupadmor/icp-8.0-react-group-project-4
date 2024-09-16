@@ -5,9 +5,9 @@ import trophy from '../../../img/trophy.png';
 import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../../../Config/past';
-import Navbar from '../navbar/navbar'
+import Navbar from '../navbar/navbar';
 
-function past() {
+function Past() {
   return (
     <div className='cart-container'>
       <Navbar/>
@@ -46,4 +46,4 @@ function past() {
 }
 
 
-export default past
+export default Past

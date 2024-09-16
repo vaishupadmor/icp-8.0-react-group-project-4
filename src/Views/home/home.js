@@ -2,15 +2,14 @@ import React, { useState,useEffect } from 'react'
 import "./home.css"
 import Homecard from '../../Components/HomeCards/homecard'
 import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/data'
-import Footer from "./../..//Components/Footer/footer"
-import TopTournament from '../../Components/Top-Tournament/toptournament'
-import  TOURNAMENTS from '../../Components/Tournaments/tournament'
+import Footer from "../../Components/Footer/footer"
+import TopTournament from '../../Components/TopTournament/toptournament'
+import { TOURNAMENTS } from '../../Config/data1'
 import { Link } from 'react-router-dom'
 import ImageSlider from '../../Components/ImgSlider/imgslider'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
 import { useSpring, a } from '@react-spring/web'
-
 import Logo from "./logo.png"
 
 
