@@ -9,7 +9,8 @@ function Contact() {
     <input type= "text" required placeholder='Enter your first name'></input>
     <label>last Name</label>
     <input type= "text" required placeholder='Enter your last name'></input>
-    
+    <label>Email</label>
+    <input type= "email" required placeholder='Enter your email address'></input>
     </div>
   )
 }
