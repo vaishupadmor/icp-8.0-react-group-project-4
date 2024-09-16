@@ -1,45 +1,72 @@
 .c {
-    position: absolute;
-    top: 0px;
-    max-width: 100%;
-    max-height: 700px;
-    width: 100%;
-    height: 700px;
-    cursor: pointer;
-    will-change: transform, opacity;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 700px;
+  cursor: pointer;
+  max-height: 700px;
+  will-change: transform, opacity;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease;
+}
+
+/* Ensure background images cover the container fully */
+.front, .back {
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  background-image: url("main-image.jpg");
+}
+
+.front {
+  background-image: url("https://images.hdqwalls.com/download/garena-free-fire-one-more-round-4k-wj-1920x1080.jpg");
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+  .c {
+      height: 600px; /* Slightly reduce height for tablets */
   }
-  
-  .front,
-  .back {
-    background-size: cover;
-  }
-  
-  .back {
-    background-image: url("main-image.jpg");
-  }
-  
-  .front {
-    background-image: url(https://images.hdqwalls.com/download/garena-free-fire-one-more-round-4k-wj-1920x1080.jpg);
-  }
-  
-  .container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .c {
+      height: 500px; /* Further reduce height for medium devices */
   }
 
-  @media screen and (max-width:500px) {
-    
-    .c {
-      position: absolute;
-      top: 0px;
-      max-width: 802px;
-      max-height: 400px;
-      width: 802px;
-      height: 500px;
-      cursor: pointer;
-      will-change: transform, opacity;
-    }
-    
+  .front, .back {
+      background-size: contain; /* Ensure images scale well for smaller screens */
   }
+}
+
+@media screen and (max-width: 576px) {
+  .c {
+      height: 400px; /* Smaller height for mobile devices */
+  }
+
+  .front, .back {
+      background-size: contain;
+      background-position: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .c {
+      height: 300px; /* Adjust height for very small screens */
+  }
+
+  .front, .back {
+      background-size: contain;
+      background-position: center;
+  }
+}

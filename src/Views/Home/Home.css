@@ -1,135 +1,101 @@
-body{
-    margin: 0px 0px ;
+body {
+    margin: 0;
 }
 
-
-  
-
-.main-background{
-    
+/* Main background section */
+.main-background {
     width: 100%;
     height: 750px;
     position: relative;
-    
 }
 
-.home-heading{
+/* Heading styles */
+.home-heading {
     position: absolute;
     color: aliceblue;
     top: 5px;
     left: 5px;
 }
 
-.home-paragraph{
+/* Paragraph styles */
+.home-paragraph, .home-paragraph2 {
     color: #fff;
-    font-family:italic;
+    font-family: italic;
     font-style: italic;
     font-weight: 500;
+}
+
+.home-paragraph {
     font-size: 35px;
-    }
-.home-paragraph2{
-    color: #fff;
-    font-family:italic;
-    font-style: italic;
-    font-weight: 500;
+}
+
+.home-paragraph2 {
     font-size: 20px;
 }
-.homepage-btn{
+
+/* Button styles */
+.homepage-btn {
     border: 1px solid #FFE77D;
     background-color: #FFE77D;
     padding: 10px;
     border-radius: 20px;
     width: 100px;
     margin: 10px;
+    text-align: center;
+    color: #000; /* Ensure button text is readable */
+    text-decoration: none; /* Remove underline if using as a link */
 }
 
-.paragraph-container{
- position: absolute;
- top: 300px;
- left: 40px;
+/* Paragraph container positioning */
+.paragraph-container {
+    position: absolute;
+    top: 300px;
+    left: 40px;
 }
 
-.tournament-main-title{
+/* Tournament titles */
+.tournament-main-title, .tournament-main-title2 {
+    text-align: center;
+    color: #FFE77D;
+}
+
+.tournament-main-title {
     padding: 5px;
-    text-align: center;
     margin-top: 230px;
-    color: #FFE77D;
-    
 }
-.tournament-main-title2{
-    padding: 60px;
-    text-align: center;
-    color: #FFE77D;
 
+.tournament-main-title2 {
+    padding: 60px;
 }
-.tournament-maincard-container{
-    height: 2100px;
-    margin-bottom: 0px !important;
+
+/* Tournament card container */
+.tournament-maincard-container {
+    height: 2100px; /* Adjust as needed or use min-height for flexibility */
+    margin-bottom: 0 !important;
     background-color: rgb(8, 2, 53);
 }
-.App{
- width: 1400px;
- height: 400px;
- margin: 0px auto;
- align-items: center;
+
+/* App container */
+.App {
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex; /* Added for alignment */
+    align-items: center;
+    justify-content: center; /* Centering content */
 }
-.space{
+
+/* Space element */
+.space {
     height: 20px;
 }
 
-@media screen and (max-width:500px) {
-    .main-background{
-        width: 200px;
-        height: 200px;
-        position: relative;
-        
-    }
-    .paragraph-container{
-        position: absolute;
-        top: 100px;
-        left: 40px;
-       }
-       .home-paragraph{
-        color: #fff;
-        font-family:italic;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 15px;
-        }
-
-    .home-paragraph2{
-        color: #fff;
-        font-family:italic;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 12px;
-    }
-    .homepage-btn{
-        border: 1px solid #FFE77D;
-        background-color: #FFE77D;
-        padding: 10px;
-        border-radius: 20px;
-        width: 70px;
-        font-size: 9px;
-        margin: 10px;
-    }
-    .tournament-main-title{
-        padding: 5px;
-        text-align: center;
-        margin-top: 150px;
-        color: #FFE77D;
-        
-    }
-    .tournament-main-title2{
-        padding: 40px;
-        text-align: center;
-        color: #FFE77D;
-    
-    }
-    .tournament-maincard-container{
-        height: 1200px;
-        margin-bottom: 0px !important;
-        background-color: rgb(8, 2, 53);
-    }
+/* YouTube card container */
+.esport-card-container-youtube {
+    display: flex; /* Changed to flex for better alignment */
+    justify-content: center;
+    margin: 10px auto; /* Center horizontally */
+    margin-bottom: 30px;
+    margin-top: 0 !important;
     
 }
