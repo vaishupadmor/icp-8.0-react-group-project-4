@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import "./home.css"
+import "./Home.css"
 import Homecard from '../../Components/HomeCards/homecard'
 import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/data'
 import Footer from "../../Components/Footer/footer"
