@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 
 import Tournament from './Components/Tournaments/tournament';
 import Upcoming from './Config/upcoming.js';
-import Past from './Config/past.js';
+import Past from '../src/Config/ongoing.js';
 import Ongoing from './Config/ongoing.js';
 import Ongoing1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
 import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
