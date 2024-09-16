@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Main background section */
@@ -42,8 +43,8 @@ body {
     width: 100px;
     margin: 10px;
     text-align: center;
-    color: #000; /* Ensure button text is readable */
-    text-decoration: none; /* Remove underline if using as a link */
+    color: #000;
+    text-decoration: none;
 }
 
 /* Paragraph container positioning */
@@ -70,19 +71,20 @@ body {
 
 /* Tournament card container */
 .tournament-maincard-container {
-    height: 2100px; /* Adjust as needed or use min-height for flexibility */
+    min-height: 2100px; /* Flexible height for different devices */
     margin-bottom: 0 !important;
     background-color: rgb(8, 2, 53);
 }
 
 /* App container */
 .App {
-    width: 1400px;
-    height: 400px;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
     margin: 0 auto;
-    display: flex; /* Added for alignment */
+    display: flex;
     align-items: center;
-    justify-content: center; /* Centering content */
+    justify-content: center;
 }
 
 /* Space element */
@@ -92,10 +94,90 @@ body {
 
 /* YouTube card container */
 .esport-card-container-youtube {
-    display: flex; /* Changed to flex for better alignment */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 10px auto; /* Center horizontally */
+    margin: 10px auto;
     margin-bottom: 30px;
     margin-top: 0 !important;
-    
+}
+
+/* Responsive adjustments */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .main-background {
+        height: 600px;
+    }
+
+    .home-paragraph {
+        font-size: 28px;
+    }
+
+    .home-paragraph2 {
+        font-size: 18px;
+    }
+
+    .paragraph-container {
+        top: 250px;
+        left: 20px;
+    }
+
+    .tournament-main-title {
+        margin-top: 180px;
+    }
+
+    .App {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 576px) {
+    .main-background {
+        height: 500px;
+    }
+
+    .home-heading {
+        top: 10px;
+        left: 10px;
+    }
+
+    .home-paragraph {
+        font-size: 24px;
+    }
+
+    .home-paragraph2 {
+        font-size: 16px;
+    }
+
+    .homepage-btn {
+        width: 80px;
+        padding: 8px;
+    }
+
+    .paragraph-container {
+        top: 200px;
+        left: 10px;
+    }
+
+    .tournament-main-title {
+        font-size: 18px;
+        padding: 5px;
+        margin-top: 150px;
+    }
+
+    .tournament-main-title2 {
+        padding: 30px;
+    }
+
+    .App {
+        width: 100%;
+        height: auto;
+    }
+
+    .esport-card-container-youtube {
+        flex-direction: column;
+    }
 }
