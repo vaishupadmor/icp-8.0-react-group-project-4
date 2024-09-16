@@ -9,9 +9,9 @@ import Tournament from './Components/Tournaments/tournament.js';
 import Upcoming from './Components/Tournaments/upcoming/upcoming.js'
 import Past from './Components/Tournaments/past/past.js';
 import Ongoing from './Components/Tournaments/ongoing/ongoing.js';
-import Ongoing1 from './Components/Tournaments/tournamentsinfo/ongoing/ongoing1.js';
+import Ongoing1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
 import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
-import Past1 from './Components/Tournaments/tournamentsinfo/past/past1.js';
+import Past1 from './Components/Tournaments/past/past.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
 

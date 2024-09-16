@@ -87,7 +87,9 @@ margin: 10px;
 
 @media screen and (max-width:500px) {
     .esport-card-container{
-        
+        display: block;
+        justify-content: center;
+        margin-left: 5px;
         margin-bottom: 30px;
         margin-top: 0px !important;
     
@@ -98,14 +100,9 @@ margin: 10px;
         width: 260px;
         overflow-wrap: wrap;
         height: 220px;
-         border-radius: 10px;
+        border-radius: 10px;
         position: relative;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        padding:0px;
-        
-        
+          
     }
     .esport-card:hover .esport-card-description{
      height: 100%;
