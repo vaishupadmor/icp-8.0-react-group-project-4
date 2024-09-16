@@ -11,7 +11,7 @@
   transition: 0.5s ease;
 }
 
-/* Ensure background images cover the container fully */
+
 .front, .back {
   background-size: cover;
   background-position: center;
@@ -32,26 +32,26 @@
   height: 100%;
 }
 
-/* Responsive adjustments */
+
 @media screen and (max-width: 1024px) {
   .c {
-      height: 600px; /* Slightly reduce height for tablets */
+      height: 600px; 
   }
 }
 
 @media screen and (max-width: 768px) {
   .c {
-      height: 500px; /* Further reduce height for medium devices */
+      height: 500px; 
   }
 
   .front, .back {
-      background-size: contain; /* Ensure images scale well for smaller screens */
+      background-size: contain; 
   }
 }
 
 @media screen and (max-width: 576px) {
   .c {
-      height: 400px; /* Smaller height for mobile devices */
+      height: 400px; 
   }
 
   .front, .back {
@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 400px) {
   .c {
-      height: 300px; /* Adjust height for very small screens */
+      height: 300px; 
   }
 
   .front, .back {

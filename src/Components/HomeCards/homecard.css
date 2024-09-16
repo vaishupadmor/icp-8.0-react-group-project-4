@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 
-/* Flex container for the esport cards */
+
 .esport-card-container {
     display: flex;
-    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    flex-wrap: wrap; 
     justify-content: space-evenly;
     margin-bottom: 30px;
     margin-top: 0 !important;
 }
 
-/* Card styling */
+
 .esport-card {
     background-color: purple;
     border: 1px solid black;
@@ -31,18 +31,18 @@
 }
 
 .esport-card:hover {
-    transform: scale(1.05); /* Adds a slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
-/* Image inside the card */
+
 .esport-card-img {
     width: 100%;
-    height: 200px; /* Adjusted to fit within the card's height */
-    object-fit: cover; /* Ensures the image covers the entire area while keeping aspect ratio */
+    height: 200px; 
+    object-fit: cover; 
     border-radius: 10px 10px 0 0;
 }
 
-/* Card name styling */
+
 .esport-card-name {
     font-size: 20px;
     color: rgb(243, 243, 98);
@@ -50,7 +50,7 @@
     margin: 10px;
 }
 
-/* Description section inside the card */
+
 .esport-card-description {
     width: 100%;
     height: 0;
@@ -76,7 +76,6 @@
     height: 100%;
 }
 
-/* Button inside the card */
 .esport-card-button {
     border: 1px solid tomato;
     padding: 5px;
@@ -89,7 +88,7 @@
     text-align: center;
 }
 
-/* Responsive adjustments */
+
 @media screen and (max-width: 768px) {
     .esport-card {
         width: 220px;

@@ -1,6 +1,6 @@
-/* General navbar styles */
+
 .navbar {
-    background-color: #1e3c72; /* Change to your brand color */
+    background-color: #1e3c72;
     padding: 10px 20px;
     color: white;
     position: fixed;
@@ -25,7 +25,7 @@
   }
   
   .logo {
-    height: 40px; /* Adjust based on your logo size */
+    height: 40px; 
     margin-right: 10px;
   }
   
@@ -47,7 +47,7 @@
   }
   
   .navbar-link:hover {
-    color: #ffe77d; /* Highlight color on hover */
+    color: #ffe77d; 
   }
   
   .navbar-toggle {
@@ -63,7 +63,6 @@
     margin: 3px 0;
   }
   
-  /* Responsive styles */
   @media (max-width: 768px) {
     .navbar-menu {
       display: none;
