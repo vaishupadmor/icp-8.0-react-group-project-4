@@ -1,0 +1,53 @@
+.tournament-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .tournament-header {
+    margin-bottom: 30px;
+  }
+  
+  .tournament-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 8px;
+  }
+  
+  .tournament-name {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .participants-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .participant-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .participant-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .participant-name {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #555;
+  }
+  
