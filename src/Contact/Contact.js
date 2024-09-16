@@ -11,6 +11,8 @@ function Contact() {
     <input type= "text" required placeholder='Enter your last name'></input>
     <label>Email</label>
     <input type= "email" required placeholder='Enter your email address'></input>
+    <label>Message</label>
+    <input type= "text" required placeholder='Enter message'></input>
     </div>
   )
 }
