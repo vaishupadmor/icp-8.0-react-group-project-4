@@ -13,6 +13,7 @@ function Contact() {
     <input type= "email" required placeholder='Enter your email address'></input>
     <label>Message</label>
     <input type= "text" required placeholder='Enter message'></input>
+    <button type="submit">Submit</button>
     </div>
   )
 }
