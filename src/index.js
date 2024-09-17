@@ -84,10 +84,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"/shop",
     element:<Shop/>
   },
-  {
-    path:"/productcard",
-    element:<Productcard/>
-  },
+  
 
   {
     path:"/about",
