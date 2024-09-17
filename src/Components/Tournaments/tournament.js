@@ -13,7 +13,7 @@ function Tournament() {
     <div className='cart-container'>
       <Navbar/>
     {products.map((productItem, index) => (
-      <div className='cart' key={index}>
+      <div className='cart-tour' key={index}>
         <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
         <hr />
         <p><b>{productItem.title}</b></p>
