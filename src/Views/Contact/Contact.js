@@ -45,13 +45,21 @@ function Contact() {
           <h1 className='heading'>Get in Touch</h1>
           <div className='container'>
           <div className='main-info'>Location
+            <br/>
+            <p>Registered office:
+G-36, 1st Floor, G-Block,
+Outer Circle, Connaught Place,
+New Delhi
+PinCode: 110001</p>
             <img src={location} className='address'></img>
           </div>
          
           <div className='main-info'>Email
+            <br/>
+            <p></p>
             <img src={email} className='address'></img>
           </div>
-          <div className='main-info'>Contact
+          <div className='main-info'>Contact<br/>
         <img src={mobile} className='address call'></img>
           </div>
           </div>
