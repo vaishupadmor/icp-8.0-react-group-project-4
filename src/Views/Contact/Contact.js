@@ -37,6 +37,9 @@ function Contact() {
           Submit
         </button>
       </form>
+      <div className='address-container'>
+          <h1 className='heading'>Get in Touch</h1>
+          </div>
 
       <Toaster />
     </div>
