@@ -54,10 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"/ongoing/:neha",
     element:<Ongoing1/>
   },
-  {
-    path:"/about",
-    element:<About/>
-  },
+  
   {
     path:"/upcoming/:neha",
     element:<Upcoming1/>

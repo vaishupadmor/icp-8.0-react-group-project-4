@@ -1,56 +1,131 @@
-.footer{
-   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);;
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer container */
+.footer {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     color: white;
     text-align: center;
     padding: 25px;
-    bottom: 0px;
-    width:100% ;
-    height: 320px;
+    width: 100%;
+    position: relative;
 }
-.footer-main-container{
+
+/* Main footer container with flexbox */
+.footer-main-container {
     display: flex;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
     justify-content: space-evenly;
-    
+    margin-top: 20px;
 }
-.footer-main{
-    width: 650px;
-    margin-right: 350px;
-    
+
+/* Main footer sections */
+.footer-main,
+.footer-main-1 {
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Maximum width for larger screens */
+    margin: 10px;
+    text-align: left;
+    padding: 10px;
 }
-.footer-main-1{
-   
-   height: 250px;
-   width: 400px;
-   justify-items: center;
+
+/* Logo styling */
+.footer-main img {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
 }
-.footer-head-para{
-   font-size: 30px;
-   margin-bottom: 10px;
-   color: #FFE77D;
-   font-style: italic;
-   
+
+/* Headings and paragraphs */
+.footer-head-para,
+.footer-head {
+    color: #FFE77D;
+    font-style: italic;
 }
-.footer-para{
+
+.footer-head-para {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-para {
     font-size: 20px;
     font-style: italic;
 }
 
-.footer-links{
-  margin-bottom: 20px;
-  display: block;
-  color: white;
-  font-size: 20px;
-
+/* Links */
+.footer-links {
+    color: white;
+    font-size: 20px;
+    text-decoration: none; /* Remove underline */
+    display: block;
+    margin-bottom: 10px;
 }
-.footer-head{
-    font-size: 25px;
-    margin-bottom: 20px;
 
+/* Social media icons */
+.social-media {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
 }
-.footer-sub-container{
-   height: 10px;
+
+/* Footer bottom container */
+.footer-sub-container {
     margin-top: 10px;
-    margin-bottom: 0px;
+    font-size: 14px;
 }
 
+/* Responsive adjustments */
 
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .footer-main-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+
+    .footer-main,
+    .footer-main-1 {
+        text-align: center;
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .footer-head-para {
+        font-size: 24px;
+    }
+
+    .footer-para {
+        font-size: 18px;
+    }
+
+    .footer-links {
+        font-size: 18px;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 576px) {
+    .footer-head-para {
+        font-size: 20px;
+    }
+
+    .footer-para {
+        font-size: 16px;
+    }
+
+    .footer-links {
+        font-size: 16px;
+    }
+
+    .social-media {
+        height: 25px;
+        width: 25px;
+    }
+
+    .footer-sub-container {
+        font-size: 12px;
+    }
+}
