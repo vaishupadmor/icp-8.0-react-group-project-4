@@ -60,6 +60,7 @@ PinCode: 110001</p>
             <img src={email} className='address'></img>
           </div>
           <div className='main-info'>Contact<br/>
+          <p>+88695864</p>
         <img src={mobile} className='address call'></img>
           </div>
           </div>
