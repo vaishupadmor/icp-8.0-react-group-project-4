@@ -1,159 +1,162 @@
-
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.esport-card-container{
+
+
+.esport-card-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; 
     justify-content: space-evenly;
     margin-bottom: 30px;
-    margin-top: 0px !important;
-
+    margin-top: 0 !important;
 }
 
-.esport-card{
-    background-color: red;
+
+.esport-card {
+    background-color: purple;
     border: 1px solid black;
     width: 260px;
-    position: relative;
-    overflow: hidden;
     height: 320px;
-     border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:0px;
-    
-    
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    transition: transform 0.3s ease;
 }
-.esport-card:hover .esport-card-description{
- height: 100%;
+
+.esport-card:hover {
+    transform: scale(1.05); 
 }
-.esport-card-img{
+
+
+.esport-card-img {
     width: 100%;
-    height: 400px;
-    display: block;
-    object-fit:fill;
-    border-radius:10px;
-}
-.esport-card-name{
-font-size: 20px;
-color: rgb(243, 243, 98);
-text-align: center;
-margin: 10px;
-}
-.esport-card-description
-     {
-    width: 100%;
-    height:0px;
-    color: aliceblue;
-    border-radius: 10px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 40px;
-	text-align: center;
-	font-size: 16px;
-    font-style: italic;
-	transition:  0.5s ease-in-out;
-    background: linear-gradient(transparent, #ca4f4f 80%);
-    
-        
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
 }
 
 
-
-.esport-card-button{
- border: 1px solid tomato;   
- padding: 5px;
- border-radius: 10px;
- position: absolute;
- top:280px;
- left: 80px;
- width: 90px;
-
-}
-
-
-@media screen and (max-width:500px) {
-    .esport-card-container{
-        display: block;
-        justify-content: center;
-        margin-left: 5px;
-        margin-bottom: 30px;
-        margin-top: 0px !important;
-    
-    }
-    
-    .esport-card{
-        
-        width: 260px;
-        overflow-wrap: wrap;
-        height: 220px;
-        border-radius: 10px;
-        position: relative;
-          
-    }
-    .esport-card:hover .esport-card-description{
-     height: 100%;
-    }
-    .esport-card-img{
-        width: 100%;
-        height: 400px;
-        display: block;
-        object-fit:fill;
-        border-radius:10px;
-    }
-    .esport-card-name{
-    font-size: 12px;
+.esport-card-name {
+    font-size: 20px;
     color: rgb(243, 243, 98);
     text-align: center;
     margin: 10px;
+}
+
+
+.esport-card-description {
+    width: 100%;
+    height: 0;
+    color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    transition: height 0.5s ease-in-out;
+    background: linear-gradient(transparent, #ca4f4f 80%);
+}
+
+.esport-card:hover .esport-card-description {
+    height: 100%;
+}
+
+.esport-card-button {
+    border: 1px solid tomato;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .esport-card {
+        width: 220px;
+        height: 300px;
     }
-    .esport-card-description
-         {
-        width: 100%;
-        height:0px;
-        color: aliceblue;
-        border-radius: 10px;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0 40px;
-        text-align: center;
+
+    .esport-card-img {
+        height: 180px;
+    }
+
+    .esport-card-name {
+        font-size: 18px;
+    }
+
+    .esport-card-description {
+        font-size: 14px;
+    }
+
+    .esport-card-button {
+        width: 80px;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .esport-card {
+        width: 180px;
+        height: 260px;
+    }
+
+    .esport-card-img {
+        height: 160px;
+    }
+
+    .esport-card-name {
+        font-size: 16px;
+    }
+
+    .esport-card-description {
         font-size: 12px;
-        font-style: italic;
-        transition:  0.5s ease-in-out;
-        background: linear-gradient(transparent, #ca4f4f 80%);
-        
-            
     }
-    
-    
-    
-    .esport-card-button{
-     border: 1px solid tomato;   
-     padding: 5px;
-     border-radius: 10px;
-     position: absolute;
-     top:280px;
-     left: 80px;
-     width: 90px;
-    
+
+    .esport-card-button {
+        width: 70px;
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .esport-card {
+        width: 150px;
+        height: 230px;
+    }
+
+    .esport-card-img {
+        height: 140px;
+    }
+
+    .esport-card-name {
+        font-size: 14px;
+    }
+
+    .esport-card-description {
+        font-size: 10px;
+    }
+
+    .esport-card-button {
+        width: 60px;
+        padding: 2px;
     }
 }

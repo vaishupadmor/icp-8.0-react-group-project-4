@@ -10,6 +10,7 @@ import ImageSlider from '../../Components/ImgSlider/imgslider'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
 import { useSpring, a } from '@react-spring/web'
+import Navbar from "./../../Components/Navbar/Navbar"
 import Logo from "./logo.png"
 
 
@@ -44,6 +45,7 @@ return (<>
 
 
 <div className='main-background'>
+<Navbar/>
 <div className={style.container} onClick={() => set(state => !state)}>
       <a.div
         className={`${style.c} ${style.back}`}
@@ -104,9 +106,9 @@ return (<>
 }
 </div>
 <h1 className='tournament-main-title2'> youtube videos</h1>
-<div className='esport-card-container'>
+<div className='esport-card-container-youtube'>
       {videoIds.map((id) => (
-        <VideoPlayer key={id} videoId={id} />
+        <VideoPlayer key={id} videoId={id} className='youtube'/>
       ))}
     </div>
 </div>
