@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import {products} from "../../../../config/ongoing"
+import {products} from "../../../../Config/ongoing"
 import './ongoing1.css'
 import Flag from '../../../../img/flag.png'
 function ongoing1() {
@@ -17,9 +17,9 @@ function ongoing1() {
         <div>
       
       <div className="tournament-header">
-        <p className='tournament-title'><b>TEC Showdown Series-Season 4</b></p>
+        <p className='tournament-title'><b>{linkObject.title}</b></p>
         <div className="tournament-info1">
-          <p className='tournament-end'><b>Tournament ends in 1 day</b></p>
+          <p className='tournament-end'><b>{linkObject.tourend}</b></p>
           <p className='share'>Share 
             <i className="fa-brands fa-whatsapp"></i>
             <i className="fa-brands fa-facebook-f"></i>
@@ -28,27 +28,27 @@ function ongoing1() {
         </div>
       </div>
       <i className="fa-solid fa-desktop"></i>
-      <p className='tournament-host'>Hosted by <b>TEC</b></p>
+      <p className='tournament-host'>{linkObject.tourhost}<b>TEC</b></p>
 
       <hr className='white-line' />
 
       <p className='sub-title'>Overview</p>
 
  <div className="tournament-container1" >
-        <p className="tournament-detail1">Game: Valorant</p>
-        <p className="tournament-detail1">Team Size: 5-1</p>
+        <p className="tournament-detail1">Game: {linkObject.game}</p>
+        <p className="tournament-detail1">Team Size: {linkObject.teamsize} </p>
       </div>
       <div className="tournament-container1">
-        <p className="tournament-detail1">Prize Pool: 1,00,000 INR</p>
-        <p className="tournament-detail1">Format: Single Elimination</p>
+        <p className="tournament-detail1">Prize Pool: {linkObject.prize}</p>
+        <p className="tournament-detail1">Format: {linkObject.format}</p>
       </div>
       <div className="tournament-container1">
-        <p className="tournament-detail1">Registration Start: August 31st, 2024, 12:00 PM</p>
-        <p className="tournament-detail1">Registration End: September 4th, 2024, 4:00 PM</p>
+        <p className="tournament-detail1">Registration Start: {linkObject.registerstart}</p>
+        <p className="tournament-detail1">Registration End: {linkObject.registerend} </p>
       </div>
       <div className="tournament-container1">
-        <p className="tournament-detail1">Tournament Start: September 9th, 2024</p>
-        <p className="tournament-detail1">Tournament End: September 15th, 2024</p> 
+        <p className="tournament-detail1">Tournament Start: {linkObject.tournamentstart}</p>
+        <p className="tournament-detail1">Tournament End: {linkObject.tournamentend}</p> 
       </div>     
  
       <hr className='white-line' />

@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.main-background {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+
+.home-heading {
+    position: absolute;
+    color: aliceblue;
+    top: 5px;
+    left: 5px;
+}
+
+
+.home-paragraph, .home-paragraph2 {
+    color: #fff;
+    font-family: italic;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.home-paragraph {
+    font-size: 35px;
+}
+
+.home-paragraph2 {
+    font-size: 20px;
+}
+
+
+.homepage-btn {
+    border: 1px solid #FFE77D;
+    background-color: #FFE77D;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.paragraph-container {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}
+
+.tournament-main-title, .tournament-main-title2 {
+    text-align: center;
+    color: #FFE77D;
+}
+
+.tournament-main-title {
+    padding: 5px;
+    margin-top: 230px;
+}
+
+.tournament-main-title2 {
+    padding: 60px;
+}
+
+
+.tournament-maincard-container {
+    min-height: 2100px; 
+    margin-bottom: 0 !important;
+    background-color: rgb(8, 2, 53);
+}
+
+
+.App {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.space {
+    height: 20px;
+}
+
+
+.esport-card-container-youtube {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    margin-top: 0 !important;
+}
+
+
+
+@media (max-width: 768px) {
+    .main-background {
+        height: 600px;
+    }
+
+    .home-paragraph {
+        font-size: 28px;
+    }
+
+    .home-paragraph2 {
+        font-size: 18px;
+    }
+
+    .paragraph-container {
+        top: 250px;
+        left: 20px;
+    }
+
+    .tournament-main-title {
+        margin-top: 180px;
+    }
+
+    .App {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .main-background {
+        height: 500px;
+    }
+
+    .home-heading {
+        top: 10px;
+        left: 10px;
+    }
+
+    .home-paragraph {
+        font-size: 24px;
+    }
+
+    .home-paragraph2 {
+        font-size: 16px;
+    }
+
+    .homepage-btn {
+        width: 80px;
+        padding: 8px;
+    }
+
+    .paragraph-container {
+        top: 200px;
+        left: 10px;
+    }
+
+    .tournament-main-title {
+        font-size: 18px;
+        padding: 5px;
+        margin-top: 150px;
+    }
+
+    .tournament-main-title2 {
+        padding: 30px;
+    }
+
+    .App {
+        width: 100%;
+        height: auto;
+    }
+
+    .esport-card-container-youtube {
+        flex-direction: column;
+    }
+}
