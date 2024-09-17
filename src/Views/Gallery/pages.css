@@ -1,3 +1,7 @@
+.teamhome{   
+  background-color: #531374;
+  width: 100%;
+}
 .teamcard{
     width: 200px;
     border: 1px solid grey;
@@ -6,9 +10,13 @@
     margin: 10px;
     box-shadow:0 0 10px black ;
   }
-  .teamcard{
-    box-shadow: 0 0 10px rgb(200, 200, 200);
-  }
+  .teamcard:hover{
+    background-color: #9f22D6;
+    position: relative;
+    bottom: 5px;
+    box-shadow:0 0 10px #fff ;
+
+}
   
   .team-name{
     text-align: center;

@@ -2,7 +2,7 @@ import React from 'react'
 import "../pages.css"
 function teamsHome({imgUrl,name,desc}) {
   return (
-  
+    <div className='teamhome'>
     <div className='teamcard'>
         <img className='team-image'
         src={imgUrl}/>
@@ -10,6 +10,7 @@ function teamsHome({imgUrl,name,desc}) {
         {name}
     </h1>
     <p>{desc}</p>
+    </div>
     </div>
   )
 }
