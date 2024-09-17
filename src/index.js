@@ -15,6 +15,10 @@ import Past1 from './Components/Tournaments/tournamentsinfo/past/past1.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact.js"
+import Login from "./Views/Login/login.js"
+import Gallery from "./Views/Gallery/gallery.js"
+import Gocard from "./Views/Gocart/gocart.js"
+
 
 
 
@@ -37,6 +41,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   {
     path:"/tournament",
     element:<Tournament/>
+   },
+   {
+    path:"/gallery",
+    element:<Gallery/>
+   },
+   {
+    path:"/gocard",
+    element:<Gocard/>
+   },
+   {
+    path:"/login",
+    element:<Login/>
    },
    {
     path:"/upcoming",
@@ -68,6 +84,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"/shop",
     element:<Shop/>
   },
+  {
+    path:"/productcard",
+    element:<Productcard/>
+  },
+
   {
     path:"/about",
     element:<About/>

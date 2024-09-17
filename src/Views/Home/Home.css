@@ -36,14 +36,14 @@ body {
 
 
 .homepage-btn {
-    border: 1px solid #FFE77D;
-    background-color: #FFE77D;
+    border: 1px solid #9c1bd3;
+    background-color: #9c1bd3;
+    color: #ffe77d;
     padding: 10px;
     border-radius: 20px;
     width: 100px;
     margin: 10px;
     text-align: center;
-    color: #000;
     text-decoration: none;
 }
 

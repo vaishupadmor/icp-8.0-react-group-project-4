@@ -15,7 +15,7 @@
 
 
 .esport-card {
-    background-color: purple;
+    background-color: rgb(8, 2, 53);
     border: 1px solid black;
     width: 260px;
     height: 320px;
@@ -77,7 +77,9 @@
 }
 
 .esport-card-button {
-    border: 1px solid tomato;
+    border: 1px solid #9c1bd3;
+    background-color: #9c1bd3;
+    color: rgb(243, 243, 98);
     padding: 5px;
     border-radius: 10px;
     position: absolute;
