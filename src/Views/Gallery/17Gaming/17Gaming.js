@@ -1,7 +1,7 @@
 import React from 'react'
-import "../pages.css"
-import Teams from "./teamsHome"
-import { TEAMS } from '../data.js'
+import "./../pages.css"
+import GamingHome from "./17GAmingHome.js"
+import { TEAM17GAMING } from '../data.js'
 
 
 function teams() {
@@ -10,8 +10,8 @@ function teams() {
         <h1 className='team-heading'>Teams Tournaments</h1>
         <div className='teams-container'>
    
-   {TEAMS.map((teamdetails)=>{
-        return   <Teams
+   {TEAM17GAMING.map((teamdetails)=>{
+        return   <GamingHome
         imgUrl={teamdetails.imgUrl}
         name={teamdetails.name}
         

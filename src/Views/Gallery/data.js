@@ -1,29 +1,49 @@
-const MAIN_TITLE="Bhagwati Mata"
-
-const THEME={
-    main: "#eff0f3",
-    highlight: "#6699ff",
-    secondary: "#ff5e78",
-    dark: "#0d0d0d"
-}
-
-const BUTTON="button "
-
-const PRODUCTS=[
+const TEAMS=[
+  {
+      name: '17Gaming',
+      imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240418/4hdPxuri.png',
+    },
     {
-      imgUrl:"https://media.istockphoto.com/id/1951940755/photo/close-up-image-of-indian-breakfast-dish-buffet-triangular-slices-of-aloo-parathas-on-white.jpg?s=612x612&w=0&k=20&c=mpfR51deNx7O621f4q1y_9Fh6sPx5oy7Iz2N1DrvxjQ=",
-      title:"Aalu paratha",
-        description:"Yammi paratha",
-         isVeg :true,
-        price:150
-    }
-   
-  
-  ]
+      name: 'Four Angry Men',
+      imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240418/vll3G4ZY.png',
+    },
+    {
+      name: 'Gen.G',
+      imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240314/RKlcpVuP.png',
+    },
+    {
+        name: 'CERBERUS Esports',
+        imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240322/ysMVNYKb.png',
+      },
+      {
+        name: 'Petrichor Road',
+        imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240418/2euAdQi0.png',
+      }
+]
 
-  export {
-    PRODUCTS,
-    MAIN_TITLE,
-    THEME,
-    BUTTON
+
+const TEAM17GAMING = [
+  {
+    name: 'Lilghost',
+    imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240418/JlVpevZB.png',
+   },
+  {
+    name: 'Shou',
+    imgUrl: 'https://wstatic-prod-boc.krafton.com/common/player/20240519/m1xGxDpj/shou.png',
+  
+  },
+  {
+    name: 'SuJiu',
+    imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240418/NcPKBd1X.png',
+  },
+  {
+    name: 'Xbei',
+    imgUrl: 'https://wstatic-prod-boc.krafton.com/entry/player/20240418/k92Cl8fS.png',
   }
+];
+
+
+export {
+  TEAMS,
+  TEAM17GAMING
+}
