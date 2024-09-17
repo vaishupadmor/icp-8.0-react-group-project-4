@@ -1,14 +1,4 @@
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-   background-color: rgb(8, 2, 53);
-
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -24,11 +14,23 @@ form{
     margin: 10px;
 }
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-color: rgb(8, 2, 53);
+
+}
+
+
 .heading{
     text-align: center;
     font-size: 35px;
     margin: 0;
     padding: 0;
+    color: black;
     font-family: 'Courier New', Courier, monospace
     
 }
@@ -36,4 +38,21 @@ form{
 .input-box{
     margin: 15px;
 
+}
+.field{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+
+}
+.message{
+    height: 100px;
+    resize: none;
 }
