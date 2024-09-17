@@ -90,3 +90,15 @@ label {
     padding: 40px;
 
 } 
+
+.address{
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+.main-info{
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
