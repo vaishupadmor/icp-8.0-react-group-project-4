@@ -1,18 +1,18 @@
 import React from 'react';
 import "./gallery.css"
 import { Link } from 'react-router-dom';
-import { products } from './../config/data';
+import { TEAMS } from './../../Config/gallerydata';
 
 
 
 function Tournament() {
   return (
     <div className='cart-container'>
-    {products.map((productItem, index) => (
+    {TEAMS.map((team, index) => (
       <div className='cart' key={index}>
-        <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
+        <img src={team.imgUrl} alt={team.title} className='cart-img' />
        
-        <h2 className='teamname'>{productItem.name}</h2>
+        <h2 className='teamname'>{team.name}</h2>
      
       </div>
     ))}
