@@ -52,7 +52,27 @@ form{
     margin-top: 5px;
 
 }
+label{
+    color: black;
+}
 .message{
     height: 100px;
     resize: none;
+}
+
+.btn{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(8, 2, 53);
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 800px;    
+}
+.btn:hover{
+    background-color: rgb(38, 18, 189);
 }
