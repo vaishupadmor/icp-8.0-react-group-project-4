@@ -28,9 +28,9 @@ function Footer() {
         </div>
         <div className='footer-main-1'>
           <h3 className='footer-head'> Quick Links</h3>
-          <span> <a href='' className='footer-links'> contact us </a></span>
+          <span> <a href='./Views/Contact/Contact.js' className='footer-links'> contact us </a></span>
           <span> <a href='' className='footer-links'> follow us</a></span>
-          <span> <a href='' className='footer-links'> About us</a></span>
+          <span> <a href='./Views/About/About.js' className='footer-links'> About us</a></span>
         </div>
         <div className='footer-main-1'>
           <h3 className='footer-head'> connect with us</h3>
