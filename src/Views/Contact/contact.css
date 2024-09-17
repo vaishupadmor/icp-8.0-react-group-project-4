@@ -1,4 +1,10 @@
-.heading{
-    text-align: center;
-    
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-color: rgb(8, 2, 53);
+
 }
