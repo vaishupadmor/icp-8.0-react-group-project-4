@@ -1,6 +1,6 @@
 import React from 'react'
 import "../pages.css"
-function teamsHome({imgUrl,name,desc}) {
+function teamsHome({imgUrl,name}) {
   return (
     <div className='teamhome'>
     <div className='teamcard'>
@@ -9,7 +9,6 @@ function teamsHome({imgUrl,name,desc}) {
     <h1 className='team-name'>
         {name}
     </h1>
-    <p>{desc}</p>
     </div>
     </div>
   )

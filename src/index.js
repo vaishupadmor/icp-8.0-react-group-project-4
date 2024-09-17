@@ -2,17 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from "./Views/home/home.js";
+import Home from "./Views/Home/home.js";
 import LearnMore from './Views/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
-
-import Tournament from './Components/Tournaments/tournament';
-import Upcoming from './Config/upcoming.js';
-import Past from './Config/past.js';
-import Ongoing from './Config/ongoing.js';
+import Tournament from './Components/Tournaments/tournament.js';
+import Upcoming from './Components/Tournaments/upcoming/upcoming.js'
+import Past from './Components/Tournaments/past/past.js';
+import Ongoing from './Components/Tournaments/ongoing/ongoing.js';
 import Ongoing1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
 import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
-import Past1 from './Components/Tournaments/tournamentsinfo/past/past1';
+import Past1 from './Components/Tournaments/past/past.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
 
