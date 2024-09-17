@@ -14,6 +14,7 @@ import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcomin
 import Past1 from './Components/Tournaments/past/past.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
+import Contact from "./Views/Contact/Contact.js"
 
 
 
@@ -70,6 +71,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   {
     path:"/about",
     element:<About/>
+  },
+  {
+    path:"/contact",
+    element:<Contact/>
   },
   {
     path:"*",
