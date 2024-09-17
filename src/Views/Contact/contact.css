@@ -88,7 +88,8 @@ label {
     background-color: #fff;
     margin: 30px;
     padding: 40px;
-
+    border-radius: 10px;
+    
 } 
 
 .address{
@@ -98,6 +99,7 @@ label {
 }
 .main-info{
     margin: 10px;
+    color: black;
     border: 1px solid black;
     text-align: center;
     align-items: center;
