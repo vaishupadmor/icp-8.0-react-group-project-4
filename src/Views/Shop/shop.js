@@ -2,6 +2,8 @@ import React from 'react'
 import './shop.css'
 import Imgs from './shopimgs/5258892.jpg'
 import { Link } from 'react-router-dom'
+import  Product from './../../Components/Productcard/productcard'
+import {Shopcard} from './../../Config/shopcard'
 const Card = () => {
     return (
         <div className='card-shop'>
@@ -12,6 +14,7 @@ const Card = () => {
                 <Link to="/cart" className='cart-btnshop'>Learn More</Link>
 
             </div>
+
         </div>
 
     )
@@ -27,6 +30,20 @@ const Cardintro = ({ defineN, defineI, imgurl }) => {
         </div>
     )
 }
+const Feature =[
+    {
+        defineN:'💯% cotton',
+        defineI:'Our products are made with premium 100% cotton, offering exceptional comfort, breathability',
+        imgurl:'https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg'
+    },
+    {
+        defineN:'💯% cotton',
+        defineI:'Our products are made with premium 100% cotton, offering exceptional comfort, breathability',
+        imgurl:'https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg'
+    }
+
+]
+
 function shop() {
     return (
         <div>
@@ -34,17 +51,37 @@ function shop() {
             <div className='intro-container'>
                 <Card className='cards-shop' />
                 <div className='define-container'>
-                    <Cardintro defineN="💯% cotton" defineI="Our products are made with premium 100% cotton, offering exceptional comfort, breathability" imgurl="https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg" />
-                    <Cardintro defineN="💯% cotton" defineI="Our products are made with premium 100% cotton, offering exceptional comfort, breathability" imgurl="https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg" />
+             
+                    {
+                        Feature.map((feature)=>{
+                            const {defineN,defineI,imgurl}=feature;
+                            return(
+                                <Cardintro defineN={defineN} defineI={defineI} imgurl={imgurl} />
+                            )
+                        }
+
+                        )
+                    }
+                   
                 </div>
                
             </div>
             <div className='shop-container'>
-            <h1 className='title-shop'>Shop Now and Conquer</h1>
+            <div class="title-games">PRODUCT DETAIL</div>
             </div>
-            
-        </div>
+            <div className='product-container'>
+                {
+                    Shopcard.map((shopcard)=>{
+                        const{name,price,imgurl,description}=shopcard;
+                        return(
+                            <Product name={name} price={price} imgurl={imgurl} description={description} />
+                        )
+                    })
+                }
 
+            </div>
+            <Link to="/gocart" className='cart-btnshop'>add to Cart</Link>
+        </div>
     )
 }
 
