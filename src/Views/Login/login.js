@@ -1,5 +1,4 @@
 import react from "react";
-import "./login.css";
 
 
 const login = () => {
