@@ -39,6 +39,7 @@ function Contact() {
       </form>
       <div className='address-container'>
           <h1 className='heading'>Get in Touch</h1>
+          <div className='container'>
           <div className='main-info'>location
             <img src="https://www.shutterstock.com/image-vector/location-icon-isolated-on-white-600nw-2433352449.jpg" className='address'></img>
           </div>
@@ -48,6 +49,7 @@ function Contact() {
           </div>
           <div className='main-info'>Contact
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvIH0qQEwp_XV51RMqRW30rtrLvU0EI9wTg&s" className='address call'></img>
+          </div>
           </div>
           </div>
 
