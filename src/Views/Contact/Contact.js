@@ -56,7 +56,7 @@ PinCode: 110001</p>
          
           <div className='main-info'>Email
             <br/>
-            <p></p>
+            <p>esports@gmail.com</p>
             <img src={email} className='address'></img>
           </div>
           <div className='main-info'>Contact<br/>
