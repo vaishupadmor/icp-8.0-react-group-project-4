@@ -3,11 +3,13 @@ body{
 }
 .main{
     margin: 50px auto;
-    width: 25%;
-    background-color: whitesmoke;
+    width: 35%;
+    background-color: white;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    color: black;
+    font-size: 22px;
 }
 .mainform .inputgroup{
     width: 100%;
