@@ -1,6 +1,10 @@
 import React from 'react'
 import "./contact.css"
 import toast, { Toaster } from "react-hot-toast"
+import email from "./icons8-email-64.png"
+import mobile from "./icons8-contact-48.png"
+import location from "./icons8-location-50.png"
+
 
 function Contact() {
   return (
@@ -40,15 +44,15 @@ function Contact() {
       <div className='address-container'>
           <h1 className='heading'>Get in Touch</h1>
           <div className='container'>
-          <div className='main-info'>location
-            <img src="https://www.shutterstock.com/image-vector/location-icon-isolated-on-white-600nw-2433352449.jpg" className='address'></img>
+          <div className='main-info'>Location
+            <img src={location} className='address'></img>
           </div>
          
           <div className='main-info'>Email
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVTRm8o5NhQEbDK3ngLdZUwSgcM7wIUD9c8w&s" className='address'></img>
+            <img src={email} className='address'></img>
           </div>
           <div className='main-info'>Contact
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvIH0qQEwp_XV51RMqRW30rtrLvU0EI9wTg&s" className='address call'></img>
+        <img src={mobile} className='address call'></img>
           </div>
           </div>
           </div>
