@@ -1,11 +1,13 @@
 body{
    margin: 0;
    padding: 0;
+   background-color: rgb(8, 2, 53);
 
 }
 .main{
-    background-color: darkblue;
     background-image: url(img2.jpg);
+    background-color: rgb(8, 2, 53);
+
     background-size: 100%;
     margin: 50px auto;
     width: 33%;
