@@ -2,6 +2,8 @@ import react from "react";
 import "./login.css";
 
 
+
+
 const login = () => {
     return (
         <div className="main">
@@ -19,12 +21,11 @@ const login = () => {
                     </input>
 
                     <label htmlFor="password">Password:</label>
-                    <input type="password"id="password"autoComplete="off"placeholder="Enter your name">
+                    <input type="password"id="password"autoComplete="off"placeholder="Enter your password">
 
                     </input>
                     <button type="submit" class="btn btn-success">Login</button>
-
-              </div>
+            </div>
             </form>
             <div className="login">
                <p>
@@ -33,8 +34,9 @@ const login = () => {
                <button type="submit" class="btn btn-primary">Login</button>
 
             </div>
-        </div>
+        </div>   
     );
+    
 }
 
 export default login
