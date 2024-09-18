@@ -9,9 +9,11 @@ form {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: .2px .2px 10px white;
+    box-shadow: .9px .9px 10px white;
     margin: 10px;
     background: rgba(0, 0, 0, 0.6);
+    background-image: url(bgimg.jpeg);
+    
 }
 
 .contact {
@@ -31,7 +33,7 @@ form {
     padding: 0;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #9F22D6;
+    
     width: 70%;
     height: 50px;
 
@@ -71,7 +73,7 @@ label {
 .btn {
     width: 30%;
     height: 40px;
-    background-color: rgb(8, 2, 53);
+    background-color: blueviolet;
     color: #fff;
     font-size: 20px;
     display: block;
@@ -83,9 +85,7 @@ label {
     font-weight: 800px;
 }
 
-.btn:hover {
-    background-color: rgb(38, 18, 189);
-}
+
 
 .address-container {
     display: flex;
@@ -118,7 +118,7 @@ label {
     border: 1px solid white;
     text-align: center;
     align-items: center;
-    box-shadow: .2px .2px 10px rgb(147, 137, 137);
+    box-shadow: .5px .5px 10px rgb(147, 137, 137);
     border-radius: 6px;
     color: #000;
     height: 130px;
