@@ -1,11 +1,8 @@
-*{
 
-  font-family: cursive;
-
-}
 .aboutcontainer{
     width: 100%;
     height: 700px;
+    font-family: cursive;
    
    
 }
@@ -20,6 +17,7 @@
     border-radius: 10px;
     background-color: #9F22D6;
     color: #ffe77d;
+    font-family: cursive;
 }
 
 .aboutcontainer::before {
@@ -49,6 +47,7 @@
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    font-family: cursive;
 
   }
   
@@ -56,12 +55,13 @@
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+    font-family: cursive;
   }
   .Abcardcontainer{
     margin: 110px auto;
     width: 100%;
     width: 70%;
-    border: 1px solid red;
+    font-family: cursive;
     
   }
   
