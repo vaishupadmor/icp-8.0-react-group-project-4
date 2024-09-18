@@ -8,7 +8,9 @@ function Tournament() {
     return (
         <>
       <Navbar/>
-          <Services />
+        <div className='galleryHome'>
+        <Services />
+        </div>
         
         </>
     )
