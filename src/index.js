@@ -17,7 +17,7 @@ import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact.js"
 import Login from "./Views/Login/login.js"
 import Gallery from "./Views/Gallery/gallery.js"
-import Gocard from "./Views/Gocart/gocart.js"
+import Gocart from "./Views/Gocart/gocart.js"
 
 
 
@@ -46,8 +46,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Gallery/>
    },
    {
-    path:"/gocard",
-    element:<Gocard/>
+    path:"/gocart",
+    element:<Gocart/>
    },
    {
     path:"/login",
