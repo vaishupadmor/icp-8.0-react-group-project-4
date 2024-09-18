@@ -1,5 +1,6 @@
 import react from "react";
 import "./login.css";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -24,7 +25,7 @@ const login = () => {
                     <input type="password"id="password"autoComplete="off"placeholder="Enter your password">
 
                     </input>
-                    <button type="submit" class="btn btn-success">Login</button>
+                    <button type="submit" class="btn btn-success" >Login</button>
             </div>
             </form>
             <div className="login">

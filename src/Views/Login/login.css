@@ -1,6 +1,8 @@
 body{
     background-color: darkblue;
-    background-image: url(main-image.jpg);
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 .main{
