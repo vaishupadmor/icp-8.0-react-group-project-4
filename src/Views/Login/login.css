@@ -6,7 +6,6 @@ body{
 }
 .main{
     background-image: url(img2.jpg);
-    background-color: rgb(8, 2, 53);
 
     background-size: 100%;
     margin: 50px auto;
