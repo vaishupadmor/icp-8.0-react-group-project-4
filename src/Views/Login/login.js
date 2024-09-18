@@ -1,7 +1,7 @@
 import react from "react";
 import "./login.css";
-import { Toaster } from "react-hot-toast";
-
+import toast, { Toaster } from "react-hot-toast";
+import {Link} from "react-router-dom";
 
 
 
@@ -25,7 +25,7 @@ const login = () => {
                     <input type="password"id="password"autoComplete="off"placeholder="Enter your password">
 
                     </input>
-                    <button type="submit" class="btn btn-success" >Login</button>
+                    <Link to ="/"><button type="submit" class="btn btn-success" onClick={()=>{toast.success("login successfully😁")}}>Login</button></Link>
             </div>
             </form>
             <div className="login">
