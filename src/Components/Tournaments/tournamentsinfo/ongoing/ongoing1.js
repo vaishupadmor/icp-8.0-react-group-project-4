@@ -98,17 +98,17 @@ function ongoing1() {
       <hr className='white-line' />
       <p className='sub-title'>Information</p>
 
-      <div class="container">
-  <div class="tournament-info-container">
-    <div class="tournament-info">
+      <div className="container">
+  <div className="tournament-info-container">
+    <div className="tournament-info">
       
-      <p class="info-text">
+      <p className="info-text">
         Gear up for the TEC Showdown Series (Season 4), a premier Valorant tournament scheduled to run from September 5th to 15th. This season brings together some of the most talented teams and players from across the community, all vying for a share of the impressive 1 lakh INR prize pool. Expect to witness thrilling matches filled with nail-biting clutches, strategic gameplay, and incredible displays of skill as these top competitors battle it out for supremacy.
       </p>
-      <p class="info-text">
+      <p className="info-text">
         Season 4 promises to be an unforgettable event, with each team bringing their unique playstyle and tactics to the table. From expertly executed strategies to jaw-dropping individual performances, every match will keep you on the edge of your seat. Whether you're a die-hard Valorant fan or new to the game, this tournament is sure to deliver non-stop action and entertainment.
       </p>
-      <p class="info-text">
+      <p className="info-text">
         As the teams progress through the brackets, the stakes will only get higher, with each round bringing them one step closer to the ultimate goal: being crowned the champions of Season 4. Mark your calendars, invite your friends, and get ready to witness the best of Valorant esports. This is one event you won't want to miss!
       </p>
     </div>
