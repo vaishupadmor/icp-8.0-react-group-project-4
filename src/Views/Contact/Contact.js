@@ -1,6 +1,8 @@
 import React from 'react'
 import "./contact.css"
 import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/footer'
+
 
 import toast, { Toaster } from "react-hot-toast"
 import email from "./icons8-email-64.png"
@@ -69,6 +71,7 @@ function Contact() {
 
       <Toaster />
     </div>
+    <Footer/>
     </div>
   )
 }
