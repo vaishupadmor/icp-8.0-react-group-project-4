@@ -1,12 +1,12 @@
 import React, { useState,useEffect } from 'react'
 import "./Home.css"
-import Homecard from '../../Components/HomeCards/homecard'
+import Homecard from '../../Components/HomeCards/Homecard'
 import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/data'
-import Footer from "../../Components/Footer/footer"
-import TopTournament from '../../Components/TopTournament/toptournament'
+import Footer from "../../Components/Footer/Footer"
+import TopTournament from '../../Components/TopTournament/TopTournament'
 import { TOURNAMENTS } from '../../Config/data1'
 import { Link } from 'react-router-dom'
-import ImageSlider from '../../Components/ImgSlider/imgslider'
+import ImageSlider from '../../Components/ImgSlider/ImgSlider'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
 import { useSpring, a } from '@react-spring/web'
@@ -47,10 +47,16 @@ return (<>
 <div className='main-background'>
 <Navbar/>
 <div className={style.container} onClick={() => set(state => !state)}>
+<div className='paragraph-container {style.container}'>
+  <p className='home-paragraph'> {TAG_LINE}</p>
+  <p className='home-paragraph2'> {TAG_LINE2}</p>
+  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
+ </div>
       <a.div
         className={`${style.c} ${style.back}`}
         style={{ opacity: opacity.to(o => 1 - o), transform }}
       />
+      
       <a.div
         className={`${style.c} ${style.front}`}
         style={{
