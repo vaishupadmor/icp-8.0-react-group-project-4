@@ -20,9 +20,14 @@ function LearnMore() {
 
         <div className='card-description-container'>
           <h2 className='card-title'>Free Fire</h2>
+          
           <p className='card-description'>
-            Free Fire is a free-to-play battle royale game developed and published by Garena for Android and iOS. It was released on 8 December 2017. It became the most downloaded mobile game globally in 2019 and has over 1 billion downloads on Google Play Store. In the first quarter of 2021 it was the highest
+          Free Fire is a free-to-play battle royale game developed and published by Garena for Android and iOS. It was released on 8 December 2017...
           </p>
+          <p className='card-description'>
+          Free Fire has emerged as one of the premiere go-to battle royale games on the mobile market, beating Call of Duty: Mobile and running close against PUBG Mobile. In your quest to be the last one standing each game, you must know how the action game functions! The game is quite simple for anyone to pick up, but it only takes a special one to master the mechanics and rise to the top of the rankings! If you’re among the latter, then this beginner’s guide will be especially handy!!!  
+          </p>
+
         </div>
       </div>
 
@@ -69,7 +74,7 @@ function LearnMore() {
         <div className='card-description-container'>
           <h2 className='card-title'>Cricket</h2>
           <p className='card-description'>
-          Recognize the goal of the game. As in most field games, the goal of cricket is to score points, called runs, against the opposing team by running from one point to another before the play can be ended or you're run out by the defenders, who are called the “fielding team.” The team at bat is called the “batting team
+            Recognize the goal of the game. As in most field games, the goal of cricket is to score points, called runs, against the opposing team by running from one point to another before the play can be ended or you're run out by the defenders, who are called the “fielding team.” The team at bat is called the “batting team
           </p>
         </div>
       </div>
