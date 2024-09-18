@@ -81,6 +81,7 @@ function LearnMore() {
 
         <div className='card-description-container'>
           <h2 className='card-title'>Cricket</h2>
+          
           <p className='card-description'>
             Recognize the goal of the game. As in most field games, the goal of cricket is to score points, called runs, against the opposing team by running from one point to another before the play can be ended or you're run out by the defenders, who are called the “fielding team.” The team at bat is called the “batting team
           </p>
