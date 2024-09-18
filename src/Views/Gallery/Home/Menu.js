@@ -47,13 +47,12 @@
 
 
 import React from 'react';
-
 const Menu = ({ setGame }) => {
   return (
     <nav className="menu">
       <span className='menu-cart' onClick={() => setGame('badminton')}>
         <img src='https://staticg.sportskeeda.com/olympics_images/ic-badminton-selected.png' className='img' />
-        <h2>Badminton</h2>
+        <h2 className='menu-heading'>Badminton</h2>
       </span>
 
       <span className='menu-cart' onClick={() => setGame('volleyball')}>
