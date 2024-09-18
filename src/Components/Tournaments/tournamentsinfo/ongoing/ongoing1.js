@@ -55,36 +55,24 @@ function ongoing1() {
 
       <p className='sub-title'>Rules</p>
       <div className='tournament-rule'>
-        <p className='rules-heading'><b>Event Information</b></p>
+        <h3 className='rules-heading'><b>Event Information</b></h3>
         <ul>
-          <li><b>Event Name:</b> TEC Showdown Series-Season 4</li>
-          <li><b>Dates:</b> 5th September – 15th September</li>
-          <li><b>Registrations:</b> 31st August – 4th September</li>
-          <li><b>Main Event:</b> 9th September - 15th September</li>
+          <li><b>Event Name:</b> {linkObject.title}</li>
+          <li><b>Dates:</b> {linkObject.tournamentstart} – {linkObject.tournamentend}</li>
+          <li><b>Registrations:</b> {linkObject.registerstart} – {linkObject.registerstart}</li>
+          <li><b>Main Event:</b> {linkObject.tournamentstart}  - {linkObject.tournamentstart} </li>
         </ul>
 
-        <p className='rules-heading'><b>Tournament Overview</b></p>
+        <h3 className='rules-heading'><b>Tournament Overview</b></h3>
         <ul>
-          <li><b>Prize Pool:</b> INR 1,00,000</li>
+          <li><b>Prize Pool:</b> INR {linkObject.prize}</li>
           <li>1st Place: INR 50,000</li>
           <li>2nd Place: INR 30,000</li>
           <li>3rd Place: INR 20,000</li>
         </ul>
-        <p>All players must reside in India. Tier 1 teams and VCSA players or teams are not allowed unless invited. Premier team slots will be locked on 8th September.</p>
+      
 
-        <p className='rules-heading'><b>Tournament Format</b></p>
-        <p>The tournament starts with single elimination brackets. The top 4 teams from the open qualifier will join the Top 4 Premier teams in Double Elimination. The Finals will be on 15th September.</p>
-
-        <p className='rules-heading'><b>Game Specific Rules</b></p>
-        <ul>
-          <li><b>Match Creation:</b> Admin will create the custom match lobby with specified settings and invite players. Matches will be played until one team accumulates 13 round wins.</li>
-          <li><b>Game Settings:</b> Party Status: Close, Map: See match details, Mode: Tournament, Cheats: Off, Default Servers: Mumbai Server.</li>
-          <li><b>Match Hosting:</b> All matches will use Custom Games (Tournament Mode) with only the tournament organizer allowed to enter the observer slot.</li>
-          <li><b>Usage of Pause Function:</b> Each team has 5 minutes of Technical Pause time. In-game pause is for tactical purposes only.</li>
-          <li><b>Disconnections:</b> Disconnection proof must be in video form. Teams have 10 minutes to reconnect; otherwise, the match continues 4 v 5.</li>
-        </ul>
-
-        <p className='rules-heading'><b>General Rules</b></p>
+        <h3 className='rules-heading'><b>General Rules</b></h3>
         <ul>
           <li>No sharing of accounts or aliases. Violations lead to disqualification.</li>
           <li>Substitutes allowed. Final roster is locked after tournament starts. Only 1 change is allowed for LAN events.</li>
@@ -92,16 +80,7 @@ function ongoing1() {
           <li>Players must be 16 years or older.</li>
         </ul>
 
-        <p className='rules-heading'><b>Gameplay</b></p>
-        <ul>
-          <li>Players moving outside map boundaries may forfeit the game.</li>
-          <li>Use only specified weapon versions. No re-balancing or restricted items.</li>
-          <li>Report any issues with ADS to a Tournament Official immediately.</li>
-          <li>Only registered team members and officials may be in the match lobby.</li>
-          <li>Matches must continue if a player lags out after 30 seconds unless specified otherwise.</li>
-        </ul>
-
-        <p className='rules-heading'><b>Match Procedures</b></p>
+        <h3 className='rules-heading'><b>Match Procedures</b></h3>
         <ul>
           <li>Lineup must be reported 30 minutes before game time.</li>
           <li>Map veto conducted on mapban.gg.</li>
@@ -109,17 +88,7 @@ function ongoing1() {
           <li>Winning captain posts a screenshot of the end game scoreboard on discord.</li>
         </ul>
 
-        <p className='rules-heading'><b>Match Protests</b></p>
-        <ul>
-          <li>Protests for incorrect settings or high pings must include detailed evidence and be communicated via discord.</li>
-          <li>Only Team Captains can raise protests. Misbehavior during protests will lead to dismissal and potential disqualification.</li>
-        </ul>
-
-        <p className='rules-heading'><b>LevelUp Leaderboard</b></p>
-        <ul>
-          <li>Points awarded for match wins, map plays, kills, assists, MVPs, and tournament progression.</li>
-          <li>Bonus points for Premier and Collegiate teams. Penalties for disruptive behavior.</li>
-        </ul>
+        
       </div>
 
       <div className='countries-section'>
@@ -127,7 +96,7 @@ function ongoing1() {
         <img src={Flag} alt='flag' className='flag' />
       </div>
       <hr className='white-line' />
-      <h2 class="info-title">Information</h2>
+      <p className='sub-title'>Information</p>
 
       <div class="container">
   <div class="tournament-info-container">
