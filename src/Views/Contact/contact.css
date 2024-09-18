@@ -22,6 +22,7 @@ form {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-top: 100px;
     background-color: rgb(8, 2, 53);
 
 }
