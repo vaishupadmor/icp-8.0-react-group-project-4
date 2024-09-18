@@ -1,5 +1,7 @@
 import React from 'react'
 import "./contact.css"
+import Navbar from '../../Components/Navbar/Navbar'
+
 import toast, { Toaster } from "react-hot-toast"
 import email from "./icons8-email-64.png"
 import mobile from "./icons8-contact-48.png"
@@ -8,6 +10,8 @@ import location from "./icons8-location-50.png"
 
 function Contact() {
   return (
+    <div>
+    <Navbar/>
     <div className='contact'>
       <form>
         <h2 className='heading'>Contact Form</h2>
@@ -64,6 +68,7 @@ function Contact() {
           </div>
 
       <Toaster />
+    </div>
     </div>
   )
 }
