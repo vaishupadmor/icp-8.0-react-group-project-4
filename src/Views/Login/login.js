@@ -2,6 +2,8 @@ import react from "react";
 import "./login.css";
 
 
+
+
 const login = () => {
     return (
         <div className="main">
@@ -23,8 +25,7 @@ const login = () => {
 
                     </input>
                     <button type="submit" class="btn btn-success">Login</button>
-
-              </div>
+            </div>
             </form>
             <div className="login">
                <p>

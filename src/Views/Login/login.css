@@ -1,15 +1,17 @@
 body{
     background-color: darkblue;
+    background-image: url(main-image.jpg);
+
 }
 .main{
+
     margin: 50px auto;
-    width: 35%;
+    width: 33%;
     background-color: white;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
     color: black;
-    font-size: 22px;
 }
 .mainform .inputgroup{
     width: 100%;
@@ -33,7 +35,12 @@ body{
 .login .btn.btn-primary{
     width: 50%;
     background-color: blueviolet;
+    font-size: medium;
     
+}
+.login .btn.btn-primary:hover{
+    cursor: pointer;
+    transition: 1s;
 }
 h2{
     text-align: center;
@@ -46,5 +53,10 @@ h2{
 }
 .inputgroup .btn.btn-success{
     background-color: blueviolet;
+    font-size: medium;
 
+}
+.inputgroup .btn.btn-success:hover{
+    cursor: pointer;
+    
 }
