@@ -1,16 +1,17 @@
 import React from 'react'
-import "./../pages.css"
-function GamingHome({imgUrl,name}) {
+
+function BadmintonHome({imgUrl,name}) {
   return (
-  
-    <div className='teamcard'>
+  <div className='teamcard'>
+    <div >
         <img className='team-image'
         src={imgUrl}/>
     <h1 className='team-name'>
         {name}
     </h1>
     </div>
+    </div>
   )
 }
 
-export default GamingHome
+export default BadmintonHome
