@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.css"
 import Abcard from '../../Components/AboutCards/Abcard'
 import Footer from '../../Components/Footer/footer'
+import Navbar from '../../Components/Navbar/Navbar'
 
 
 
@@ -43,9 +44,13 @@ const cards = [
 
 function About() {
     return (
+        
         <div>
+           
+           <Navbar/>
 
             <div className='aboutcontainer'>
+           
 
                 <div className='aboutcontent'>
 
