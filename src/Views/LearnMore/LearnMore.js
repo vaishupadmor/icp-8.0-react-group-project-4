@@ -62,7 +62,11 @@ function LearnMore() {
         <div className='card-description-container'>
           <h2 className='card-title'>Pubg</h2>
           <p className='card-description'>
-            Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover.
+          A version for the Stadia streaming platform was released in April 2020, with Xbox Series X/S and PlayStation 5 versions being released in November 2020. The game has been free-to-play for all platforms since January 12, 2022... 
+          </p>
+
+          <p className='card-description'>
+           Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover!!!
           </p>
         </div>
       </div>
