@@ -14,7 +14,7 @@ function Homecard({imgUrl,title,description,FollowUs}) {
         <div className='esport-card-description'>
         <h1 className='esport-card-name'> {title}</h1>
         <p > {description}</p>
-       <Link to={`/${id}`}>  <button className='esport-card-button'> {FollowUs}</button></Link>
+        <button className='esport-card-button'> {FollowUs}</button>
         </div>
         
     </div>
