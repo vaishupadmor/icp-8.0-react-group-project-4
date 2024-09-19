@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Hello from '../../Home/h1';
-import Badminton from '../../Badminton/Badminton';
+import Badminton from '../../Teams/TotalGaming';
 import Menu from '../Menu';
+import VolleyBall from '../../Teams/Vitality';
 
 const Services = () => {
   const [game, setGame] = useState(null);
@@ -13,7 +14,7 @@ const Services = () => {
       case 'volleyball':
         return <h1>Volley bAll</h1>;
       case 'basketball':
-        return <h1>BasketBall</h1>;
+        return <VolleyBall/>;
       case 'football':
         return <h1>Foot Ball</h1>;
       case 'tennis':
