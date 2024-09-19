@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import Abcard from '../../Components/AboutCards/Abcard'
-import Footer from '../../Components/Footer/footer'
+import Footer from '../../Components/Footer/Footer1'
 import Navbar from '../../Components/Navbar/Navbar'
 
 
