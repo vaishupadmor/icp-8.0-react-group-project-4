@@ -1,19 +1,23 @@
 const TOURNAMENTS = [
   {
-      imgUrl:"https://liquipedia.net/commons/images/b/bf/Fozy.png",
-      title:"Rohit",
+      imgUrl:"https://www.esportsearnings.com/images/unknown_player.png",
+      title:"Kaushal Jaiswal",
   },
   {
-      imgUrl:"https://skyesports.in/assets/img/count.jpg",
-      title:"Skyesports Championship",
+      imgUrl:"https://staticg.sportskeeda.com/editor/2021/05/de246-16218496560939-800.jpg?w=640",
+      title:"Ocean Sharma",
   },
   {
-      imgUrl:"https://cdn.eslgaming.com/misc/media/india/india/premiership2020/eslplay/winter/india-premiership-main-winter.jpg",
-      title:"ESL India Premiership",
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXOkwBnXY6hsKu9pezNKRMOie1ndAY26LAA&s",
+      title:"Rahul Dhankhar",
   },
   {
-      imgUrl:"https://www.gosugamers.in/wp-content/uploads/2024/02/iQOO-India-League-BGMI-1-1024x576.jpg",
-      title:"India League LAN Tournament (BGMI India League)",
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGHQ8SYxfmmVhCs6ll-LAmS4jRqVpdeV5BJw&s",
+      title:"Jonathan Jude Amaral",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-WW8Bo9btJbah2s2kO4MLVDfmvHPekvN3A&s",
+      title:"Abhishek Choudhary",
   }
 ]
 
@@ -59,7 +63,53 @@ const TEAMVOLERTY = [
   }
 ]
 
+//SOUL TEAM
+const SOUL = [
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6pj3ZK6LEOObhC_5IbUzHdiuRayuKuB3Qzw&s",
+      title:"Subham Ranjan Sahoo",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-9rO9ypsZFB7vo51jz1uGOGlMntLWtufpZQ&s",
+      title:"Shubham Chawla",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2BfITqhZlZHKT5EXFZC1K5vKeXH91hS4Tg&s",
+      title:"Aman Jain",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCqZjlwUq_I-KQaeyTnBDltgQlNZGRufuLQ&s",
+      title:"Naman Sandeep Mathur",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKhdLTsdGUCc7fhonh2Ri_PILNN_Sf3e9axw&s",
+      title:"Siddhant Joshi",
+  }
+]
 
+//VELOCITY GAMING
+const VELOCITY = [
+  {
+      imgUrl:"",
+      title:"Subham Ranjan Sahoo",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-9rO9ypsZFB7vo51jz1uGOGlMntLWtufpZQ&s",
+      title:"Shubham Chawla",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2BfITqhZlZHKT5EXFZC1K5vKeXH91hS4Tg&s",
+      title:"Aman Jain",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCqZjlwUq_I-KQaeyTnBDltgQlNZGRufuLQ&s",
+      title:"Naman Sandeep Mathur",
+  },
+  {
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKhdLTsdGUCc7fhonh2Ri_PILNN_Sf3e9axw&s",
+      title:"Siddhant Joshi",
+  }
+]
 
 
 
@@ -153,5 +203,6 @@ export{
     TEAMS,
     BADMINTON,
     VOLLEYBALL,
-    TEAMVOLERTY
+    TEAMVOLERTY,
+    SOUL,VELOCITY
 }  

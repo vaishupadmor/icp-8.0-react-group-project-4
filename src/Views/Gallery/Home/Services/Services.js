@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import Hello from '../../Home/h1';
-import Badminton from '../../Teams/TotalGaming';
+import TotalGaming from '../../Teams/TotalGaming';
 import Menu from '../Menu';
-import VolleyBall from '../../Teams/Vitality';
-
+import Vitality from '../../Teams/Vitality';
+import VelocityGaming from '../../Teams/velocityGaming';
+import Soul from '../../Teams/Soul';
 const Services = () => {
   const [game, setGame] = useState(null);
 
   const renderPage = () => {
     switch (game) {
-      case 'badminton':
-        return <Badminton />;
-      case 'volleyball':
-        return <h1>Volley bAll</h1>;
-      case 'basketball':
-        return <VolleyBall/>;
+      case 'totalgaming':
+        return <TotalGaming />;
+      case 'bl4ze':
+        return <Soul/>;
+      case 'Vitality':
+        return <Vitality/>;
       case 'football':
-        return <h1>Foot Ball</h1>;
+        return <VelocityGaming/>;
       case 'tennis':
         return <h1>Table Tennius</h1>; 
       case 'hockey':

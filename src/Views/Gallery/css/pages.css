@@ -11,7 +11,6 @@
     box-shadow:0 0 10px black ;
 }
 .teamcard:hover{
-    background-color: #9f22D6;
     position: relative;
     bottom: 5px;
     box-shadow:0 0 10px #fff ;
@@ -21,6 +20,7 @@
 .team-name{
     text-align: center;
     font-size: 20px;
+    
     margin: 0;
 color: rgb(255, 255, 255);
 }
