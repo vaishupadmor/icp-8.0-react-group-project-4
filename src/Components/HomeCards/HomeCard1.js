@@ -1,7 +1,8 @@
 import React from 'react'
 import "./HomeCard1.css"
+import { Link } from 'react-router-dom'
 
-function Homecard({imgUrl,title,description}) {
+function Homecard({imgUrl,title,description,FollowUs}) {
   return (
     
        <div className="esport-card">
@@ -13,7 +14,7 @@ function Homecard({imgUrl,title,description}) {
         <div className='esport-card-description'>
         <h1 className='esport-card-name'> {title}</h1>
         <p > {description}</p>
-        <button className='esport-card-button'> follow us</button>
+       <Link to={`/${id}`}>  <button className='esport-card-button'> {FollowUs}</button></Link>
         </div>
         
     </div>

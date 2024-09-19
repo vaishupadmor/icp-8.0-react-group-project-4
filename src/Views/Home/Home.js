@@ -12,7 +12,7 @@ import style from './style.module.css'
 import { useSpring, a } from '@react-spring/web'
 import Navbar from "./../../Components/Navbar/Navbar"
 import Logo from "./logo.png"
-
+import { FollowUs } from '../../Config/FollowUs'
 
 
 
@@ -106,7 +106,7 @@ return (<>
     imgUrl={Esports.imgUrl}
      title={Esports.title}
      description={Esports.description}
-    
+     FollowUs={Esports.FollowUs}
  />)
 })
 }
