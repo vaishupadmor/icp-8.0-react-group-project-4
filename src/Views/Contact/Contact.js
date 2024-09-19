@@ -1,7 +1,7 @@
 import React from 'react'
 import "./contact.css"
 import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/footer'
+import Footer from '../../Components/Footer/Footer1'
 
 
 import toast, { Toaster } from "react-hot-toast"
