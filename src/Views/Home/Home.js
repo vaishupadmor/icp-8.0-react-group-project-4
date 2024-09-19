@@ -1,18 +1,18 @@
 import React, { useState,useEffect } from 'react'
 import "./Home.css"
-import Homecard from '../../Components/HomeCards/homecard'
-import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/data'
-import Footer from "../../Components/Footer/footer"
-import TopTournament from '../../Components/TopTournament/toptournament'
-import { TOURNAMENTS } from '../../Config/data1'
+import Homecard from '../../Components/HomeCards/HomeCard1'
+import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/Data'
+import Footer from "../../Components/Footer/Footer1"
+import TopTournament from '../../Components/TopTournament/TopTournament1'
+import { TOURNAMENTS } from '../../Config/Data1'
 import { Link } from 'react-router-dom'
-import ImageSlider from '../../Components/ImgSlider/imgslider'
+import ImageSlider from '../../Components/ImgSlider/ImgSlider1'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
 import { useSpring, a } from '@react-spring/web'
 import Navbar from "./../../Components/Navbar/Navbar"
 import Logo from "./logo.png"
-
+import { FollowUs } from '../../Config/FollowUs'
 
 
 
@@ -47,10 +47,16 @@ return (<>
 <div className='main-background'>
 <Navbar/>
 <div className={style.container} onClick={() => set(state => !state)}>
+<div className='paragraph-container {style.container}'>
+  <p className='home-paragraph'> {TAG_LINE}</p>
+  <p className='home-paragraph2'> {TAG_LINE2}</p>
+  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
+ </div>
       <a.div
         className={`${style.c} ${style.back}`}
         style={{ opacity: opacity.to(o => 1 - o), transform }}
       />
+      
       <a.div
         className={`${style.c} ${style.front}`}
         style={{
@@ -100,7 +106,7 @@ return (<>
     imgUrl={Esports.imgUrl}
      title={Esports.title}
      description={Esports.description}
-    
+     FollowUs={Esports.FollowUs}
  />)
 })
 }
