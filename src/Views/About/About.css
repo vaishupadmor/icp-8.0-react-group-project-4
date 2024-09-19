@@ -66,9 +66,10 @@
     
   }
   .game-cards {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     justify-content: space-around;
 }
 
@@ -76,19 +77,30 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 200px; /* Adjust width as needed */
+    width: 220px; 
     text-align: center;
 }
 
 .game-card img {
     width: 100%;
-    height: auto;
+    height: 47%;
 }
 
 .game-card h3 {
     margin: 10px 0;
+    font-size: 20px;
 }
 
-.game-card p {
-    padding: 0 10px 10px;
+.game-card>p {
+  padding: 0 10px 10px;
+  font-size: 12px;
+  line-height: 1.4;
+ 
+ 
+}
+
+.game-card:hover{
+  transform: scale(1.05);
+  transition: 1s;
+  box-shadow: #9F22D6 0px 2px 4px 0px, #9F22D6 0px 2px 16px 0px;
 }
