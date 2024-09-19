@@ -70,14 +70,7 @@ function shop() {
             <div class="title-games">PRODUCT DETAIL</div>
             </div>
             <div className='product-container'>
-                {
-                    Shopcard.map((shopcard)=>{
-                        const{name,price,imgurl,description}=shopcard;
-                        return(
-                            <Product name={name} price={price} imgurl={imgurl} description={description} />
-                        )
-                    })
-                }
+               <Product/>
 
             </div>
             <Link to="/gocart" className='cart-btnshop'>add to Cart</Link>
