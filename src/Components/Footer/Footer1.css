@@ -6,7 +6,9 @@ body {
 
 
 .footer {
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    
+    background-image: url('https://thumbs.dreamstime.com/z/blurred-background-esports-event-main-stage-venue-big-screen-lights-start-tournament-163257801.jpg');
+    image-orientation: flip;
     color: white;
     text-align: center;
     padding: 25px;
