@@ -65,4 +65,30 @@
     font-family: cursive;
     
   }
-  
+  .game-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.game-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px; /* Adjust width as needed */
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+}
+
+.game-card h3 {
+    margin: 10px 0;
+}
+
+.game-card p {
+    padding: 0 10px 10px;
+}

@@ -26,6 +26,7 @@
     text-align: justify;
 }
 .acard:hover{
+    transform: scale(1.05);
     transition: 1s;
     box-shadow: #9F22D6 0px 2px 4px 0px, #9F22D6 0px 2px 16px 0px;
 }
