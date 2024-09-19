@@ -5,7 +5,7 @@ import trophy from '../../../img/trophy.png';
 import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../../../Config/upcoming';
-import Navbar from '../Navbar1/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 function upcoming() {
   return (
