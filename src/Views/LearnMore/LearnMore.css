@@ -4,6 +4,7 @@
     font-size: 30px;
     margin:10px;
     color:deeppink;
+    margin-top: 60px;
 }
 .card {
     display: flex;
@@ -16,12 +17,19 @@
     border-radius: 10px;
     cursor: pointer;
     margin:40px 30px;
+    object-fit: cover;
+}
+.card-img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    transform: rotate(-1deg);
+
 }
 
 .card-description-container {
     text-align: justify;
     padding: 5px 10px;
-    margin: 80px 10px;
+    margin: 90px 10px;
 }
 .game-img{
     width: 400px;
@@ -30,7 +38,23 @@
     margin:20px auto;
     border-radius: 10px;
     box-shadow: 0 0 0 10px rgba(0,0,0,0.10);
+    cursor: pointer;
+    object-fit: cover;
    
+}
+.game-img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    transform: rotate(-1deg);
+    
+}
+
+.app-title{
+    font-size:20px;
+    text-align: center;
+    font-style: italic;
+
+    
 }
 .card-title {
     font-size: 25px;
