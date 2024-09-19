@@ -23,7 +23,15 @@
     padding: 5px 10px;
     margin: 80px 10px;
 }
-
+.game-img{
+    width: 400px;
+    height:300px;
+    display: block;
+    margin:20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.10);
+   
+}
 .card-title {
     font-size: 25px;
     font-weight: bold;

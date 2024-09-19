@@ -15,7 +15,7 @@ function LearnMore() {
         alt="esports"
         className='game-img'
         />
-        <p className='card-title'>
+        <p className='app-title'>
         Put simply, esports is competitive level gaming. It's teams of people playing games against each other at a professional level, regularly winning huge sums of money as prizes. These esports players are contracted to play for a variety of different organisations, much like a football or basketball player would be.
         </p>
       </div>
