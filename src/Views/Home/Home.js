@@ -1,10 +1,10 @@
 import React, { useState,useEffect } from 'react'
 import "./Home.css"
 import Homecard from '../../Components/HomeCards/Homecard'
-import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/Data'
+import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/Data2'
 import Footer from "../../Components/Footer/Footer"
 import TopTournament from '../../Components/TopTournament/TopTournament'
-import { TOURNAMENTS } from '../../Config/Data1'
+import { TOURNAMENTS } from '../../Config/Data3'
 import { Link } from 'react-router-dom'
 import ImageSlider from '../../Components/ImgSlider/ImgSlider'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
