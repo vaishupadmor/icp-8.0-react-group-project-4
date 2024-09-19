@@ -5,11 +5,16 @@ import ImgGame from './free_fire.jpg';
 import ImgBadlandersGame from './badlanders.jpg';
 import ImgPubgGame from './pubg.jpg';
 import ImageKabaddi from './cricket.jpg';
+import ImgEsports from "./esports.jpg"
 
 function LearnMore() {
   return (
     <div>
       <div>
+        <img src={ImgEsports}
+        alt="esports"
+        className='game-img'
+        />
         <p className='card-title'>
         Put simply, esports is competitive level gaming. It's teams of people playing games against each other at a professional level, regularly winning huge sums of money as prizes. These esports players are contracted to play for a variety of different organisations, much like a football or basketball player would be.
         </p>
