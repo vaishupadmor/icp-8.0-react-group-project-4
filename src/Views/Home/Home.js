@@ -9,10 +9,10 @@ import { Link } from 'react-router-dom'
 import ImageSlider from '../../Components/ImgSlider/ImgSlider1'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
-import { useSpring, a } from '@react-spring/web'
+import { useSpring, a ,animated} from '@react-spring/web'
 import Navbar from "./../../Components/Navbar/Navbar"
 import Logo from "./logo.png"
-import { FollowUs } from '../../Config/FollowUs'
+
 
 
 
@@ -32,6 +32,8 @@ const images = [
 
 
 
+
+
 function Home() {
   
   const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
@@ -41,17 +43,20 @@ function Home() {
     transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
     config: { mass: 5, tension: 500, friction: 80 },
   })
+  const animationProps = useSpring({
+    from: { opacity: 0, transform: 'translateY(-20px)' },
+    to: { opacity: 4, transform: 'translateY(0)' },
+    config: { duration: 500 }
+  });
+
+
 return (<>
 
-
-<div className='main-background'>
 <Navbar/>
+<div className='main-background'>
+
 <div className={style.container} onClick={() => set(state => !state)}>
-<div className='paragraph-container {style.container}'>
-  <p className='home-paragraph'> {TAG_LINE}</p>
-  <p className='home-paragraph2'> {TAG_LINE2}</p>
-  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
- </div>
+
       <a.div
         className={`${style.c} ${style.back}`}
         style={{ opacity: opacity.to(o => 1 - o), transform }}
@@ -70,11 +75,15 @@ return (<>
 
 <img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 
-<div className='paragraph-container'>
-  <p className='home-paragraph'> {TAG_LINE}</p>
-  <p className='home-paragraph2'> {TAG_LINE2}</p>
-  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
- </div>
+<animated.div style={animationProps} className='paragraph-container'>
+          <p className='home-paragraph'>{TAG_LINE}</p>
+          <p className='home-paragraph2'>{TAG_LINE2}</p>
+          <Link to={"/learnmore"}>
+            <button type='button' className='homepage-btn'>Learn more</button>
+          </Link>
+ </animated.div>
+     
+
  </div>
 
 <div className='tournament-maincard-container'>
@@ -106,7 +115,8 @@ return (<>
     imgUrl={Esports.imgUrl}
      title={Esports.title}
      description={Esports.description}
-     FollowUs={Esports.FollowUs}
+     followLinks={Esports.followLinks}
+
  />)
 })
 }
