@@ -12,7 +12,7 @@ import style from './style.module.css'
 import { useSpring, a ,animated} from '@react-spring/web'
 import Navbar from "./../../Components/Navbar/Navbar"
 import Logo from "./logo.png"
-import { FollowUs } from '../../Config/FollowUs'
+
 
 
 
