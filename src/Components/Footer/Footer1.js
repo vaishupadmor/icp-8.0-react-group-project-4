@@ -1,5 +1,5 @@
 import React from 'react'
-import "./footer.css"
+import "./Footer1.css"
 import Insta from "./insta-logo.jpg"
 import FB from "./facebook-logo.jpg"
 import YT from "./youtube.png"
@@ -29,14 +29,16 @@ function Footer() {
         <div className='footer-main-1'>
           <h3 className='footer-head'> Quick Links</h3>
           <span> <a href='./Views/Contact/Contact.js' className='footer-links'> contact us </a></span>
-          <span> <a href='' className='footer-links'> follow us</a></span>
+          <span> <a href='https://github.com/vaishupadmor/icp-8.0-react-group-project-4' className='footer-links'> follow us</a></span>
           <span> <a href='./Views/About/About.js' className='footer-links'> About us</a></span>
         </div>
         <div className='footer-main-1'>
           <h3 className='footer-head'> connect with us</h3>
-          <span><a href='' className='footer-links'> <img src={Insta} alt='instagram'  className='social-media'/> </a></span>
+         <div className='socialmedia-container'>
+           <span><a href='' className='footer-links'> <img src={Insta} alt='instagram'  className='social-media'/> </a></span>
           <span> <a href='' className='footer-links'> <img src={FB} alt='facebook'  className='social-media'/> </a></span>
           <span> <a href='https://www.youtube.com/channel/UCZsozXCEvusHs4UX5wcSA_g' className='footer-links'><img src={YT} alt='youtube'  className='social-media'/> </a></span>
+          </div>
         </div>
         </div>
         <hr></hr>

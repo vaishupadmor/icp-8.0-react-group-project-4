@@ -5,8 +5,7 @@ import './Videoplayer.css'; // Import the CSS file
 const VideoPlayer = ({ videoId }) => {
   
   const opts = {
-    height: '250',
-    width: '350',
+    
     playerVars: {
       autoplay: 1,
     },
@@ -14,7 +13,7 @@ const VideoPlayer = ({ videoId }) => {
   
   return (
     <div className="video-player-container">
-      <YouTube videoId={videoId} opts={opts} />
+      <YouTube videoId={videoId} opts={opts} className='youtube'/>
     </div>
   );
 };
