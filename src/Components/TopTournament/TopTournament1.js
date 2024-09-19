@@ -1,5 +1,5 @@
 import React from 'react'
-import "./TopTournament.css"
+import "./TopTournament1.css"
 
 function TopTournament({imgUrl,title,}) {
   return (<>
