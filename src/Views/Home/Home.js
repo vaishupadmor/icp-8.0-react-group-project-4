@@ -1,15 +1,16 @@
 import React, { useState,useEffect } from 'react'
 import "./Home.css"
-import Homecard from '../../Components/HomeCards/homecard'
-import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/data'
-import Footer from "../../Components/Footer/footer"
-import TopTournament from '../../Components/TopTournament/toptournament'
-import { TOURNAMENTS } from '../../Config/data1'
+import Homecard from '../../Components/HomeCards/HomeCard1'
+import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/Data'
+import Footer from "../../Components/Footer/Footer1"
+import TopTournament from '../../Components/TopTournament/TopTournament1'
+import { TOURNAMENTS } from '../../Config/Data1'
 import { Link } from 'react-router-dom'
-import ImageSlider from '../../Components/ImgSlider/imgslider'
+import ImageSlider from '../../Components/ImgSlider/ImgSlider1'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
-import { useSpring, a } from '@react-spring/web'
+import { useSpring, a ,animated} from '@react-spring/web'
+import Navbar from "./../../Components/Navbar/Navbar"
 import Logo from "./logo.png"
 
 
@@ -31,6 +32,8 @@ const images = [
 
 
 
+
+
 function Home() {
   
   const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
@@ -40,15 +43,25 @@ function Home() {
     transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
     config: { mass: 5, tension: 500, friction: 80 },
   })
+  const animationProps = useSpring({
+    from: { opacity: 0, transform: 'translateY(-20px)' },
+    to: { opacity: 4, transform: 'translateY(0)' },
+    config: { duration: 500 }
+  });
+
+
 return (<>
 
-
+<Navbar/>
 <div className='main-background'>
+
 <div className={style.container} onClick={() => set(state => !state)}>
+
       <a.div
         className={`${style.c} ${style.back}`}
         style={{ opacity: opacity.to(o => 1 - o), transform }}
       />
+      
       <a.div
         className={`${style.c} ${style.front}`}
         style={{
@@ -62,11 +75,15 @@ return (<>
 
 <img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
 
-<div className='paragraph-container'>
-  <p className='home-paragraph'> {TAG_LINE}</p>
-  <p className='home-paragraph2'> {TAG_LINE2}</p>
-  <Link to={"/learnmore"}><button  type='button'  className='homepage-btn'> Learn more</button></Link>
- </div>
+<animated.div style={animationProps} className='paragraph-container'>
+          <p className='home-paragraph'>{TAG_LINE}</p>
+          <p className='home-paragraph2'>{TAG_LINE2}</p>
+          <Link to={"/learnmore"}>
+            <button type='button' className='homepage-btn'>Learn more</button>
+          </Link>
+ </animated.div>
+     
+
  </div>
 
 <div className='tournament-maincard-container'>
@@ -98,15 +115,16 @@ return (<>
     imgUrl={Esports.imgUrl}
      title={Esports.title}
      description={Esports.description}
-    
+     followLinks={Esports.followLinks}
+
  />)
 })
 }
 </div>
 <h1 className='tournament-main-title2'> youtube videos</h1>
-<div className='esport-card-container'>
+<div className='esport-card-container-youtube'>
       {videoIds.map((id) => (
-        <VideoPlayer key={id} videoId={id} />
+        <VideoPlayer key={id} videoId={id} className='youtube'/>
       ))}
     </div>
 </div>

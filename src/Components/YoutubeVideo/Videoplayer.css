@@ -1,0 +1,35 @@
+.video-player-container {
+    display: flex;
+    padding: 40px;
+    
+}
+
+
+.video-player-container iframe {
+    max-width: 350px;
+    height: 250px;
+}
+
+
+@media (max-width: 768px) {
+    .video-player-container {
+        padding: 10px; 
+    }
+    
+    .video-player-container iframe {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .video-player-container {
+        padding: 5px;
+    }
+    
+    .video-player-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}

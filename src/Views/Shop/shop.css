@@ -160,3 +160,12 @@ color: #FFF;
     gap: 2rem;
     flex-wrap: wrap;
 }
+.product-container{
+    background-color: #fff;
+    text-decoration: none;
+}
+.title-games{
+    font-size: xx-large;
+    padding: 20px 0;
+    text-align: center;
+}

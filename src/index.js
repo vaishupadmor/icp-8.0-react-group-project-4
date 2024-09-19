@@ -2,18 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from "./Views/Home/Home"
+import Home from "./Views/Home/Home";
 import LearnMore from './Views/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
-import Tournament from './Components/Tournaments/tournament.js';
-import Upcoming from './Components/Tournaments/upcoming/upcoming.js'
-import Past from './Components/Tournaments/past/past.js';
-import Ongoing from './Components/Tournaments/ongoing/ongoing.js';
-import Ongoing1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
-import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
-import Past1 from './Components/Tournaments/past/past.js';
+import Tournament from './Components/Tournaments/Tournament.js';
+import Upcoming from './Components/Tournaments/Upcoming/Upcoming.js'
+import Past from './Components/Tournaments/Past/Past.js';
+import Ongoing from './Components/Tournaments/Ongoing/Ongoing.js';
+import Ongoing1 from './Components/Tournaments/TournamentsInfo/Ongoing/Ongoing1.js';
+import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcoming1.js';
+import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
+import Contact from "./Views/Contact/Contact.js"
+import Login from "./Views/Login/login.js"
+import Gallery from "./Views/Gallery/gallery.js"
+import Gocart from "./Views/Gocart/gocart.js"
 
 
 
@@ -38,6 +42,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Tournament/>
    },
    {
+    path:"/gallery",
+    element:<Gallery/>
+   },
+   {
+    path:"/gocart",
+    element:<Gocart/>
+   },
+   {
+    path:"/login",
+    element:<Login/>
+   },
+   {
     path:"/upcoming",
     element:<Upcoming/>
   },
@@ -54,10 +70,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"/ongoing/:neha",
     element:<Ongoing1/>
   },
-  {
-    path:"/about",
-    element:<About/>
-  },
+  
   {
     path:"/upcoming/:neha",
     element:<Upcoming1/>
@@ -70,9 +83,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     path:"/shop",
     element:<Shop/>
   },
+  
+
   {
     path:"/about",
     element:<About/>
+  },
+  {
+    path:"/contact",
+    element:<Contact/>
   },
   {
     path:"*",
