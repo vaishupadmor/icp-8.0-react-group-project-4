@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import {products} from "../../../../Config/past"
-import './past1.css'
+import './Past1.css'
 import Flag from '../../../../img/flag.png'
 function past1() {
 

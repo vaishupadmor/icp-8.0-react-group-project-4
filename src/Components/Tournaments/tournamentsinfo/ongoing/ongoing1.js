@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import {products} from "../../../../Config/ongoing"
-import './ongoing1.css'
+import './Ongoing1.css'
 import Flag from '../../../../img/flag.png'
 function ongoing1() {
 
