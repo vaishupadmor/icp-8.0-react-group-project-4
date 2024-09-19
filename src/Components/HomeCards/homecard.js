@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Homecard.css"
+import "./HomeCard.css"
 
 function Homecard({imgUrl,title,description}) {
   return (
