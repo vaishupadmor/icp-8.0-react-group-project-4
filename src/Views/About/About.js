@@ -3,8 +3,40 @@ import "./About.css"
 import Abcard from '../../Components/AboutCards/Abcard'
 import Footer from '../../Components/Footer/Footer1'
 import Navbar from '../../Components/Navbar/Navbar'
+import GameCard from '../../Components/AboutCards/GameCard'
 
-
+const games = [
+    {
+        image: 'https://placeit-img-1-p.cdn.aws.placeit.net/uploads/stage/stage_image/40324/optimized_large_thumb_stage.jpg',
+        title: 'PUBG Mobile',
+        description: 'Take on the battlefield and outlast your opponents in this thrilling battle royale.'
+    },
+    {
+        image: 'https://miro.medium.com/v2/resize:fit:1024/0*tRcHLBwZ8R8HgjF5.png',
+        title: 'Garena Free Fire',
+        description: 'Dive into fast-paced action in this game where only the smartest and fastest players survive.'
+    },
+    {
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPWEOwwb_IOc0SJvWrrfO8ZvnjfMQwBeUWOg&usqp=CAU',
+        title: 'Call of Duty: Mobile',
+        description: 'Experience the classic CoD action with a mobile twist in a highly competitive setting.'
+    },
+    {
+        image: 'https://bcassetcdn.com/public/blog/wp-content/uploads/2020/08/14151332/header-30-gaming-logos-for-valorant-clans-brandcrowd-blog.png',
+        title: 'Valorant',
+        description: 'Show off your tactical skills in this 5v5 hero shooter that combines strategy with precision.'
+    },
+    {
+        image: 'https://thumbs.dreamstime.com/b/fortnite-logo-fortnite-logo-white-background-vector-format-available-ai-271044682.jpg',
+        title: 'Fortnite',
+        description: 'Build, battle, and survive in one of the most popular games on the planet.'
+    },
+    {
+        image: 'https://www.pngplay.com/wp-content/uploads/10/Clash-Royale-Logo-PNG-HD-Photos.png',
+        title: 'Clash Royale',
+        description: 'Strategize your way to victory in this fast-paced, real-time strategy game.'
+    }
+];
 
 const cards = [
     {
@@ -14,36 +46,14 @@ const cards = [
     {
         title: "What We Offer",
         discription: ( <div className="game-cards">
-            <div className="game-card">
-                <img src="https://placeit-img-1-p.cdn.aws.placeit.net/uploads/stage/stage_image/40324/optimized_large_thumb_stage.jpg" alt="PUBG" />
-                <h3>PUBG Mobile</h3>
-                <p>Take on the battlefield and outlast your opponents in this thrilling battle royale.</p>
-            </div>
-            <div className="game-card">
-                <img src="https://miro.medium.com/v2/resize:fit:1024/0*tRcHLBwZ8R8HgjF5.png" alt="Garena Free Fire" />
-                <h3>Garena Free Fire</h3>
-                <p>Dive into fast-paced action in this game where only the smartest and fastest players survive.</p>
-            </div>
-            <div className="game-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPWEOwwb_IOc0SJvWrrfO8ZvnjfMQwBeUWOg&usqp=CAU" alt="Call of Duty: Mobile" />
-                <h3>Call of Duty: Mobile</h3>
-                <p>Experience the classic CoD action with a mobile twist in a highly competitive setting.</p>
-            </div>
-            <div className="game-card">
-                <img src="https://bcassetcdn.com/public/blog/wp-content/uploads/2020/08/14151332/header-30-gaming-logos-for-valorant-clans-brandcrowd-blog.png" alt="Valorant" />
-                <h3>Valorant</h3>
-                <p>Show off your tactical skills in this 5v5 hero shooter that combines strategy with precision.</p>
-            </div>
-            <div className="game-card">
-                <img src="https://thumbs.dreamstime.com/b/fortnite-logo-fortnite-logo-white-background-vector-format-available-ai-271044682.jpg" alt="Fortnite" />
-                <h3>Fortnite</h3>
-                <p>Build, battle, and survive in one of the most popular games on the planet.</p>
-            </div>
-            <div className="game-card">
-                <img src="https://www.pngplay.com/wp-content/uploads/10/Clash-Royale-Logo-PNG-HD-Photos.png" alt="Clash Royale" />
-                <h3>Clash Royale</h3>
-                <p>Strategize your way to victory in this fast-paced, real-time strategy game.</p>
-            </div>
+           {games.map((game, index) => (
+                    <GameCard
+                        key={index}
+                        image={game.image}
+                        title={game.title}
+                        description={game.description}
+                    />
+                ))}
         </div>)
        
     },
