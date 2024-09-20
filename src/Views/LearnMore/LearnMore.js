@@ -70,7 +70,7 @@ function LearnMore() {
           Badlanders Developer: Netease Release Date: 2022-01-14 .....
           </p>
           <p className='card-description'>
-            Simple! However, in contrast to games like PUBG Mobile or Free Fire, the objective in Badlanders is not necessarily to kill everyone as there are other ways to win a match. Instead of fighting, you can choose to play stealthily, and simply escape from the map via the extraction points that open up during the match !!!!!
+            Simple! However, in contrast to games like PUBG Mobile or Free Fire, the objective in Badlanders is not necessarily to kill everyone as there are other ways to win a match. Instead of fighting, you can choose to play stealthily, and simply escape from the map via the extraction points that open up during the match.Badlanders is a brand new FPS game published by NetEase for mobile devices. It aims at taking a twist on the usual battle royale genre to produce something very unique. If you’ve played the popular PC/console game Escape from Tarkov, you’ll know exactly what we are talking about. However, if you haven’t, then you will probably be quite intrigued by what this new game is all about. Before you jump in, it is probably a good idea to get to grips with what the game is all about. !!!!!
           </p>
         </div>
       </div>
@@ -90,7 +90,7 @@ function LearnMore() {
           </p>
 
           <p className='card-description'>
-           Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover !!!!!
+           Keep an eye on the shrinking play zone (safe zone) and move accordingly to avoid taking damage from the blue zone. Use vehicles to move across the map quickly, but be cautious as they can attract attention. It is best always to be aware of your surroundings. Remember to use objects on the map for cover.If you haven't read up on "PUBG," as it's frequently abbreviated, here's the gist: you and up to 99 other real-time players are all dropped onto a remote island by parachute. The island was formerly inhabited, but now it's abandoned, with all the towns and buildings left to nature. Randomly distributed across the island are weapons, ammunition, clothing and armor, healing items, and power-ups that you can find inside buildings, as well as a few still-running vehicles. !!!!!
           </p>
         </div>
       </div>
