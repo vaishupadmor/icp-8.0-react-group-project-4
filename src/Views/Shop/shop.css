@@ -23,7 +23,7 @@
     background-attachment: fixed;
 }
 .card-detailsshop{
-    font-size: 19px;
+    font-size: 10px;
     width: 60%;
     color: #FFF;
     font-family: cursive;
@@ -163,4 +163,9 @@ color: #FFF;
     font-size: xx-large;
     padding: 20px 0;
     text-align: center;
+}
+@media screen and (max-width : 650px) {
+  .remove{
+    display: none;
+  }   
 }
