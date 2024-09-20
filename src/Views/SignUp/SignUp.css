@@ -23,13 +23,13 @@
     justify-content: center;  /* Center the form content vertically */
   }
   
-  .form {
+  .form1 {
     display: flex;
     flex-direction: column;
     align-items: center;  /* Center all form elements horizontally */
   }
   
-  .title {
+  .title-signup {
     margin-bottom: 20px;
     text-align: center;  /* Center the title */
     font-size: 24px;    /* Adjust font size as needed */
