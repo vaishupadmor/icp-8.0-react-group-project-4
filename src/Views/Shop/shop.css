@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
-    height: 10vh;
-    width: 100%;
-    background-color: #000;
-}
 .card-titleshop{
     font-family:cursive;
     text-align: center;
