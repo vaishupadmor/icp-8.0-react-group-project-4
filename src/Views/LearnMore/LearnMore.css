@@ -9,34 +9,29 @@
     display: flex;
 }
 
-.card-img-container {
-    width: 350px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 10px 20px;
-    box-shadow: 0 0 10px rgba(0, 00, 0.1);
-    display: block;
-    margin: 20px 40px;
-    background-color: #fff;
-    height: 420px;
-
-}
-
 .card-img {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     display: block;
     border-radius: 10px;
     cursor: pointer;
-    
+    margin:40px 30px;
 }
 
 .card-description-container {
     text-align: justify;
     padding: 5px 10px;
-    margin: 130px 10px;
+    margin: 80px 10px;
 }
-
+.game-img{
+    width: 400px;
+    height:300px;
+    display: block;
+    margin:20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.10);
+   
+}
 .card-title {
     font-size: 25px;
     font-weight: bold;
