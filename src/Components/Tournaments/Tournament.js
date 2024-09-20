@@ -5,12 +5,16 @@ import group from '../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../../Config/ongoing';
 import Navbar from './Navbar/Navbar';
+import Footer from '../Footer/Footer1'
+import Navbar1 from '../Navbar/Navbar'
 
 
 
 function Tournament() {
   return (
+    
     <div className='tourcart-container'>
+      <Navbar1/>
       <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart-tour' key={index}>
@@ -42,7 +46,9 @@ function Tournament() {
         <p><b>{productItem.date}</b></p>
       </div>
     ))}
+     <Footer/>
   </div>
+ 
   )
 }
 

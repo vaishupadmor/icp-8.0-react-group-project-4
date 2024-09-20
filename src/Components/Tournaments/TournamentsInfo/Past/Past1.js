@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import {products} from "../../../../Config/past"
 import './Past1.css'
 import Flag from '../../../../img/flag.png'
+import Footer from '../../../Footer/Footer1'
+import Navbar from '../../Navbar/Navbar';
 function past1() {
 
 
@@ -11,6 +13,7 @@ function past1() {
     linkObject = linkObject[0];
   return (
     <div>
+      <Navbar/>
     <img src={linkObject.bannerUrl} className='tournament-img' />
     <div>
   
@@ -115,6 +118,7 @@ function past1() {
 
 
 </div>
+<Footer/>
     </div>
   )
 }

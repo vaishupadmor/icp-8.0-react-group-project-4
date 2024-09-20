@@ -6,6 +6,7 @@ import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
 import { products } from '../../../Config/upcoming';
 import Navbar from '../Navbar/Navbar'
+import Footer from '../../Footer/Footer1'
 
 function upcoming() {
   return (
@@ -41,6 +42,7 @@ function upcoming() {
         <p><b>{productItem.date}</b></p>
       </div>
     ))}
+    <Footer/>
   </div>
 );
 }

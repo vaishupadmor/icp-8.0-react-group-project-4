@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import {products} from "../../../../Config/upcoming"
 import './Upcoming1.css'
 import Flag from '../../../../img/flag.png'
+import Footer from '../../../Footer/Footer1'
+import Navbar from '../../Navbar/Navbar';
 function upcoming1() {
 
 
@@ -13,6 +15,7 @@ function upcoming1() {
 
   
     <div>
+      <Navbar/>
         <img src={linkObject.bannerUrl} className='tournament-img' />
         <div>
       
@@ -117,6 +120,7 @@ function upcoming1() {
 
 
     </div>
+    <Footer/>
         </div>
   )
 }
