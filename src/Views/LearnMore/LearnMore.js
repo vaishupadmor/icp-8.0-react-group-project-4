@@ -1,5 +1,6 @@
 import React from 'react';
 import "./LearnMore.css";
+import Navbar from "./../../Components/Navbar/Navbar"
 import Footer from "../../Components/Footer/Footer1";
 import ImgGame from './free_fire.jpg';
 import ImgBadlandersGame from './badlanders.jpg';
@@ -10,6 +11,7 @@ import ImgEsports from "./esports.jpg"
 function LearnMore() {
   return (
     <div>
+      <Navbar/>
       <div>
         <img src={ImgEsports}
         alt="esports"
