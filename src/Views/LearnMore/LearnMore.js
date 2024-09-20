@@ -1,14 +1,24 @@
 import React from 'react';
 import "./LearnMore.css";
-import Footer from "../../Components/Footer/Footer";
+import Footer from "../../Components/Footer/Footer1";
 import ImgGame from './free_fire.jpg';
 import ImgBadlandersGame from './badlanders.jpg';
 import ImgPubgGame from './pubg.jpg';
 import ImageKabaddi from './cricket.jpg';
+import ImgEsports from "./esports.jpg"
 
 function LearnMore() {
   return (
     <div>
+      <div>
+        <img src={ImgEsports}
+        alt="esports"
+        className='game-img'
+        />
+        <p className='app-title'>
+        Put simply, esports is competitive level gaming. It's teams of people playing games against each other at a professional level, regularly winning huge sums of money as prizes. These esports players are contracted to play for a variety of different organisations, much like a football or basketball player would be.
+        </p>
+      </div>
       <h2 className='card-heading'>More information about games....</h2>
       <div className='card'>
         <div className='card-img-container'>

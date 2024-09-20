@@ -6,12 +6,12 @@ import Home from "./Views/Home/Home";
 import LearnMore from './Views/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
 import Tournament from './Components/Tournaments/Tournament.js';
-import Upcoming from './Components/Tournaments/upcoming/upcoming.js'
-import Past from './Components/Tournaments/past/past.js';
-import Ongoing from './Components/Tournaments/ongoing/ongoing.js';
-import Ongoing1 from './Components/Tournaments/tournamentsinfo/ongoing/ongoing1.js';
-import Upcoming1 from './Components/Tournaments/tournamentsinfo/upcoming/upcoming1';
-import Past1 from './Components/Tournaments/tournamentsinfo/past/past1.js';
+import Upcoming from './Components/Tournaments/Upcoming/Upcoming.js'
+import Past from './Components/Tournaments/Past/Past.js';
+import Ongoing from './Components/Tournaments/Ongoing/Ongoing.js';
+import Ongoing1 from './Components/Tournaments/TournamentsInfo/Ongoing/Ongoing1.js';
+import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcoming1.js';
+import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact.js"
@@ -46,7 +46,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Gallery/>
    },
    {
-    path:"/gocart",
+    path:"//shop/:cartID",
     element:<Gocart/>
    },
    {
