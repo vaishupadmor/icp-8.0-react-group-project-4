@@ -5,9 +5,9 @@ import Footer from '../../Components/Footer/Footer1'
 
 
 import toast, { Toaster } from "react-hot-toast"
-import email from "./icons8-email-64.png"
-import mobile from "./icons8-contact-48.png"
-import location from "./icons8-location-50.png"
+import email from "./contactImg/icons8-email-64.png"
+import mobile from "./contactImg/icons8-contact-48.png"
+import location from "./contactImg/icons8-location-50.png"
 
 
 function Contact() {

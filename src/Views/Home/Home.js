@@ -86,7 +86,7 @@ return (<>
 
  </div>
 
-<div className='tournament-maincard-container'>
+<div className='tournament-maincard-container '>
   <div className='space'></div>
 <div className="App">
       <ImageSlider images={images} />

@@ -10,8 +10,8 @@ const Card = () => {
             <img src={Imgs} alt="img" className='card-imgshop' />
             <div className='overlay'>
                 <h1 className='card-titleshop '>Gear Up for Victory</h1>
-                <p className='card-detailsshop'>Find the ultimate gaming equipment to dominate your matches. From high-performance keyboards and mice to comfortable headsets and stylish apparel, we've got everything you need to level up your game.</p>
-                <Link to="/cart" className='cart-btnshop'>Learn More</Link>
+                <p className='card-detailsshop'>Find the ultimate gaming equipment to dominate your matches.<span className='remove'> From high-performance keyboards and mice to comfortable headsets and stylish apparel, we've got everything you need to level up your game.</span></p>
+               
 
             </div>
 
@@ -24,7 +24,7 @@ const Cardintro = ({ defineN, defineI, imgurl }) => {
         <div className='define-product'>
             <img src={imgurl} className='imgs-sm'></img>
             <div className='define-body'>
-                <h1 className='define-name'>{defineN}</h1>
+                <h2 className='define-name'>{defineN}</h2>
                 <p className='define-info'> {defineI}</p>
             </div>
         </div>
@@ -32,13 +32,13 @@ const Cardintro = ({ defineN, defineI, imgurl }) => {
 }
 const Feature =[
     {
-        defineN:'💯% cotton',
-        defineI:'Our products are made with premium 100% cotton, offering exceptional comfort, breathability',
+        defineN:'Level Up Your Gaming Experience!',
+        defineI:' featuring the latest blockbusters and innovative indie titles. Our mission? To connect you with epic adventures and unforgettable gameplay.',
         imgurl:'https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg'
     },
     {
-        defineN:'💯% cotton',
-        defineI:'Our products are made with premium 100% cotton, offering exceptional comfort, breathability',
+        defineN:'Your Next Quest Starts Here!',
+        defineI:' Join our vibrant community of gamers with special events, tournaments, and sneak peeks at upcoming releases',
         imgurl:'https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg'
     }
 
@@ -73,7 +73,7 @@ function shop() {
                <Product/>
 
             </div>
-            <Link to="/gocart" className='cart-btnshop'>add to Cart</Link>
+            
         </div>
     )
 }
