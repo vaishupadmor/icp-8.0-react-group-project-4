@@ -14,7 +14,7 @@ function Productcart({ imgurl, name, price, description }) {
         <div className="game-content">
             <h1 className="game-name">{name} </h1>
             <div className="game-price">{price}</div>
-            <p>{description}</p>
+            <p className='game-dec'>{description}</p>
           
             
         </div>
