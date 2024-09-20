@@ -101,7 +101,7 @@ function upcoming1() {
       <hr className='white-line' />
       <p className='sub-title'>Information</p>
 
-      <div class="container">
+      <div class="container-info">
   <div class="tournament-info-container">
     <div class="tournament-info">
       
