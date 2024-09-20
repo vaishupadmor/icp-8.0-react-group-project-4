@@ -36,8 +36,8 @@ function Login() {
   return (
     <div className="container">
       <div className="form-container">
-        <form className="form" onSubmit={handleSubmit}>
-          <div className="title">Login</div>
+        <form className="form1" onSubmit={handleSubmit}>
+          <div className="title-signup">Login</div>
           <input type="text" name="username" placeholder="Username (Email)" required className="input-field" />
           <input type="password" name="password" placeholder="Password" required className="input-field" />
           <button type="submit" className="button">Login</button>
