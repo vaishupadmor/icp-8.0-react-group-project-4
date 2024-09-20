@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./Views/Home/Home";
 import LearnMore from './Views/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
-import Tournament from './Components/Tournaments/tournament.js';
+import Tournament from './Components/Tournaments/Tournament.js';
 import Upcoming from './Components/Tournaments/upcoming/upcoming.js'
 import Past from './Components/Tournaments/past/past.js';
 import Ongoing from './Components/Tournaments/ongoing/ongoing.js';

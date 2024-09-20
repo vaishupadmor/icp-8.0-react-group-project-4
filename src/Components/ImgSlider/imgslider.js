@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import lessthan from "./less-than.png"
 import greaterthan from "./greater-than.png"
-import './imgslider.css'; 
+import './ImgSlider.css'; 
 
 const ImageSlider = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
