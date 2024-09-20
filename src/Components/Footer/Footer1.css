@@ -45,11 +45,14 @@ body {
 .footer-head {
     color: #efd254;
     font-style: italic;
+    font-size: 20px;
+   padding: 20px;
 }
 
 .footer-head-para {
     font-size: 30px;
     margin-bottom: 10px;
+   
 }
 
 .footer-para {

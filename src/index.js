@@ -15,10 +15,10 @@ import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1.js';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact.js"
-import Login from "./Views/Login/login.js"
+import Login from "./Views/SignUp/LogIn.js"
 import Gallery from "./Views/Gallery/gallery.js"
 import Gocart from "./Views/Gocart/gocart.js"
-
+import Signup from "./Views/SignUp/SignUp.js"
 
 
 
@@ -52,6 +52,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
    {
     path:"/login",
     element:<Login/>
+   },
+   {
+    path:"/signup",
+    element:<Signup/>
    },
    {
     path:"/upcoming",
