@@ -1,17 +1,17 @@
 import React from 'react'
 import './../css/pages.css'
-import BadmintonHome from './../Badminton/BadmintonHome'
-import { BADMINTON } from '../../../Config/gallerydata'
+import BadmintonHome from './Reciver'
+import { TOURNAMENTS } from '../../../Config/gallerydata'
 function Badminton() {
     return (
         <div>
-            <h1 className='team-heading'>BADMINTON</h1>
+            <h1 className='team-heading'>TEAM MEMBERS</h1>
             <div className='teams-container'>
        
-       {BADMINTON.map((teamdetails)=>{
+       {TOURNAMENTS.map((teamdetails)=>{   
             return   <BadmintonHome
             imgUrl={teamdetails.imgUrl}
-            name={teamdetails.name}
+            name={teamdetails.title}
             
             />
     
