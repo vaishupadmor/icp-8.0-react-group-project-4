@@ -128,10 +128,10 @@ label {
     width: 170px;
     
 }
-p{
+.con{
     text-decoration: underline;
 }
-b{
+.boldtext1{
     font-size: 25px;
 }
 @media screen and (min-width:100px) and (max-width:500px) {
