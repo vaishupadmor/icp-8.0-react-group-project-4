@@ -11,6 +11,7 @@
     border-radius: 8px;
     overflow: hidden;
     width: 220px; 
+    height: 350px;
     text-align: center;
 }
 
@@ -26,7 +27,7 @@
 
 .game-card>p {
   padding: 0 10px 10px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.4;
  
  

@@ -46,9 +46,9 @@ const cards = [
     {
         title: "What We Offer",
         discription: ( <div className="game-cards">
-           {games.map((game, index) => (
+           {games.map((game) => (
                     <GameCard
-                        key={index}
+                       
                         image={game.image}
                         title={game.title}
                         description={game.description}
