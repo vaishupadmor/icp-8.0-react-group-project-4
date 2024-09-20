@@ -6,11 +6,9 @@ body {
 .tourcart-container {
   display: flex;
   flex-wrap: wrap; 
-  justify-content: space-between; 
+  justify-content: space-evenly; 
   gap: 40px; 
-
- 
-
+  
 }
 
 .cart-tour {
@@ -21,6 +19,7 @@ body {
   margin: 20px auto; 
   text-align: center;
   border-top-right-radius: 20px;
+  margin:20px;
 }
 
 .cart-tour:hover {
