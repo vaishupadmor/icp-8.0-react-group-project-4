@@ -12,7 +12,7 @@ form {
     box-shadow: .9px .9px 10px white;
     margin: 10px;
     background: rgba(0, 0, 0, 0.6);
-    background-image: url(bgimg.jpeg);
+    background-image: url(./contactImg/bgimg.jpeg);
     
 }
 
@@ -34,19 +34,14 @@ form {
     padding: 0;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    
     width: 70%;
     height: 50px;
-
     margin: 30px auto;
-    
     border-radius: 10px;
 }
 
 .input-box {
     margin: 15px;
-    
-
 }
 
 .field {
@@ -125,8 +120,7 @@ label {
     border-radius: 6px;
     color: #000;
     height: 165px;
-    width: 170px;
-    
+    width: 170px;  
 }
 .con{
     text-decoration: underline;
@@ -138,8 +132,7 @@ label {
     .address-container{
         margin-top: 70px;
         height: 800px;
-        width: 300px;
-        
+        width: 300px;    
     }
 .container{
     display: flex;
