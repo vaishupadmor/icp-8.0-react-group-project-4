@@ -107,7 +107,7 @@ function LearnMore() {
           <h2 className='card-title'>Cricket</h2>
           
           <p className='card-description'>
-            Recognize the goal of the game. As in most field games, the goal of cricket is to score points, called runs, against the opposing team by running from one point to another before the play can be ended or you're run out by the defenders, who are called the “fielding team.” The team at bat is called the “batting team .....
+            Recognize the goal of the game. As in most field games, the goal of cricket is to score points, called runs, against the opposing team by running from one point to another before the play can be ended or you're run out by the defenders, who are called the “fielding team.” The team at bat is called the “batting team.Cricket involves two teams of eleven players each. Teams bat in successive innings and try to score runs; the opposing team is in the field and trying to end the batting team's innings by getting 10 of them out. There are several different ways to get a batsman out and getting a batsman out is referred to as taking their wicket. .....
           </p>
         </div>
       </div>
