@@ -11,6 +11,8 @@
     text-align: center;
     background: rgba(0, 0, 0, 0.281);
     
+    
+    
 }
 .cardtitle{
     text-align: start;
@@ -24,8 +26,9 @@
     text-align: justify;
 }
 .acard:hover{
-    border: 1px solid white;
-    transition: 3s;
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: #9F22D6 0px 2px 4px 0px, #9F22D6 0px 2px 16px 0px;
 }
 .dic ul{
   
