@@ -1,13 +1,12 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import "./productcard.css"
 import { Link } from 'react-router-dom'
+import { Shopcard } from '../../Config/shopcard'
 
+function Productcart({ imgurl, name, price, description }) {
 
-function productcart({imgurl,name,price,description}) {
+  return ( <>
     
-  return (
-    <div className="container-gameproduct">
-    <div className="detail-gamecontainer">
         <div className="gameimg-con">
             <img src={imgurl} className='game-img' id='game-img' />
             
@@ -16,24 +15,68 @@ function productcart({imgurl,name,price,description}) {
             <h1 className="game-name">{name} </h1>
             <div className="game-price">{price}</div>
             <p>{description}</p>
-            <div className="game-buttons">
-                <button type="submit" className='btn-game'>Check Out</button>
-                <button type="submit" className='btn-games' >Add To Cart 
-                    <span>
-                        <svg className="" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
-                        </svg>
-                    </span>
-                </button>
-            </div>
-            <div className="border-game"></div>
+          
+            
         </div>
-    </div>
-
-    {/* <div className="title">Similar product</div>
-    <div className="listProduct"></div> */}
-</div>
+</>
   )
 }
 
-export default productcart
+
+function productcard() {
+    // const Addtocart = () =>{
+    //     const { cartID } = useParams();
+    //     const [data, setData] = useState({
+    //     name: '',
+    //     price: '',
+    //     imgurl: '',
+    //     description: ''
+    // });
+    // useEffect(() => {
+    //     const Datacart = Shopcard.find((item) => { return item.id == cartID })
+    //     setData(Datacart);
+        
+        
+    // }, [cartID]);
+    // }
+    // const [title , setTitle] = useState('')
+    // const [price , setPrice] = useState('')
+    // const [imgurl , setImgurl] = useState('')
+    // const [description , setDescription] = useState('')
+    // const Adddata = () =>{
+    //     const store = JSON.parse(localStorage.getItem('data')) || [];
+    //     const newData = {
+    //         title,
+    //         price,
+    //         imgurl,
+    //         description
+    //     };
+    //     localStorage.setItem('data' ,  JSON.stringify(store));
+    //  }
+  return (<>
+    {
+      Shopcard.map((shopcard) => {
+
+        const { name, price, imgurl, description ,id} = shopcard;
+        
+        return (
+          <div className="container-gameproduct">
+            <div className="detail-gamecontainer">
+            <Productcart name={name} price={price} imgurl={imgurl} description={description} />
+            <div className="game-buttons">
+              <button type="submit" className='btn-game'>Check Out</button>
+              <Link to={`/shop/${id}`} ><button type="submit" className='btn-games btn-addtocart'>Add To Cart 
+                    
+                </button></Link>
+                <div className="border-game"></div>
+            </div>
+          </div>
+          </div>
+            )
+})
+    }
+  </>)
+}
+
+export default productcard
+

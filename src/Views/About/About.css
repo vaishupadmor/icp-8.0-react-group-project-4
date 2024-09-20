@@ -1,11 +1,10 @@
-*{
-  font-family: cursive;
-
-}
 .aboutcontainer{
     width: 100%;
-    height: 700px;
+    height: 750px;
+    font-family: cursive;
+
    
+    
    
 }
 .head{
@@ -19,6 +18,7 @@
     border-radius: 10px;
     background-color: #9F22D6;
     color: #ffe77d;
+    font-family: cursive;
 }
 
 .aboutcontainer::before {
@@ -48,6 +48,7 @@
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    font-family: cursive;
 
   }
   
@@ -55,12 +56,51 @@
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+    font-family: cursive;
   }
   .Abcardcontainer{
     margin: 110px auto;
     width: 100%;
     width: 70%;
-    border: 1px solid red;
+    font-family: cursive;
     
   }
-  
+  .game-cards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.game-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 220px; 
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    height: 47%;
+}
+
+.game-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.game-card>p {
+  padding: 0 10px 10px;
+  font-size: 12px;
+  line-height: 1.4;
+ 
+ 
+}
+
+.game-card:hover{
+  transform: scale(1.05);
+  transition: 1s;
+  box-shadow: #9F22D6 0px 2px 4px 0px, #9F22D6 0px 2px 16px 0px;
+}

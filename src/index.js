@@ -46,7 +46,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Gallery/>
    },
    {
-    path:"/gocart",
+    path:"//shop/:cartID",
     element:<Gocart/>
    },
    {
