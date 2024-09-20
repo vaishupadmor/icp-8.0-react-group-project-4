@@ -1,0 +1,44 @@
+.acard{
+    /* border: 1px solid red; */
+    margin: 50px auto;
+    width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+    left: 8%;
+    top: 5%;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.281);
+    
+    
+    
+}
+.cardtitle{
+    text-align: start;
+    width: 320px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffe77d;
+    background-color: #9F22D6;
+}
+.dic{
+    text-align: justify;
+}
+.acard:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: #9F22D6 0px 2px 4px 0px, #9F22D6 0px 2px 16px 0px;
+}
+.dic ul{
+  
+    padding: 10px;
+}
+.dic li{
+    padding: 10px;
+    font-size: 17px;
+}
+.dic p{
+    font-size: 20px;
+    margin-top: 15px;
+}

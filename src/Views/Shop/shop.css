@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
-    height: 10vh;
-    width: 100%;
-    background-color: #000;
-}
 .card-titleshop{
     font-family:cursive;
     text-align: center;
@@ -159,4 +154,13 @@ color: #FFF;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
+}
+.product-container{
+    background-color: #fff;
+    text-decoration: none;
+}
+.title-games{
+    font-size: xx-large;
+    padding: 20px 0;
+    text-align: center;
 }

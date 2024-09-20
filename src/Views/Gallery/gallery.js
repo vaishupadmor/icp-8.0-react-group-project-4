@@ -1,12 +1,19 @@
-import React from 'react'
+import React from 'react';
 import "./gallery.css"
-function gallery() {
-  return (
-    <div className='main'>
-       <h1> This is Gallery</h1>
-      
-    </div>
-  )
+import Navbar from '../../Components/Navbar/Navbar';
+import Services from './Home/Services/Services';
+
+
+function Tournament() {
+    return (
+        <>
+      <Navbar/>
+        <div className='galleryHome'>
+        <Services />
+        </div>
+        
+        </>
+    )
 }
 
-export default gallery
+export default Tournament

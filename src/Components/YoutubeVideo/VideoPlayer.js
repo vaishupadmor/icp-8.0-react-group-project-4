@@ -1,16 +1,21 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import './Videoplayer.css'; // Import the CSS file
 
 const VideoPlayer = ({ videoId }) => {
+  
   const opts = {
-    height: '250',
-    width: '350',
+    
     playerVars: {
       autoplay: 1,
     },
   };
-
-  return <YouTube videoId={videoId} opts={opts} />;
+  
+  return (
+    <div className="video-player-container">
+      <YouTube videoId={videoId} opts={opts} className='youtube'/>
+    </div>
+  );
 };
 
 export default VideoPlayer;

@@ -1,0 +1,22 @@
+.navbar2{
+    background-color: rgba(156, 27, 211, 0.4); /* Adding transparency */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    
+}
+.title{
+    font-size: 22px;
+    color: aliceblue;
+}
+.navbar2-link{
+    margin: 20px 20px;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
