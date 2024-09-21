@@ -131,7 +131,6 @@ p {
     flex-wrap: wrap; 
     justify-content: space-between; 
     gap: 20px;
-    padding: 20px; 
     width: 100%;
   }
 
@@ -171,7 +170,6 @@ p {
     flex-wrap: wrap; 
     justify-content: space-between;
     gap: 90px 20px; 
-    padding: 20px; 
     width: 100%; 
   }
 
@@ -190,6 +188,45 @@ p {
 
   .tourcart-img {
     width: 100%;
+    height: auto; 
+  }
+
+  .tourcart-mode, .tourcart-detail {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  .tourcart-text1, .tourcart-text2 {
+    width: 100%; 
+    text-align: center;
+    margin: 5px 0; 
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .tourcart-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    gap: 90px 80px; 
+    width: 100%;
+  }
+
+  .cart-tour {
+    width: calc(33.33% - 30px); 
+    max-width: 350px; 
+    margin: 20px 0;  
+    box-sizing: border-box; 
+    text-align: center; 
+    transition: transform 0.3s; 
+  }
+
+  .cart-tour:hover {
+    transform: translateY(-5px); 
+  }
+
+  .tourcart-img {
+    width: 100%; 
     height: auto; 
   }
 
