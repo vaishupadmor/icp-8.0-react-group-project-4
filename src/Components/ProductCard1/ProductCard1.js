@@ -63,14 +63,14 @@ function productcard() {
     {
       Shopcard.map((shopcard) => {
 
-        const { name, price, imgurl, description, id } = shopcard;
+        const { name, price, imgurl, description, id , gamelink} = shopcard;
 
         return (
           <div className="container-gameproduct">
             <div className="detail-gamecontainer">
               <Productcart name={name} price={price} imgurl={imgurl} description={description} />
               <div className="game-buttons">
-                <button type="submit" className='btn-game'>Check Out</button>
+                <a src={gamelink} className='btn-game btncheck'>Check Out</a>
                 <Link to={`/shop/${id}`} onClick={()=>{
                   setCounter(counter + 1);
                   console.log(counter);
