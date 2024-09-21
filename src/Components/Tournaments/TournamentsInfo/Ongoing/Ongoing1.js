@@ -101,7 +101,7 @@ function ongoing1() {
       <hr className='white-line' />
       <p className='sub-title'>Information</p>
 
-      <div className="container">
+      <div className="container-info">
   <div className="tournament-info-container">
     <div className="tournament-info">
       

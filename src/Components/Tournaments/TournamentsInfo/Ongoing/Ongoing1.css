@@ -22,6 +22,7 @@
 .tournament-end {
     font-size: 20px;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .share {
@@ -30,6 +31,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .share i {
@@ -74,15 +76,17 @@ i {
 
 
 .tournament-container1{
-    display: flex; /* Enables flexbox layout */
-    justify-content: space-between; /* Space out the items horizontally */
-    gap: 20px; /* Adds some space between the items */
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
     text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .tournament-detail1 {
     padding: 20px;
     border: 1px solid black;
-    width: 45%; /* Set a percentage width to make them fit side by side */
+    width: 45%; 
     border-radius: 20px;
     font-size: 20px;
     box-shadow: 2px 2px 2px 2px blue;
@@ -105,13 +109,14 @@ i {
     text-decoration: none;
   }
   .tournament-rule{
-    padding: 20px;
+    padding: 90px;
     border: 1px solid black;
-    width: 90%; /* Set a percentage width to make them fit side by side */
+    width: 90%; 
     border-radius: 20px;
     font-size: 20px;
     box-shadow: 2px 2px 2px 2px blue;
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     text-decoration: none;
   }
   .tournament-info {
@@ -123,6 +128,7 @@ i {
     box-shadow: 2px 2px 2px 2px blue;
     margin: 20px;
     text-decoration: none;
+
   }
   .info-text{
     text-decoration: none;

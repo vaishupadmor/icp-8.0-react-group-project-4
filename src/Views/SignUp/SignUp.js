@@ -22,8 +22,8 @@ function Signup() {
   return (
     <div className="container">
       <div className="form-container">
-      <form className="form" onSubmit={handleSubmit}>
-          <div className="title">Sign Up</div>
+      <form className="form1" onSubmit={handleSubmit}>
+          <div className="title-signup">Sign Up</div>
           <div className="name-fields">
             <input type="text" name="firstName" placeholder="First Name" required className="name-input" />
             <input type="text" name="lastName" placeholder="Last Name" required className="name-input" />
