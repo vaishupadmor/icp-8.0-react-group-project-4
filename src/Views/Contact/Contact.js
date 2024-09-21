@@ -15,7 +15,7 @@ function Contact() {
     <div>
     <Navbar/>
     <div className='contact'>
-      <form>
+      <form className='form1'>
         <h2 className='heading'>Contact Form</h2>
         <div className='input-box'>
           <label>First Name</label>
