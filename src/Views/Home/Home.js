@@ -106,7 +106,7 @@ return (<>
   
 </div>
 <hr></hr>
-<h1 className='tournament-main-title2'> Teams</h1>
+<h1 className='tournament-main-title2' style={{color:THEME.primary}}> Teams</h1>
 <div className='esport-card-container' >
     { ESPORTS_TEAM.map((Esports,i)=>{
 
