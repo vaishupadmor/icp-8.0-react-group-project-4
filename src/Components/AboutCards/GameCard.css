@@ -38,3 +38,48 @@
   transition: 1s;
   box-shadow: #9F22D6 0px 2px 4px 0px, #9F22D6 0px 2px 16px 0px;
 }
+
+@media (max-width: 1024px) {
+  .game-card {
+      width: 180px; 
+      height: 320px;
+  }
+  .game-card h3 {
+      font-size: 18px; 
+  }
+  .game-card>p {
+      font-size: 14px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .game-cards {
+      justify-content: center; 
+      gap: 30px;
+  }
+  .game-card {
+      width: 150px; 
+      height: 280px;
+  }
+  .game-card h3 {
+      font-size: 16px;
+  }
+  .game-card>p {
+      font-size: 13px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .game-card {
+      width: 140px; 
+      height: 260px;
+  }
+  .game-card h3 {
+      font-size: 14px;
+  }
+  .game-card>p {
+      font-size: 12px;
+  }
+}
