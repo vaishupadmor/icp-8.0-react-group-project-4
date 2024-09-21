@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import "./ProductCard.css"
+import "./ProductCard1.css"
 import { Link } from 'react-router-dom'
-import { Shopcard } from '../../Config/ShopCard'
+import { Shopcard } from '../../Config/ShopCard1'
 
 function Productcart({ imgurl, name, price, description }) {
 

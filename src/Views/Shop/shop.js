@@ -2,8 +2,8 @@ import React from 'react'
 import './Shop.css'
 import Imgs from './ShopImgs/5258892.jpg'
 import { Link } from 'react-router-dom'
-import  Product from '../../Components/ProductCard/ProductCard'
-import {Shopcard} from '../../Config/ShopCard'
+import  Product from '../../Components/ProductCard1/ProductCard1'
+import {Shopcard} from '../../Config/ShopCard1'
 import Navbar from '../../Components/Navbar1/Navbar'
 const Card = () => {
     return (
