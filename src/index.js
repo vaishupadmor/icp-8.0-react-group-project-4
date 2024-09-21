@@ -12,12 +12,12 @@ import Ongoing from './Components/Tournaments/Ongoing/Ongoing.js';
 import Ongoing1 from './Components/Tournaments/TournamentsInfo/Ongoing/Ongoing1.js';
 import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcoming1.js';
 import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1.js';
-import Shop from "./Views/Shop/shop";
+import Shop from "./Views/Shop/Shop.js";
 import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact.js"
 import Login from "./Views/SignUp/LogIn.js"
 import Gallery from "./Views/Gallery/gallery.js"
-import Gocart from "./Views/Gocart/gocart.js"
+import Gocart from "./Views/GoCart1/GoCart1.js"
 import Signup from "./Views/SignUp/SignUp.js"
 
 
