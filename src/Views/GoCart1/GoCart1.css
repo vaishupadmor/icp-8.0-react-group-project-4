@@ -7,8 +7,9 @@ a{
 .container-game{
   width: 100%;
   height: 100vh;
-  background-color: white;
-  color: #2F2F2F;
+  background: rgb(43,32,201);
+  background: linear-gradient(18deg, rgba(43,32,201,0.5215336134453781) 12%, rgba(8,2,53,0.7624299719887955) 52%);
+  color: #FFf;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +52,7 @@ a{
   /* position: absolute; */
   aspect-ratio: 3/2;
   border-radius: 20px;
-  border: 3px solid rgb(3, 29, 94);
+  border: 3px solid #fff;
   overflow: hidden;
   transition: 0.7s ease-in-out; 
 }
@@ -71,7 +72,7 @@ a{
   top: 0;
 } */
 .content-container{
-  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid #fff;
   padding-left: 40px;
 }
 .detail-game .name-game{
@@ -81,7 +82,7 @@ a{
 }
 
 .detail-game h5{
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
   margin: 10px 0;
 }
 .detail-game .game-price{
@@ -98,6 +99,7 @@ a{
 }
 .detail-game .btn-container button{
   background-color: #eee;
+  box-shadow: 0px 10px 10px #ffffff64;
   border: none;
   padding: 15px 20px;
   border-radius: 20px;

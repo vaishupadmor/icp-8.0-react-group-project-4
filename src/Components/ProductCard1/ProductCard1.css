@@ -1,6 +1,6 @@
 
 .container-gameproduct{
-  color: #000000;
+  color: #fff;
   width: 900px;
   margin: auto;
   max-width: 90vw;
@@ -40,12 +40,16 @@
 } */
  .game-img{
   border-radius: 5rem;
+  background: #fff;
 
  }
  .game-img:hover{
   scale: 1.04;
   transition: 1s ease-in-out;
   box-shadow: 0 10px 20px #2F2F2F77;
+ }
+ .gameimg-con{
+  border-bottom: #FFF solid 3px;
  }
 .detail-gamecontainer .gameimg-con::before{
   /* position: absolute; */
