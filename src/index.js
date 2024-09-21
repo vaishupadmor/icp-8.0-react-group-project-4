@@ -5,27 +5,27 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./Views/Home/Home";
 import LearnMore from './Views/LearnMore/LearnMore';
 import { Toaster } from 'react-hot-toast';
-import Tournament from './Components/Tournaments/Tournament.js';
-import Upcoming from './Components/Tournaments/Upcoming/Upcoming.js'
-import Past from './Components/Tournaments/Past/Past.js';
-import Ongoing from './Components/Tournaments/Ongoing/Ongoing.js';
-import Ongoing1 from './Components/Tournaments/TournamentsInfo/Ongoing/Ongoing1.js';
-import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcoming1.js';
-import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1.js';
-import Shop from "./Views/Shop/shop";
+import Tournament from './Components/Tournaments/Tournament';
+import Upcoming from './Components/Tournaments/Upcoming/Upcoming';
+import Past from './Components/Tournaments/Past/Past';
+import Ongoing from './Components/Tournaments/Ongoing/Ongoing';
+import Ongoing1 from './Components/Tournaments/TournamentsInfo/Ongoing/Ongoing1';
+import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcoming1';
+import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1';
+import Shop from "./Views/Shop/Shop";
 import About from "./Views/About/About";
-import Contact from "./Views/Contact/Contact.js"
-import Login from "./Views/SignUp/LogIn.js"
-import Gallery from "./Views/Gallery/gallery.js"
-import Gocart from "./Views/Gocart/gocart.js"
-import Signup from "./Views/SignUp/SignUp.js"
+import Contact from "./Views/Contact/Contact";
+import Login from "./Views/SignUp/LogIn";
+import Gallery from "./Views/Gallery/gallery";
+import Gocart from "./Views/GoCart/GoCart";
+import Signup from "./Views/SignUp/SignUp";
 
 
 
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+ const root = ReactDOM.createRoot(document.getElementById('root'));
 
  const router=createBrowserRouter([
   {
@@ -46,7 +46,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     element:<Gallery/>
    },
    {
-    path:"//shop/:cartID",
+    path:"/shop/:cartID",
     element:<Gocart/>
    },
    {
