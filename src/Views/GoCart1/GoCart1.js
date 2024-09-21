@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './GoCart.css';
+import './GoCart1.css';
 import { useParams } from 'react-router-dom';
-import { Shopcard } from '../../Config/ShopCard';
+import { Shopcard } from '../../Config/ShopCard1';
 import { Link } from 'react-router-dom';
 import  toast, { Toaster } from 'react-hot-toast';
 const App = () => {
