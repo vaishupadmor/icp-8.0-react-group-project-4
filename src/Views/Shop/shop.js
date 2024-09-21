@@ -1,9 +1,10 @@
 import React from 'react'
-import './shop.css'
-import Imgs from './shopimgs/5258892.jpg'
+import './Shop.css'
+import Imgs from './ShopImgs/5258892.jpg'
 import { Link } from 'react-router-dom'
-import  Product from './../../Components/Productcard/productcard'
-import {Shopcard} from './../../Config/shopcard'
+import  Product from '../../Components/ProductCard/ProductCard'
+import {Shopcard} from '../../Config/ShopCard'
+import Navbar from '../../Components/Navbar1/Navbar'
 const Card = () => {
     return (
         <div className='card-shop'>
@@ -39,7 +40,7 @@ const Feature =[
     {
         defineN:'Your Next Quest Starts Here!',
         defineI:' Join our vibrant community of gamers with special events, tournaments, and sneak peeks at upcoming releases',
-        imgurl:'https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg'
+        imgurl:'https://img.freepik.com/free-photo/medium-shot-victorious-gamer-desk_23-2149350004.jpg?uid=R162707548&ga=GA1.1.230918377.1693590387&semt=ais_hybrid'
     }
 
 ]
@@ -47,7 +48,7 @@ const Feature =[
 function shop() {
     return (
         <div>
-            <div className='nav'></div>
+           <Navbar/>
             <div className='intro-container'>
                 <Card className='cards-shop' />
                 <div className='define-container'>
