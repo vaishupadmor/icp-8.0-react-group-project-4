@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './gocart.css';
+import './GoCart.css';
 import { useParams } from 'react-router-dom';
-import { Shopcard } from './../../Config/shopcard';
-import Imgpng from './../Shop/shopimgs/img5.png'
-import Imggod from './../Shop/shopimgs/wp10278791-god-of-war-symbol-wallpapers-removebg-preview.png'
-import { to } from 'react-spring';
-
+import { Shopcard } from '../../Config/ShopCard';
+import { Link } from 'react-router-dom';
+import  toast, { Toaster } from 'react-hot-toast';
 const App = () => {
     const { cartID } = useParams();
     const [data, setData] = useState({
@@ -75,9 +73,12 @@ const App = () => {
                     <div className="game-price">{data.price}</div>
                     <p>{data.description}</p>
                     <div className="btn-container">
-                        <button>Buy Now</button>
                         <button type='submit' onClick={()=>{
-                            alert("Item removed from cart")
+                            toast.success("Game is Purchased")
+                            
+                        }}>Buy Now</button>
+                     <Link to='./../../shop'>   <button type='submit' onClick={()=>{
+                            toast.success("Item removed from cart")
                             setData({
                                 name: '',
                                 price: '',
@@ -92,6 +93,7 @@ const App = () => {
                                 </svg>
                             </span>
                         </button>
+                        </Link>
                     </div>
                 </div>
             </div>
