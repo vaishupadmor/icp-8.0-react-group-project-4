@@ -100,15 +100,15 @@ i {
   }
   .white-line {
     border: none;
-    height: 2px;           /* Line thickness */
-    background-color: gray; /* White color */
-    margin: 20px 20px;     /* Add some space above and below */
+    height: 2px;           
+    background-color: gray; 
+    margin: 20px 20px;     
     text-decoration: none;
   }
   .tournament-rule{
     padding: 60px;
     border: 1px solid black;
-    width: 90%; /* Set a percentage width to make them fit side by side */
+    width: 90%; 
     border-radius: 20px;
     font-size: 20px;
     box-shadow: 2px 2px 2px 2px blue;
@@ -120,7 +120,7 @@ i {
   .tournament-info {
     padding: 20px;
     border: 1px solid black;
-    width: 90%; /* Set a percentage width to make them fit side by side */
+    width: 90%; 
     border-radius: 20px;
     font-size: 20px;
     box-shadow: 2px 2px 2px 2px blue;
@@ -139,7 +139,7 @@ i {
  
 
  
-/* Small devices (mobile phones, 600px and down) */
+
 @media (max-width: 600px) {
   .tournament-header {
       flex-direction: column;
@@ -172,7 +172,7 @@ i {
   }
 
   .flag {
-      width: 50px; /* Set image width to 50px */
+      width: 50px; 
   }
 
   .sub-title {
@@ -191,14 +191,14 @@ i {
 
   .tournament-img {
       width: 80%;
-      display: block; /* Ensure it's treated as a block element */
-      margin: 0 auto; /* Center the image horizontally */
+      display: block; 
+      margin: 0 auto;
       height: 50vh;
   }
 }
 
  
-/* Small devices (mobile phones, 600px and down) */
+
 @media (min-width: 700px) and (max-width: 900px) {
   .tournament-header {
       flex-direction: column;
@@ -231,7 +231,7 @@ i {
   }
 
   .flag {
-      width: 50px; /* Set image width to 50px */
+      width: 50px; 
   }
 
   .sub-title {
@@ -250,8 +250,8 @@ i {
 
   .tournament-img {
       width: 80%;
-      display: block; /* Ensure it's treated as a block element */
-      margin: 0 auto; /* Center the image horizontally */
+      display: block; 
+      margin: 0 auto; 
       height: 60vh;
   }
 }

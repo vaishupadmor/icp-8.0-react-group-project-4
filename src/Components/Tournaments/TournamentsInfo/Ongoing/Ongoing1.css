@@ -1,4 +1,4 @@
-/* Base styles (default for larger screens) */
+
 .tournament-header {
   display: flex;
   justify-content: space-between;
@@ -139,9 +139,7 @@ i {
   margin: 20px;
 }
 
-/* Media queries for responsiveness */
 
-/* Medium devices (tablets, 768px and up) */
 @media (max-width: 1024px) {
   .tournament-title {
       font-size: 28px;
@@ -167,7 +165,6 @@ i {
 }
 
 
-/* Small devices (mobile phones, 600px and down) */
 @media (max-width: 600px) {
   .tournament-header {
       flex-direction: column;
@@ -199,7 +196,7 @@ i {
   }
 
   .flag {
-      width: 50px; /* Set image width to 50px */
+      width: 50px; 
   }
 
   .sub-title {
