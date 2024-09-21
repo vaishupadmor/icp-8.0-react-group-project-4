@@ -2,6 +2,7 @@
     width: 100%;
     height: 750px;
     font-family: cursive;
+    position: relative;
 
    
     
@@ -29,7 +30,7 @@
     width: 100%;
     height: 100%;
     background-image: url('./about-bg.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     filter: blur(8px);
     z-index: 1;
@@ -65,4 +66,59 @@
     font-family: cursive;
     
   }
-  
+ 
+ 
+@media (max-width: 1024px) {
+  .aboutcontainer {
+      height: 600px;
+  }
+  .aboutcontent {
+      width: 90%;
+      left: 5%;
+      top: 15%;
+  }
+  .abpara {
+      font-size: 20px;
+  }
+  .Abcardcontainer {
+      width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .aboutcontainer {
+      height: 500px;
+  }
+  .aboutcontent {
+      top: 20%;
+      padding: 15px;
+  }
+  .abpara {
+      font-size: 18px;
+  }
+  .head {
+      width: 90%;
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutcontainer {
+      height: 400px;
+  }
+  .aboutcontent {
+      top: 25%;
+      font-size: 14px;
+  }
+  .abpara {
+      font-size: 16px;
+  }
+  .head {
+      width: 95%;
+      font-size: 16px;
+  }
+  .Abcardcontainer {
+      width: 100%;
+  }
+}
