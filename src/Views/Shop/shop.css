@@ -191,4 +191,7 @@
     .remove {
         display: none;
     }
+    .overlay{
+        gap: 0.5rem;
+    }
 }
