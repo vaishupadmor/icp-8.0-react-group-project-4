@@ -23,6 +23,7 @@
     height: 100vh;
     position: relative;
     background-attachment: fixed;
+    margin-top:5rem ;
 }
 
 .card-detailsshop {
