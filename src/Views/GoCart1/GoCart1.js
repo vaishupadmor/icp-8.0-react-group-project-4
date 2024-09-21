@@ -5,6 +5,12 @@ import { Shopcard } from '../../Config/ShopCard1';
 import { Link } from 'react-router-dom';
 import  toast, { Toaster } from 'react-hot-toast';
 const App = () => {
+
+    const [counter, setCounter] = useState(1);
+  useEffect(()=>{
+
+    localStorage.setItem('counter', parseInt(counter));
+  }),[counter]
     const { cartID } = useParams();
     const [data, setData] = useState({
         name: '',
@@ -86,6 +92,8 @@ const App = () => {
                                 description: ''
                             })
                             localStorage.removeItem('data');
+                            setCounter(counter - 1);
+                            console.log(counter);
                         }}  >Remove From Cart
                             
                         </button>

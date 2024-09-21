@@ -24,6 +24,12 @@ function Productcart({ imgurl, name, price, description }) {
 
 
 function productcard() {
+  const [counter, setCounter] = useState(1);
+  useEffect(()=>{
+
+    localStorage.setItem('counter', parseInt(counter));
+  }),[counter]
+
   // const Addtocart = () =>{
   //     const { cartID } = useParams();
   //     const [data, setData] = useState({
@@ -65,7 +71,10 @@ function productcard() {
               <Productcart name={name} price={price} imgurl={imgurl} description={description} />
               <div className="game-buttons">
                 <button type="submit" className='btn-game'>Check Out</button>
-                <Link to={`/shop/${id}`}  ><button type="submit" className='btn-games btn-addtocart'>Add To Cart
+                <Link to={`/shop/${id}`} onClick={()=>{
+                  setCounter(counter + 1);
+                  console.log(counter);
+                }} ><button type="submit" className='btn-games btn-addtocart'>Add To Cart
 
                 </button></Link>
                 <div className="border-game"></div>
