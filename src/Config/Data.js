@@ -6,12 +6,18 @@ const TAG_LINE ="Experience the Adrenaline Rush of Esports."
 
 const TAG_LINE2="The only BOundaries for you are those you place in yourself"
 const THEME = {
-    main:"#C0C78C",
-    highlight:"#FFE77D",
-    primary:"C0C78C",
-    secondary:"#B99470",
+    main:"rgb(8, 2, 53)",
+    highlight:"#9c1bd3",
+    primary:"#FFE77D",
+    secondary:"white",
     
 }
+
+const BUTTON ={
+  backgroundColor:"#9c1bd3",
+  fontColor:"#ffe77d",
+}
+
 const ESPORTS_TEAM =[
     {
       imgUrl:"https://gamingonphone.com/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-18-at-11.03.31-PM.jpeg",
@@ -46,7 +52,7 @@ const ESPORTS_TEAM =[
              ]
     }]
     
-    export {ESPORTS_TEAM,MAIN_TITLE , TAG_LINE ,THEME ,TAG_LINE2 }
+    export {ESPORTS_TEAM,MAIN_TITLE , TAG_LINE ,THEME ,TAG_LINE2,BUTTON }
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import {products} from "../../../../Config/ongoing"
+import {products} from "../../../../Config/Ongoing"
 import './Ongoing1.css'
 import Flag from '../../../../img/flag.png'
 import Footer from '../../../Footer/Footer1'
@@ -101,7 +101,7 @@ function ongoing1() {
       <hr className='white-line' />
       <p className='sub-title'>Information</p>
 
-      <div className="container">
+      <div className="container-info">
   <div className="tournament-info-container">
     <div className="tournament-info">
       

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Signup() {
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent form from refreshing the page
+    e.preventDefault(); 
     const formData = {
       firstName: e.target.firstName.value,
       lastName: e.target.lastName.value,
@@ -14,7 +14,6 @@ function Signup() {
       confirmPassword: e.target.confirmPassword.value
     };
 
-    // Storing form data in local storage
     localStorage.setItem('signupData', JSON.stringify(formData));
   
   };
@@ -22,8 +21,8 @@ function Signup() {
   return (
     <div className="container">
       <div className="form-container">
-      <form className="form" onSubmit={handleSubmit}>
-          <div className="title">Sign Up</div>
+      <form className="form1" onSubmit={handleSubmit}>
+          <div className="title-signup">Sign Up</div>
           <div className="name-fields">
             <input type="text" name="firstName" placeholder="First Name" required className="name-input" />
             <input type="text" name="lastName" placeholder="Last Name" required className="name-input" />

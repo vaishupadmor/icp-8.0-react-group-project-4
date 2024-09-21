@@ -3,7 +3,7 @@ import './Tournament.css';
 import trophy from "./../../img/trophy.png"; 
 import group from '../../img/group.png';
 import { Link } from 'react-router-dom';
-import { products } from '../../Config/ongoing';
+import { products } from '../../Config/Ongoing';
 import Navbar from './Navbar/Navbar';
 import Footer from '../Footer/Footer1'
 import Navbar1 from '../Navbar/Navbar'
@@ -18,7 +18,7 @@ function Tournament() {
       <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart-tour' key={index}>
-        <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
+        <img src={productItem.imgUrl} alt={productItem.title} className='tourcart-img' />
         <hr />
         <p><b>{productItem.title}</b></p>
         <hr />

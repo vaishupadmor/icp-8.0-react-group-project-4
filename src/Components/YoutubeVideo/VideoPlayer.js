@@ -1,6 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import './Videoplayer.css'; // Import the CSS file
+import './Videoplayer.css'; 
 
 const VideoPlayer = ({ videoId }) => {
   

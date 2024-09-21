@@ -38,8 +38,6 @@ body {
 
 .homepage-btn {
     border: 1px solid #9c1bd3;
-    background-color: #9c1bd3;
-    color: #ffe77d;
     padding: 10px;
     border-radius: 20px;
     width: 100px;
@@ -74,7 +72,6 @@ body {
 .tournament-maincard-container {
     min-height: 2100px; 
     margin-bottom: 0 !important;
-    background-color: rgb(8, 2, 53);
 }
 
 

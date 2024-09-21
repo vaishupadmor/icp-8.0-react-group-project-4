@@ -42,3 +42,46 @@
     font-size: 20px;
     margin-top: 15px;
 }
+
+@media (max-width: 1024px) {
+    .acard {
+        width: 600px; 
+        padding: 15px;
+    }
+    .cardtitle {
+        width: 100%; 
+        font-size: 20px; 
+    }
+    .dic p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .acard {
+        width: 90%; 
+        padding: 10px;
+    }
+    .cardtitle {
+        font-size: 18px; 
+        padding: 10px;
+    }
+    .dic p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .acard {
+        width: 95%; 
+        padding: 10px;
+    }
+    .cardtitle {
+        font-size: 16px; 
+        padding: 5px;
+    }
+    .dic p {
+        font-size: 14px; 
+    }
+}

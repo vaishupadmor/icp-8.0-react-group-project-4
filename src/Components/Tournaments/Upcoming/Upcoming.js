@@ -4,7 +4,7 @@ import '../Tournament.css';
 import trophy from '../../../img/trophy.png'; 
 import group from '../../../img/group.png';
 import { Link } from 'react-router-dom';
-import { products } from '../../../Config/upcoming';
+import { products } from '../../../Config/Upcoming';
 import Navbar from '../Navbar/Navbar'
 import Footer from '../../Footer/Footer1'
 
@@ -14,7 +14,7 @@ function upcoming() {
     <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart-tour' key={index}>
-        <img src={productItem.imgUrl} alt={productItem.title} className='cart-img' />
+        <img src={productItem.imgUrl} alt={productItem.title} className='tourcart-img' />
         <hr />
         <p><b>{productItem.title}</b></p>
         <hr />

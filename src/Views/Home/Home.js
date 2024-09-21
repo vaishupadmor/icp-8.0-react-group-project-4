@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import "./Home.css"
 import Homecard from '../../Components/HomeCards/HomeCard1'
-import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2, } from '../../Config/Data'
+import { ESPORTS_TEAM ,TAG_LINE,THEME,MAIN_TITLE,TAG_LINE2,BUTTON } from '../../Config/Data'
 import Footer from "../../Components/Footer/Footer1"
 import TopTournament from '../../Components/TopTournament/TopTournament1'
 import { TOURNAMENTS } from '../../Config/Data1'
@@ -79,14 +79,14 @@ return (<>
           <p className='home-paragraph'>{TAG_LINE}</p>
           <p className='home-paragraph2'>{TAG_LINE2}</p>
           <Link to={"/learnmore"}>
-            <button type='button' className='homepage-btn'>Learn more</button>
+            <button type='button' className='homepage-btn' style={{ backgroundColor:BUTTON.backgroundColor , color:BUTTON.fontColor}}>Learn more</button>
           </Link>
  </animated.div>
      
 
  </div>
 
-<div className='tournament-maincard-container'>
+<div className='tournament-maincard-container' style={{backgroundColor:THEME.main}}>
   <div className='space'></div>
 <div className="App">
       <ImageSlider images={images} />
@@ -106,7 +106,7 @@ return (<>
   
 </div>
 <hr></hr>
-<h1 className='tournament-main-title2'> Teams</h1>
+<h1 className='tournament-main-title2' style={{color:THEME.primary}}> Teams</h1>
 <div className='esport-card-container' >
     { ESPORTS_TEAM.map((Esports,i)=>{
 

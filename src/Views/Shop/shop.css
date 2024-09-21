@@ -1,16 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.card-titleshop{
-    font-family:cursive;
+
+.card-titleshop {
+    font-family: cursive;
     text-align: center;
     color: #ffe77d;
 }
-.intro-container{
+
+.intro-container {
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./shopimgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./shopimgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,15 +24,17 @@
     position: relative;
     background-attachment: fixed;
 }
-.card-detailsshop{
-    font-size: 19px;
+
+.card-detailsshop {
+    font-size: 16px;
     width: 60%;
     color: #FFF;
     font-family: cursive;
 }
+
 .card-shop {
     height: 420px;
-    width: 80%; 
+    width: 80%;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -39,53 +43,59 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:0;
-    margin: 0 auto; 
-    
+    padding: 0;
+    margin: 0 auto;
+
 }
-.title-shop{
+
+.title-shop {
     color: #FFF;
     font-family: cursive;
     border-bottom: #9c1bd3 dotted 0.3rem;
 }
+
 .card-imgshop {
     width: 100%;
     height: 450px;
     display: block;
-    object-fit:fill;
+    object-fit: fill;
     border-radius: 10px;
 }
+
 .overlay {
-	width: 100%;
-	height: 0;
-	/* background: linear-gradient(transparent, rgb(139,32,201) 80%); */
+    width: 100%;
+    height: 0;
+    /* background: linear-gradient(transparent, rgb(139,32,201) 80%); */
     /* background: rgb(transparent, 139,32,201 80% ); */
-    background: rgb(139,32,201);
-    background: radial-gradient(transparent, rgba(139,32,201,0.8184523809523809) 65%, rgba(189,45,207,0.5971638655462185) 86%);
+    background: rgb(139, 32, 201);
+    background: radial-gradient(transparent, rgba(139, 32, 201, 0.8184523809523809) 65%, rgba(189, 45, 207, 0.5971638655462185) 86%);
     color: aliceblue;
-	border-radius: 10px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 2rem;
-	padding: 0 40px;
-	text-align: center;
-	font-size: 14px;
-	transition:  0.5s ease-in-out;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.5s ease-in-out;
 }
-.card-shop:hover .card-img{
+
+.card-shop:hover .card-img {
     transform: scale(1.1);
     transition: 0.7s ease-in-out;
 }
-.card-shop:hover .overlay{
+
+.card-shop:hover .overlay {
     height: 100%;
 }
-.cart-btnshop{
+
+.cart-btnshop {
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
@@ -96,12 +106,13 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.cart-btnshop:hover{
+
+.cart-btnshop:hover {
     background-color: #531374;
-color: #FFF;
+    color: #FFF;
 }
 
-.define-product{
+.define-product {
     width: 300px;
     height: 250px;
     overflow: hidden;
@@ -109,13 +120,15 @@ color: #FFF;
     border: 3px solid #fff;
     position: relative;
 }
-.imgs-sm{
+
+.imgs-sm {
     aspect-ratio: 3/2;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 15px;
 }
-.define-body{
+
+.define-body {
     width: 100%;
     height: 100%;
     top: 0;
@@ -132,35 +145,49 @@ color: #FFF;
     gap: 1rem;
     transition: 1s ease-in-out;
 }
-.define-product:hover .define-body{
+
+.define-product:hover .define-body {
     right: 0;
-   
+
 
 }
-.define-name{
+
+.define-name {
     color: #ffe77d;
+    text-align: center;
     text-transform: uppercase;
 }
-.define-info{
+
+.define-info {
     width: 280px;
     margin: 1px auto;
     font-size: 19px;
     text-align: center;
     text-transform: capitalize;
 }
-.define-container{
+
+.define-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
-.product-container{
-    background-color: #fff;
+
+.product-container {
+    background: rgb(43,32,201);
+    background: linear-gradient(18deg, rgba(43,32,201,0.6223739495798319) 12%, rgba(8,2,53,0.7624299719887955) 52%);
     text-decoration: none;
 }
-.title-games{
+
+.title-games {
     font-size: xx-large;
     padding: 20px 0;
     text-align: center;
+}
+
+@media screen and (max-width : 650px) {
+    .remove {
+        display: none;
+    }
 }

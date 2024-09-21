@@ -1,0 +1,207 @@
+
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+.container-game{
+  width: 100%;
+  height: 100vh;
+  background: rgb(43,32,201);
+  background: linear-gradient(18deg, rgba(43,32,201,0.5215336134453781) 12%, rgba(8,2,53,0.7624299719887955) 52%);
+  color: #FFf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.main-container{
+  width: 900px;
+  margin: auto;
+  max-width: 90vw;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+.title{
+  font-size: xx-large;
+  padding: 20px 0;
+}
+
+/* detail page */
+
+.detail-game{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  text-align: left;
+  position: relative;
+}
+.image-container{
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  transition:  0.5s ease-in-out;
+  border-radius: 20px;
+}
+.detail-game .image-container img{
+  width: 100%;
+  height: 300px;
+  /* position: absolute; */
+  aspect-ratio: 3/2;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  transition: 0.7s ease-in-out; 
+}
+.detail-game .image-container img:hover{
+  scale: 1.1;
+  transition: 0.7s ease-in-out;
+}
+/* .detail-game .image-container::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: -1;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+.content-container{
+  border-left: 2px solid #fff;
+  padding-left: 40px;
+}
+.detail-game .name-game{
+  font-size: 30px;
+  padding: 10px 0 0 0;
+  margin: 0 0 5px 0;
+}
+
+.detail-game h5{
+  color: #fff;
+  margin: 10px 0;
+}
+.detail-game .game-price{
+  font-weight: bold;
+  font-size: x-large;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+.detail-game .btn-container{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+  
+}
+.detail-game .btn-container button{
+  background-color: #eee;
+  box-shadow: 0px 10px 10px #ffffff64;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
+}
+.detail-game .btn-container svg{
+  width: 15px;
+}
+.detail-game .btn-container span{
+  background-color: #555454;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.detail-game .btn-container button:nth-child(2){
+  background-color: #2F2F2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  box-shadow: 0 10px 20px #2F2F2F77;
+}
+
+.detail-game .description{
+  font-weight: 300;
+}
+.finnal-pricecon{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.line{
+  width: 40vw;
+  height: 10vh;
+  background-color: #2F2F2F;
+  position:absolute;
+  bottom: 10px;
+  margin: 0 auto;
+}
+.totalprice-con{
+  border-top: #2F2F2F 2px solid;
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.amount{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.pricetag{
+  color: red;
+}
+/* // ipad */
+@media only screen and (max-width: 992px) {
+  .listProduct{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .detail{
+      grid-template-columns:  40% 1fr;
+  }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .listProduct{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .detail{
+      text-align: center;
+      grid-template-columns: 1fr;
+  }
+  .detail .image-container img{
+      width: unset;
+      height: 40vh;
+  } 
+  .detail .name-game{
+      font-size: x-large;
+      margin: 0;
+
+  }
+  .detail .btn-container button{
+      font-size: small;
+  }
+  .detail .btn-container{
+      justify-content: center;
+  }
+  .detail-game{
+    display: flex;
+    flex-direction:column;
+    max-width: 90vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+}

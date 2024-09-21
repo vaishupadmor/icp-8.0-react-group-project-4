@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Services from './Home/Services/Services';
 import YouTube from 'react-youtube';
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer';
-
+import Footer from './../../Components/Footer/Footer1'
 function Tournament() {
   const videoIds = ['sonnlWyY9hM', '_TNRllxEcsM', 'A5bLICz3yQY'];
 
@@ -22,7 +22,7 @@ function Tournament() {
             ))}
           </div>
         </div>
-
+      <Footer/>
       </div>
 
     </>

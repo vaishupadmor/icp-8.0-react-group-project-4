@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import {products} from "../../../../Config/past"
+import {products} from "../../../../Config/Past"
 import './Past1.css'
 import Flag from '../../../../img/flag.png'
 import Footer from '../../../Footer/Footer1'
@@ -99,7 +99,7 @@ function past1() {
   <hr className='white-line' />
   <p className='sub-title'>Information</p>
 
-  <div className="container">
+  <div className="container-info">
 <div className="tournament-info-container">
 <div className="tournament-info">
   

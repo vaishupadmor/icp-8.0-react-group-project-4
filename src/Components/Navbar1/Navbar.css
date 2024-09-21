@@ -1,0 +1,20 @@
+.navbar{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./../../../src/Views/Shop/shopimgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 10vh;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: aliceblue ;
+    font-family: sans-serif;
+}
+.nav-logo-img{
+    height: 9vh;
+    mix-blend-mode : hard-light;
+    margin-left:50px
+}

@@ -1,13 +1,13 @@
 .container {
     display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically */
-    height: 100vh;            /* Full viewport height */
-    width: 100vw;             /* Full viewport width */
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    width: 100vw;            
     background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg');
-    background-size: cover;   /* Ensure the background covers the entire container */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover;   
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   
   .form-container {
@@ -20,30 +20,30 @@
     background: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Center the form content vertically */
+    justify-content: center;  
   }
   
-  .form {
+  .form1 {
     display: flex;
     flex-direction: column;
-    align-items: center;  /* Center all form elements horizontally */
+    align-items: center;  
   }
   
-  .title {
+  .title-signup {
     margin-bottom: 20px;
-    text-align: center;  /* Center the title */
-    font-size: 24px;    /* Adjust font size as needed */
-    font-weight: bold;  /* Bold text */
-    color: white;       /* Match the color to your theme */
+    text-align: center;  
+    font-size: 24px;    
+    font-weight: bold;
+    color: white;      
   }
   
   .input-field, .name-input {
     padding: 10px;
-    margin-bottom: 20px; /* Increased space between inputs */
+    margin-bottom: 20px; 
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 80%;          /* Set width to make input fields responsive */
-    max-width: 400px;    /* Set a max width for larger screens */
+    width: 80%;          
+    max-width: 400px;    
   }
   
   .button {
@@ -54,16 +54,16 @@
     cursor: pointer;
     color: white;
     font-size: 18px;
-    width: 50%;          /* Medium width for button */
-    margin: 0 auto;      /* Center the button horizontally */
+    width: 50%;         
+    margin: 0 auto;      
   }
   
   .link {
     color: #007bff;
     text-decoration: none;
     margin-bottom: 10px;
-    text-align: center;  /* Center the "Forgot Password?" link */
-    display: block;      /* Ensure it's a block element */
+    text-align: center;  
+    display: block;      
   }
   
   .btn-password {
@@ -73,26 +73,26 @@
   .signup-link {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center horizontally */
-    margin-top: 10px; /* Add some spacing above */
+    justify-content: center; 
+    margin-top: 10px; 
   }
   
   .login-link-container {
     display: flex;
-    align-items: center;  /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    align-items: center;  
+    justify-content: center; 
     margin-top: 10px;
   }
   
   .text {
-    margin-right: 5px; /* Space between text and link */
+    margin-right: 5px; 
   }
   
   .name-fields {
     display: flex;
-    justify-content: space-between; /* Space between inputs */
-    width: 80%;          /* Set width to make the name inputs responsive */
-    max-width: 400px;    /* Set a max width for larger screens */
-    margin-bottom: 20px; /* Space below the fields */
+    justify-content: space-between; 
+    width: 80%;          
+    max-width: 400px;    
+    margin-bottom: 20px; 
   }
   
