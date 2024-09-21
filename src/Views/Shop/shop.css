@@ -175,7 +175,8 @@
 }
 
 .product-container {
-    background-color: #fff;
+    background: rgb(43,32,201);
+    background: linear-gradient(18deg, rgba(43,32,201,0.6223739495798319) 12%, rgba(8,2,53,0.7624299719887955) 52%);
     text-decoration: none;
 }
 
