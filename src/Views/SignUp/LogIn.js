@@ -7,28 +7,22 @@ function Login() {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent form from refreshing the page
-
-    // Retrieve values from form inputs
+    e.preventDefault(); 
     const username = e.target.username.value;
     const password = e.target.password.value;
-
-    // Retrieve signup data from localStorage
     const storedData = localStorage.getItem('signupData');
     const parsedData = storedData ? JSON.parse(storedData) : null;
-
-    // Check if username (email) and password match the stored data
     if (parsedData && parsedData.email === username && parsedData.password === password) {
       toast.success("Login Successful", {
         position: "top-right",
-        duration: 3000,  // Toast disappears after 3 seconds
+        duration: 3000,  
       });
-      // Navigate to the home page or another protected route
+      
       navigate('/');
     } else {
       toast.error("Invalid Username or Password", {
         position: "top-right",
-        duration: 3000,  // Toast disappears after 3 seconds
+        duration: 3000,  
       });
     }
   };
