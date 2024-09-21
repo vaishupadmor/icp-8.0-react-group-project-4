@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import {products} from "../../../../Config/Ongoing"
+import {products} from "../../../../Config/ongoing"
 import './Ongoing1.css'
 import Flag from '../../../../img/flag.png'
 import Footer from '../../../Footer/Footer1'
