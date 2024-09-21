@@ -12,7 +12,7 @@ import Ongoing from './Components/Tournaments/Ongoing/Ongoing';
 import Ongoing1 from './Components/Tournaments/TournamentsInfo/Ongoing/Ongoing1';
 import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcoming1';
 import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1';
-import Shop from "./Views/Shop/Shop";
+import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact.js"
 import Login from "./Views/SignUp/LogIn.js"

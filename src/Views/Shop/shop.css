@@ -12,7 +12,7 @@
 
 .intro-container {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./ShopImgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./shopimgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     display: flex;

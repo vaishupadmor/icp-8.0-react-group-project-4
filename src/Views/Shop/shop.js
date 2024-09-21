@@ -1,6 +1,6 @@
 import React from 'react'
-import './Shop.css'
-import Imgs from './ShopImgs/5258892.jpg'
+import './shop.css'
+import Imgs from './shopimgs/5258892.jpg'
 import { Link } from 'react-router-dom'
 import  Product from '../../Components/ProductCard1/ProductCard1'
 import {Shopcard} from '../../Config/ShopCard1'
