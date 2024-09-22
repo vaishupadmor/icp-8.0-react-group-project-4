@@ -7,11 +7,13 @@
     font-size: 18px;
     width: 100%;
     padding: 18px;
+    margin: 0;
 }
 
 .title {
     font-size: 22px;
     color: aliceblue;
+    margin-left: 22px;
 }
 
 .navbar2-link {
