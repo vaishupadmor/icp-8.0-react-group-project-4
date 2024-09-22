@@ -2,7 +2,7 @@ import React from 'react'
 import "./About.css"
 import Abcard from '../../Components/AboutCards/Abcard'
 import Footer from '../../Components/Footer/Footer1'
-import Navbar from '../../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar1/Navbar'
 import GameCard from '../../Components/AboutCards/GameCard'
 
 const games = [
