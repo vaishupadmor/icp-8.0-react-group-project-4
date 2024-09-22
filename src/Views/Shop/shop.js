@@ -6,6 +6,7 @@ import  Product from '../../Components/ProductCard1/ProductCard1'
 import {Shopcard} from '../../Config/ShopCard1'
 import Navbar from '../../Components/Navbar1/Navbar'
 import Footer from './../../Components/Footer/Footer1'
+// import Hover from './../../Components/Hovercard/Hovercard'
 const Card = () => {
     return (
         <div className='card-shop'>
@@ -75,6 +76,7 @@ function shop() {
                <Product/>
 
             </div>
+            {/* <Hover/> */}
 
             <Footer/>
             

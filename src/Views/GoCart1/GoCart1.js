@@ -78,12 +78,12 @@ const App = () => {
                     <h5>RPG- ification of action game</h5>
                     <div className="game-price">{data.price}</div>
                     <p>{data.description}</p>
-                    <div className="btn-container">
-                        <button type='submit' onClick={()=>{
+                    <div className="btn-container ">
+                       <Link to='./../../shop'> <button type='submit' onClick={()=>{
                             toast.success("Game is Purchased")
                             
-                        }}>Buy Now</button>
-                     <Link to='./../../shop'>   <button type='submit' onClick={()=>{
+                        }} className='btnview'>Buy Now</button> </Link>
+                     <Link to='./../../shop' >   <button type='submit' className='btnview' onClick={()=>{
                             toast.success("Item removed from cart")
                             setData({
                                 name: '',
