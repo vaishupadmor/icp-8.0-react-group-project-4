@@ -15,14 +15,14 @@ function Tournament() {
       <div className='galleryHome'>
         <Services />
         <div>
-          <h1 className='tournament-main-title2'> youtube videos</h1>
+          <h1 className='youtube-title'> Wining Moment Videos</h1>
           <div className='esport-card-container-youtube'>
             {videoIds.map((id) => (
               <VideoPlayer key={id} videoId={id} className='youtube' />
             ))}
           </div>
         </div>
-      <Footer/>
+    <Footer/>
       </div>
 
     </>
