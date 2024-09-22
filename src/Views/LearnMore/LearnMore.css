@@ -74,13 +74,13 @@
     margin-left: 80px;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
     .card {
         display: flex;
         flex-direction: column;
     }
     .card-img {
-        width: 250px;
+        width: 200px;
         height: 300px;
         display: block;
         margin:10px auto;
@@ -111,4 +111,21 @@
         padding: 5px 10px;
         margin:10px;
     }  
+}
+
+@media (max-width: 1024px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img {
+        width:450px;
+        height: 300px;
+        display: block;
+        margin:10px auto;
+        border-radius: 20px;
+        cursor: pointer;
+        object-fit: cover;
+    }
+    
 }
