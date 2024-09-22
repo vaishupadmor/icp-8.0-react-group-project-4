@@ -40,7 +40,7 @@ function Contact() {
             duration: 5000,
             style: {
               borderRadius: "13px",
-              backgroundColor: 'orange',
+              backgroundColor: 'white',
               fontSize: "25px"
             }
           })
