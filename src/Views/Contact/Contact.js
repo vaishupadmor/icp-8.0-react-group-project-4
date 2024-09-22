@@ -1,6 +1,6 @@
 import React from 'react'
 import "./contact.css"
-import Navbar from '../../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar1/Navbar'
 import Footer from '../../Components/Footer/Footer1'
 
 
@@ -27,7 +27,7 @@ function Contact() {
         </div>
         <div className='input-box1'>
           <label>Email</label>
-          <input type="text" required placeholder='Enter your email' className='field1 em'></input>
+          <input type="text" required placeholder='Enter your email' className='field1'></input>
         </div>
         
         <div className='input-box1'>
@@ -40,7 +40,7 @@ function Contact() {
             duration: 5000,
             style: {
               borderRadius: "13px",
-              backgroundColor: 'orange',
+              backgroundColor: 'white',
               fontSize: "25px"
             }
           })
