@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Hello from '../../Home/h1';
-import TotalGaming from '../../Teams/TotalGaming';
+import TotalGaming from '../../Teams/GodLike';
 import Menu from '../../Home/Menu';
 import Vitality from '../../Teams/Vitality';
 import VelocityGaming from '../../Teams/velocityGaming';
