@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;  
     align-items: center;      
-    height: 100vh;            
+    height: 110vh;            
     width: 100vw;            
     background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg');
     background-size: cover;   
@@ -16,14 +16,15 @@
     border-radius: 10px;
     box-shadow: .9px .9px 10px white;
     width: 500px;
-    height: 450px;
+    height: 490px;
     background: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;  
+    
   }
   
-  .form1 {
+  .form{
     display: flex;
     flex-direction: column;
     align-items: center;  
@@ -34,7 +35,8 @@
     text-align: center;  
     font-size: 24px;    
     font-weight: bold;
-    color: white;      
+    color: #ffe77d;  
+    margin-top: 50px;    
   }
   
   .input-field, .name-input {
@@ -49,10 +51,9 @@
   .button {
     padding: 10px;
     background-color: blueviolet;
-    border: 1px solid wheat;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: #ffe77d;
     font-size: 18px;
     width: 50%;         
     margin: 0 auto;      
@@ -61,9 +62,9 @@
   .link {
     color: #007bff;
     text-decoration: none;
-    margin-bottom: 10px;
     text-align: center;  
     display: block;      
+
   }
   
   .btn-password {
@@ -75,6 +76,7 @@
     align-items: center;
     justify-content: center; 
     margin-top: 10px; 
+   
   }
   
   .login-link-container {
@@ -82,10 +84,12 @@
     align-items: center;  
     justify-content: center; 
     margin-top: 10px;
+    margin-bottom: 30px;
   }
   
   .text {
     margin-right: 5px; 
+    color: #ffe77d;
   }
   
   .name-fields {
