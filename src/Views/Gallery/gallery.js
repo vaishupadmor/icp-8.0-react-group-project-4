@@ -1,6 +1,6 @@
 import React from 'react';
 import "./gallery.css"
-import Navbar from '../../Components/Navbar1/Navbar';
+import Navbar from './../../Components/Navbar1/Navbar';
 import Services from './Home/Services/Services';
 import YouTube from 'react-youtube';
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer';
