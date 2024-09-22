@@ -12,9 +12,9 @@ import Navbar1 from '../Navbar1/Navbar'
 
 function Tournament() {
   return (
-    
-    <div className='tourcart-container'>
+    <div>
       <Navbar1/>
+    <div className='tourcart-container'>
       <Navbar/>
     {products.map((productItem, index) => (
       <div className='cart-tour' key={index}>
@@ -47,6 +47,7 @@ function Tournament() {
       </div>
     ))}
      <Footer/>
+  </div>
   </div>
  
   )
