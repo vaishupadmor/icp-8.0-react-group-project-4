@@ -242,3 +242,20 @@ p {
   }
 }
 
+@media (max-width: 500px) {
+  .navbar2 {
+      flex-direction: column; 
+      align-items: flex-start; 
+      padding: 10px; 
+      width: 60%; 
+  }
+  
+  .navbar2-link {
+      margin-left: 0; 
+      padding: 5px 0; 
+  }
+  
+  .title {
+      margin-bottom: 10px;
+  }
+}

@@ -23,6 +23,7 @@
     height: 100vh;
     position: relative;
     background-attachment: fixed;
+    margin-top:5rem ;
 }
 
 .card-detailsshop {
@@ -189,5 +190,8 @@
 @media screen and (max-width : 650px) {
     .remove {
         display: none;
+    }
+    .overlay{
+        gap: 0.5rem;
     }
 }
