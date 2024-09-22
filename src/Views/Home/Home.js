@@ -10,7 +10,7 @@ import ImageSlider from '../../Components/ImgSlider/ImgSlider1'
 import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
 import { useSpring, a ,animated} from '@react-spring/web'
-import Navbar from "./../../Components/Navbar/Navbar"
+import Navbar from "./../../Components/Navbar1/Navbar"
 import Logo from "./logo.png"
 
 
@@ -69,11 +69,11 @@ return (<>
           transform,
           rotateX: '180deg',
         }}
-      />
+      /> 
     </div>
     
 
-<img src={Logo} style={{height:60, width:60 ,border:1 ,}} /><h1 className='home-heading' style={{color:THEME.highlight , marginLeft:60}}>  {MAIN_TITLE}</h1>
+
 
 <animated.div style={animationProps} className='paragraph-container'>
           <p className='home-paragraph'>{TAG_LINE}</p>
