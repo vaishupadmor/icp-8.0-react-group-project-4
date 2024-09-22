@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin-top: 100px;
+    margin-top: 130px;
     background-color: rgb(8, 2, 53);
 
 }
@@ -57,12 +57,6 @@ body {
     color: #333;
     margin:0px 0px 10px
 
-}
-.em{
-    margin: 0;
-    
-    height: 40px;
-    width: 111%;
 }
 
 input.field {
@@ -146,7 +140,7 @@ label {
 .boldtext1{
     font-size: 25px;
 }
-@media screen and (min-width:100px) and (max-width:500px) {
+@media screen and (min-width:100px) and (max-width:600px) {
     .address-container{
         margin-top: 70px;
         height: 800px;
