@@ -1,11 +1,10 @@
 .navbar2 {
-    background-color: rgba(156, 27, 211, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
-    margin-top: 40px;
     width: 100%;
     padding: 18px;
 }
