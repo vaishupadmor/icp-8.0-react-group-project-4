@@ -12,7 +12,7 @@ function Productcart({ imgurl, name, price, description }) {
 
     </div>
     <div className="game-content">
-      <h1 className="game-name">{name} </h1>
+      <h2 className="game-name">{name} </h2>
       <div className="game-price">{price}</div>
       <p className='game-dec'>{description}</p>
 
@@ -24,11 +24,13 @@ function Productcart({ imgurl, name, price, description }) {
 
 
 function productcard() {
-  const [counter, setCounter] = useState(1);
+  const [counter, setCounter] = useState(0);
+  
   useEffect(()=>{
 
     localStorage.setItem('counter', parseInt(counter));
   }),[counter]
+
 
   // const Addtocart = () =>{
   //     const { cartID } = useParams();
@@ -70,7 +72,7 @@ function productcard() {
             <div className="detail-gamecontainer">
               <Productcart name={name} price={price} imgurl={imgurl} description={description} />
               <div className="game-buttons">
-                <a src={gamelink} className='btn-game btncheck'>Check Out</a>
+                <a href={gamelink} className='btn-game btncheck' >Check Out</a>
                 <Link to={`/shop/${id}`} onClick={()=>{
                   setCounter(counter + 1);
                   console.log(counter);

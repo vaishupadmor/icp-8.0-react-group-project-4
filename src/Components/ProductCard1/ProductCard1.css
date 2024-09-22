@@ -1,3 +1,7 @@
+@font-face {
+  font-family: poppins;
+  src: url(./../../Views/Shop/shopimgs/Poppins-Regular.ttf);
+}
 .container-gameproduct {
   color: #fff;
   width: 900px;
@@ -5,6 +9,8 @@
   max-width: 90vw;
   text-align: center;
   padding-top: 10px;
+  font-family: 'poppins', sans-serif ;
+  font-weight: 500;
 }
 
 .title-game {
@@ -74,6 +80,7 @@
   font-size: xxx-large;
   padding: 40px 0 0 0;
   margin: 0 0 10px 0;
+  color: #ffe77d;
 }
 
 .detail-gamecontainer .game-price {

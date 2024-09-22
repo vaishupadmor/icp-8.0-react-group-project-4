@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import  Product from '../../Components/ProductCard1/ProductCard1'
 import {Shopcard} from '../../Config/ShopCard1'
 import Navbar from '../../Components/Navbar1/Navbar'
+import Footer from './../../Components/Footer/Footer1'
 const Card = () => {
     return (
         <div className='card-shop'>
@@ -34,12 +35,12 @@ const Cardintro = ({ defineN, defineI, imgurl }) => {
 const Feature =[
     {
         defineN:'Level Up Your Gaming Experience!',
-        defineI:' featuring the latest blockbusters and innovative indie titles. Our mission? To connect you with epic adventures and unforgettable gameplay.',
+        defineI:' featuring the latest blockbusters and innovative indie titles. Our mission? .',
         imgurl:'https://i.pinimg.com/1200x/ed/16/60/ed166092310d4f85a752a33257c8449c.jpg'
     },
     {
         defineN:'Your Next Quest Starts Here!',
-        defineI:' Join our vibrant community of gamers with special events, tournaments, and sneak peeks at upcoming releases',
+        defineI:' Join our vibrant community of gamers with special events, tournaments',
         imgurl:'https://img.freepik.com/free-photo/medium-shot-victorious-gamer-desk_23-2149350004.jpg?uid=R162707548&ga=GA1.1.230918377.1693590387&semt=ais_hybrid'
     }
 
@@ -74,6 +75,8 @@ function shop() {
                <Product/>
 
             </div>
+
+            <Footer/>
             
         </div>
     )

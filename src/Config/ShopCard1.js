@@ -23,7 +23,7 @@ const Shopcard = [
         price: "₹3019.3",
         totalprice : "4099.0",
         imgurl: "https://upload.wikimedia.org/wikipedia/en/a/a6/Black_Myth_Wukong_cover_art.jpg",
-        description: "Black Myth: Wukong is an upcoming action role-playing game developed by Game Science, a studio founded by former employees of NetEase Games.",
+        description: "Black Myth: Wukong is an upcoming action role-playing game developed by Game Science.",
         gamelink : "https://store.steampowered.com/app/2358720/Black_Myth_Wukong/"
     },
     {   
