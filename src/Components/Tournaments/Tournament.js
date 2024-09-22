@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { products } from '../../Config/Ongoing';
 import Navbar from './Navbar/Navbar';
 import Footer from '../Footer/Footer1'
-import Navbar1 from '../Navbar/Navbar'
+import Navbar1 from '../Navbar1/Navbar'
 
 
 
