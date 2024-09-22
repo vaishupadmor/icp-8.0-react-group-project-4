@@ -11,7 +11,7 @@ import VideoPlayer from '../../Components/YoutubeVideo/VideoPlayer'
 import style from './style.module.css'
 import { useSpring, a ,animated} from '@react-spring/web'
 import Navbar from "./../../Components/Navbar1/Navbar"
-import Logo from "./logo.png"
+
 
 
 
