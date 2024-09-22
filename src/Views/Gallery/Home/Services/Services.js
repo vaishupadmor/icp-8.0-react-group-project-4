@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Hello from '../../Home/h1';
-import TotalGaming from '../../Teams/TotalGaming';
+import GodLike from '../../Teams/GodLike';
 import Menu from '../../Home/Menu';
 import Vitality from '../../Teams/Vitality';
-import VelocityGaming from '../../Teams/velocityGaming';
+import Xsaprk from '../../Teams/Xspark';
 import Soul from '../../Teams/Soul';
 import ImageSlider from '../../../../Components/ImgSlider/ImgSlider1';
 
@@ -26,20 +26,16 @@ const Services = () => {
 
   const renderPage = () => {
     switch (game) {
-      case 'totalgaming':
-        return <TotalGaming />;
-      case 'bl4ze':
+      case 'godlike':
+        return <GodLike />;
+      case 'soul':
         return <Soul/>;
       case 'Vitality':
         return <Vitality/>;
-      case 'football':
-        return <VelocityGaming/>;
-      case 'tennis':
-        return <h1>Table Tennius</h1>; 
-      case 'hockey':
-        return <h1>Hockey </h1>; 
+      case 'Xspark':
+        return <Xsaprk/>;
       default:
-        return ;
+        return <img className='default-page' src="https://i0.wp.com/blogs.rooter.gg/wp-content/uploads/2024/01/e86fd-esports.jpg?fit=1280%2C960&ssl=1"/>;
     }
   };
 
