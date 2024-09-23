@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom';
 import { Shopcard } from '../../Config/ShopCard1';
 import { Link } from 'react-router-dom';
 import  toast, { Toaster } from 'react-hot-toast';
+import Navbar from '../../Components/Navbar1/Navbar';
+import Footer from '../../Components/Footer/Footer1';
 const App = () => {
 
     const [counter, setCounter] = useState(1);
@@ -66,6 +68,8 @@ const App = () => {
 
     
     return (
+        <>
+        <Navbar/>
         <div className="container-game">
         <div className="main-container">
 
@@ -117,6 +121,8 @@ const App = () => {
             </div>
         </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 export default App;
