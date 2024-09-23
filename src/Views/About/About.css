@@ -1,7 +1,7 @@
 .aboutcontainer{
     width: 100%;
     height: 750px;
-    font-family: cursive;
+    /* font-family: cursive; */
     position: relative;
 
    
@@ -19,7 +19,7 @@
     border-radius: 10px;
     background-color: #9F22D6;
     color: #ffe77d;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 
 .aboutcontainer::before {
@@ -49,7 +49,7 @@
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    font-family: cursive;
+    /* font-family: cursive; */
 
   }
   
@@ -57,13 +57,13 @@
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-    font-family: cursive;
+    /* font-family: cursive; */
   }
   .Abcardcontainer{
     margin: 110px auto;
     width: 100%;
     width: 70%;
-    font-family: cursive;
+    /* font-family: cursive; */
     
   }
  
