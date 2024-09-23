@@ -8,6 +8,7 @@ const VideoPlayer = ({ videoId }) => {
     
     playerVars: {
       autoplay: 1,
+      mute:1,
     },
   };
   

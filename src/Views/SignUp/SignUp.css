@@ -1,102 +1,128 @@
-.container {
-    display: flex;
-    justify-content: center;  
-    align-items: center;      
-    height: 110vh;            
-    width: 100vw;            
-    background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg');
-    background-size: cover;   
-    background-position: center; 
-    background-repeat: no-repeat; 
-  }
-  
-  .form-container {
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: .9px .9px 10px white;
-    width: 500px;
-    height: 490px;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    
-  }
-  
-  .form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-  }
-  
-  .title-signup {
-    margin-bottom: 20px;
-    text-align: center;  
-    font-size: 24px;    
-    font-weight: bold;
-    color: #ffe77d;  
-    margin-top: 50px;    
-  }
-  
-  .input-field, .name-input {
-    padding: 10px;
-    margin-bottom: 20px; 
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 80%;          
-    max-width: 400px;    
-  }
-  
-  .button {
-    padding: 10px;
-    background-color: blueviolet;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffe77d;
-    font-size: 18px;
-    width: 50%;         
-    margin: 0 auto;      
-  }
-  
-  .link {
-    color: #007bff;
-    text-decoration: none;
-    text-align: center;  
-    display: block;      
 
-  }
-  
-  .btn-password {
-    margin-top: 10px;
-  }
-  
-  .signup-link {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    margin-top: 10px; 
-   
-  }
-  
-  .login-link-container {
-    display: flex;
-    align-items: center;  
-    justify-content: center; 
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-  
-  .text {
-    margin-right: 5px; 
-    color: #ffe77d;
-  }
-  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0.9px 0.9px 10px white;
+  width: 90%; 
+  max-width: 500px; 
+  height: auto; 
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-signup {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffe77d;
+  margin-top: 30px;
+}
+
+.input-field, .name-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%; 
+  max-width: 400px;
+}
+
+.button {
+  padding: 10px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffe77d;
+  font-size: 18px;
+  width: 60%; 
+  margin: 0 auto;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.btn-password {
+  margin-top: 10px;
+}
+
+.signup-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-right: 5px;
+  color: #ffe77d;
+}
+
+.name-fields {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
   .name-fields {
-    display: flex;
-    justify-content: space-between; 
-    width: 80%;          
-    max-width: 400px;    
-    margin-bottom: 20px; 
+    flex-direction: row; 
+    justify-content: space-between;
   }
+
   
+
+  .button {
+    width: 50%;
+  }
+
+  .title-signup {
+    font-size: 28px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form-container {
+    padding: 40px; 
+  }
+
+  .button {
+    width: 40%; 
+  }}

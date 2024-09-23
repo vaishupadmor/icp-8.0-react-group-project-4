@@ -4,6 +4,10 @@ import { useParams } from 'react-router-dom';
 import { Shopcard } from '../../Config/ShopCard1';
 import { Link } from 'react-router-dom';
 import  toast, { Toaster } from 'react-hot-toast';
+import {Navbar1} from '../../Components/Navbar1/Navbar';
+import Footer from '../../Components/Footer/Footer1';
+
+
 const App = () => {
 
     const [counter, setCounter] = useState(1);
@@ -66,7 +70,11 @@ const App = () => {
 
     
     return (
+        <>
+        <Navbar1/>
         <div className="container-game">
+        
+
         <div className="main-container">
 
             <div className="detail-game">
@@ -78,12 +86,12 @@ const App = () => {
                     <h5>RPG- ification of action game</h5>
                     <div className="game-price">{data.price}</div>
                     <p>{data.description}</p>
-                    <div className="btn-container">
-                        <button type='submit' onClick={()=>{
+                    <div className="btn-container ">
+                       <Link to='./../../shop'> <button type='submit' onClick={()=>{
                             toast.success("Game is Purchased")
                             
-                        }}>Buy Now</button>
-                     <Link to='./../../shop'>   <button type='submit' onClick={()=>{
+                        }} className='btnview'>Buy Now</button> </Link>
+                     <Link to='./../../shop' >   <button type='submit' className='btnview' onClick={()=>{
                             toast.success("Item removed from cart")
                             setData({
                                 name: '',
@@ -117,6 +125,8 @@ const App = () => {
             </div>
         </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 export default App;
