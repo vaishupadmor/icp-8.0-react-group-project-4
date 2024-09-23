@@ -7,9 +7,12 @@ import { Link } from 'react-router-dom';
 import { products } from '../../../Config/Upcoming';
 import Navbar from '../Navbar/Navbar'
 import Footer from '../../Footer/Footer1'
+import Navbar1 from '../../Navbar1/Navbar'
 
 function upcoming() {
   return (
+    <div>
+      <Navbar1/>
     <div className='tourcart-container'>
     <Navbar/>
     {products.map((productItem, index) => (
@@ -43,6 +46,7 @@ function upcoming() {
       </div>
     ))}
     <Footer/>
+  </div>
   </div>
 );
 }
