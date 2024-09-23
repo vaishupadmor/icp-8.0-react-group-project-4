@@ -6,9 +6,12 @@ import { Link } from 'react-router-dom';
 import { products } from '../../../Config/Past';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../../Footer/Footer1'
+import Navbar1 from '../../Navbar1/Navbar'
 
 function Past() {
   return (
+    <div>
+      <Navbar1/>
     <div className='tourcart-container'>
       <Navbar/>
       {products.map((productItem, index) => (
@@ -42,6 +45,7 @@ function Past() {
         </div>
       ))}
       <Footer/>
+    </div>
     </div>
   );
 }
