@@ -24,6 +24,8 @@ function Productcard() {
 
   useEffect(() => {
     localStorage.setItem('counter', counter);
+    const savedcounter = localStorage.getItem(counter)
+    console.log(savedcounter)
   }, [counter]);
   const [view, setView] = useState(false)
   return (

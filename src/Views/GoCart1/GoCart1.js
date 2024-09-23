@@ -69,8 +69,9 @@ const App = () => {
     
     return (
         <>
-        <Navbar/>
         <div className="container-game">
+        <Link to='./../../shop' className='btncheck shopbtn'>shop</Link>
+
         <div className="main-container">
 
             <div className="detail-game">
