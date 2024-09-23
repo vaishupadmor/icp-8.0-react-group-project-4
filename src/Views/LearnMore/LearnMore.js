@@ -2,11 +2,11 @@ import React from 'react';
 import "./LearnMore.css";
 import Navbar from "./../../Components/Navbar1/Navbar"
 import Footer from "../../Components/Footer/Footer1";
-import ImgGame from './../../img/free_fire.jpg';
-import ImgBadlandersGame from './../../img/badlanders.jpg';
-import ImgPubgGame from './../../img/pubg.jpg';
-import ImageKabaddi from './../../img/cricket.jpg';
-import ImgEsports from "./../../img/esports.jpg"
+import ImgGame from './free_fire.jpg';
+import ImgBadlandersGame from './badlanders.jpg';
+import ImgPubgGame from './pubg.jpg';
+import ImageKabaddi from './cricket.jpg';
+import ImgEsports from "./esports.jpg"
 
 function LearnMore() {
   return (
