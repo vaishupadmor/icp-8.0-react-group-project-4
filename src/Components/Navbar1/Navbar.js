@@ -26,7 +26,6 @@ function Navbar() {
             <li className='list'><Link to="./../shop" className="navbar-link">Shop</Link></li>
             <li className='list'><Link to="./../about" className="navbar-link">About</Link></li>
             <li className='list'><Link to="./../contact" className="navbar-link">Contact us</Link></li>
-            <li className='list'><Link to="./:cartID" className="navbar-link">Gocart</Link></li>
             <li className='list'><Link to="./../signup" className="navbar-link sign">Signup/login</Link></li>
           </ul>
           
@@ -64,7 +63,7 @@ function Navbar1() {
             <li className='list'><Link to="./../shop" className="navbar-link">Shop</Link></li>
             <li className='list'><Link to="./../about" className="navbar-link">About</Link></li>
             <li className='list'><Link to="./../contact" className="navbar-link">Contact us</Link></li>
-            <li className='list'><Link to="./:cartID" className="navbar-link">Gocart</Link></li>
+            
             <li className='list'><Link to="./../signup" className="navbar-link sign">Signup/login</Link></li>
           </ul>
           
