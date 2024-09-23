@@ -73,7 +73,7 @@ const App = () => {
         <>
         <Navbar1/>
         <div className="container-game">
-        <Link to='./../../shop' className='btncheck shopbtn'>shop</Link>
+        
 
         <div className="main-container">
 
