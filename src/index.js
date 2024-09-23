@@ -14,11 +14,11 @@ import Upcoming1 from './Components/Tournaments/TournamentsInfo/Upcoming/Upcomin
 import Past1 from './Components/Tournaments/TournamentsInfo/Past/Past1';
 import Shop from "./Views/Shop/shop";
 import About from "./Views/About/About";
-import Contact from "./Views/Contact/Contact.js"
-import Login from "./Views/SignUp/LogIn.js"
-import Gallery from "./Views/Gallery/gallery.js"
-import Gocart from "./Views/GoCart1/GoCart1.js"
-import Signup from "./Views/SignUp/SignUp.js"
+import Contact from "./Views/Contact/Contact"
+import Login from "./Views/SignUp/LogIn"
+import Gallery from "./Views/Gallery/gallery"
+import Gocart from "./Views/GoCart1/GoCart1"
+import Signup from "./Views/SignUp/SignUp"
 
 
 
