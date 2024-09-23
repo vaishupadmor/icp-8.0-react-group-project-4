@@ -27,6 +27,8 @@ function Navbar() {
             <li className='list'><Link to="./../about" className="navbar-link">About</Link></li>
             <li className='list'><Link to="./../contact" className="navbar-link">Contact us</Link></li>
             <li className='list'><Link to="./../signup" className="navbar-link sign">Signup/login</Link></li>
+           
+
           </ul>
           
         </div>
@@ -57,14 +59,14 @@ function Navbar1() {
            showNavbar1 ? " mobile-menu-link" : "nav-links"
         }>
           <ul className='navbar-links'>
-            <li className='list'><Link to="./../" className="navbar-link">Home <FaHome/></Link></li>
-            <li className='list'><Link to="./../gallery" className="navbar-link">Gallery</Link></li>
-            <li className='list'><Link to="./../tournament" className="navbar-link">Tournament</Link></li>
-            <li className='list'><Link to="./../shop" className="navbar-link">Shop</Link></li>
-            <li className='list'><Link to="./../about" className="navbar-link">About</Link></li>
-            <li className='list'><Link to="./../contact" className="navbar-link">Contact us</Link></li>
-            
-            <li className='list'><Link to="./../signup" className="navbar-link sign">Signup/login</Link></li>
+            <li className='list'><Link to="./../../" className="navbar-link">Home <FaHome/></Link></li>
+            <li className='list'><Link to="./../../gallery" className="navbar-link">Gallery</Link></li>
+            <li className='list'><Link to="./../../tournament" className="navbar-link">Tournament</Link></li>
+            <li className='list'><Link to="./../../shop" className="navbar-link">Shop</Link></li>
+            <li className='list'><Link to="./../../about" className="navbar-link">About</Link></li>
+            <li className='list'><Link to="./../../contact" className="navbar-link">Contact us</Link></li>
+             <li className='list'><Link to="./../../../signup" className="navbar-link sign">Signup/login</Link></li>
+  
           </ul>
           
         </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Footer1.css"
-import Insta from "./insta-logo.jpg"
-import FB from "./facebook-logo.jpg"
-import YT from "./youtube.png"
+import Insta from "./../../img/insta-logo.jpg"
+import { Link } from 'react-router-dom'
+import YT from "./../../img/youtube.png"
 
 
 function Footer() {
@@ -28,9 +28,9 @@ function Footer() {
         </div>
         <div className='footer-main-1'>
           <h3 className='footer-head'> Quick Links</h3>
-          <span> <a href='./Views/Contact/Contact.js' className='footer-links'> contact us </a></span>
+          <span> <Link to='/contact' className='footer-links'> contact us </Link></span>
           <span> <a href='https://github.com/vaishupadmor/icp-8.0-react-group-project-4' className='footer-links'> follow us</a></span>
-          <span> <a href='./Views/About/About.js' className='footer-links'> About us</a></span>
+          <span> <Link to='/about' className='footer-links'> About us</Link></span>
         </div>
         <div className='footer-main-1'>
           <h3 className='footer-head'> connect with us</h3>

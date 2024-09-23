@@ -18,7 +18,7 @@
 }
 
 .back {
-  background-image: url("main-image.jpg");
+  background-image: url("./../../img/main-image.jpg");
 }
 
 .front {
